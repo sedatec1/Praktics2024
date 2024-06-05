@@ -1,0 +1,71 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4309, "W":825, "H":290},
+	"Title": {"FullName":"Система контроля температуры трансформаторов ПС Яшино", "MinName":"ПС Яшино QUALIT", "SysName":"Система контроля QUALITROL"},
+	"Info": {"ID":"DISP653WT", "Subst":"653", "Type":"Dispatching", "Location":"ПС855/Сервер ТМ ПС Яшино", "NameMin":"ПС855 АСУ ТП Дисп", "NameMax":"Система контроля температуры трансформаторов QUALITROL ПС Яшино"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP653WT"},
+		{"ID_Program" : "GS653/WT"}
+	],
+"Coord":"PS653",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4303"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Яшино(653)/АСУТП",
+        "ASDU":243, "TOPIC_ID":5,  "IpList":["192.168.5.21:2404", "192.168.5.22:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":5, "SysId":"WT", "DATA": [
+
+{"ID":1, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1103,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Температура обмотки ф.А", "Links":{ "Arch":"4338"}},
+{"ID":2, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1104,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Температура обмотки ф.В", "Links":{ "Arch":"4338"}},
+{"ID":3, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1105,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Температура обмотки ф.С", "Links":{ "Arch":"4338"}},
+{"ID":4, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1106,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Температура обмотки ф.А", "Links":{ "Arch":"4338"}},
+{"ID":5, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1107,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Температура обмотки ф.В", "Links":{ "Arch":"4338"}},
+{"ID":6, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1108,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Температура обмотки ф.С", "Links":{ "Arch":"4338"}},
+{"ID":7, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1109,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Температура обмотки ф.А", "Links":{ "Arch":"4338"}},
+{"ID":8, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1110,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Температура обмотки ф.В", "Links":{ "Arch":"4338"}},
+{"ID":9, "TypeTele":"TM",	"Mes":"°C", "VER":"General", "IOA":1111,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Температура обмотки ф.С", "Links":{ "Arch":"4338"}},
+{"ID":10, "TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4420,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Включен вентилятор", "Links":{ "Arch":"4338"}},
+{"ID":11, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4421,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Температура больше 145 град", "Links":{ "Arch":"4338"}},
+{"ID":12, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4422,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Требуется аварийное отключение", "Links":{ "Arch":"4338"}},
+{"ID":13, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4423,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Неисправность приб контроля", "Links":{ "Arch":"4338"}},
+{"ID":14, "TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4424,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Включ.вентилятора в руч.режиме", "Links":{ "Arch":"4338"}},
+{"ID":15, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4425,  "NAME":" ЩСН0,4кВ ТСН1     QUALIT Связь c приб контроля", "Links":{ "Arch":"4338"}},
+{"ID":16, "TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4426,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Включен вентилятор", "Links":{ "Arch":"4338"}},
+{"ID":17, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4427,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Температура больше 145 град", "Links":{ "Arch":"4338"}},
+{"ID":18, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4428,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Требуется аварийное отключение", "Links":{ "Arch":"4338"}},
+{"ID":19, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4429,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Неисправность приб контроля", "Links":{ "Arch":"4338"}},
+{"ID":20, "TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4430,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Включ.вентилятора в руч.режиме", "Links":{ "Arch":"4338"}},
+{"ID":21, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4431,  "NAME":" ЩСН0,4кВ ТСН2     QUALIT Связь c приб контроля", "Links":{ "Arch":"4338"}},
+{"ID":22, "TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4432,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Включен вентилятор", "Links":{ "Arch":"4338"}},
+{"ID":23, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4433,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Температура больше 125 град", "Links":{ "Arch":"4338"}},
+{"ID":24, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4434,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Требуется аварийное отключение", "Links":{ "Arch":"4338"}},
+{"ID":25, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4435,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Неисправность приб контроля", "Links":{ "Arch":"4338"}},
+{"ID":26, "TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4436,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Включ.вентилятора в руч.режиме", "Links":{ "Arch":"4338"}},
+{"ID":27, "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":4437,  "NAME":" ЩСН0,4кВ ТСН3     QUALIT Связь c приб контроля", "Links":{ "Arch":"4338"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"6537",	"NAME":"Система температуры трансформаторов}"}
+		]}
+}

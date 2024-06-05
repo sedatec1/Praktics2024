@@ -1,0 +1,6 @@
+{	
+    "Configuration": {"Type":"Info", "Version":1001, "Port":3002},
+    "Topic": "SeDaTec/Informations/",
+    "TopicData": "SeDaTec/Data/",
+    "TopicLog": "SeDaTec/Log/"
+}

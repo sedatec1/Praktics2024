@@ -1,0 +1,107 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4305, "W":825, "H":290},
+	"Title": {"FullName":"ПС Яшино", "MinName":"ПС Яшино АСУ", "SysName":"Система АСУ ТП и ТМ"},
+	"Info": {"ID":"DISP653ASU", "Subst":"653", "Type":"Dispatching", "Location":"ПС855/Сервер ТМ ПС Яшино", "NameMin":"ПС855 АСУ ТП Дисп", "NameMax":"Модуль Дисп. ПС 855 АСУ ТМ ПС Яшино"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP653ASU"},
+		{"ID_Program" : "GS653/ASU"}
+	],
+"Coord":"PS653",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "10.16.18.33", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "10.16.18.33", "Port" : "4303"},
+		 {"TypeLink" : "Home", "IP" : "10.16.18.33", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Яшино(653)/АСУТП",
+        "ASDU":243, "TOPIC_ID":1,  "IpList":["192.168.5.21:2404", "192.168.5.22:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":1, "SysId":"ASU", "DATA": [
+
+{"ID":1,	"TypeTele":"TSD",  "VER":"General", "IOA":3001,  "NAME":"КЛ Н.Братц.-Яш. 1 ЭВ Положение выключателя", "Links":{ "Arch":"4338"}},
+{"ID":2,	"TypeTele":"TSD",  "VER":"General", "IOA":3003,  "NAME":"КЛ Н.Братц.-Яш. 2 ЭВ Положение выключателя", "Links":{ "Arch":"4338"}},
+{"ID":3,	"TypeTele":"TSD",  "VER":"General", "IOA":3002,  "NAME":"КВЛ Центр.-Яшино  ЭВ Положение выключателя", "Links":{ "Arch":"4338"}},
+{"ID":4,	"TypeTele":"TSD",  "VER":"General", "IOA":3004,  "NAME":"КВЛ Яшино-Герцево ЭВ Положение выключателя", "Links":{ "Arch":"4338"}},
+{"ID":5,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1001,  "NAME":"КЛ Н.Братц.-Яш. 1 ТМ Ток фазы А", "Links":{ "Arch":"4338"}},
+{"ID":6,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1002,  "NAME":"КЛ Н.Братц.-Яш. 1 ТМ Ток фазы В", "Links":{ "Arch":"4338"}},
+{"ID":7,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1003,  "NAME":"КЛ Н.Братц.-Яш. 1 ТМ Ток фазы С", "Links":{ "Arch":"4338"}},
+{"ID":8,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1004,  "NAME":"КВЛ Центр.-Яшино  ТМ Ток фазы А", "Links":{ "Arch":"4338"}},
+{"ID":9,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1005,  "NAME":"КВЛ Центр.-Яшино  ТМ Ток фазы В", "Links":{ "Arch":"4338"}},
+{"ID":10,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1006,  "NAME":"КВЛ Центр.-Яшино  ТМ Ток фазы С", "Links":{ "Arch":"4338"}},
+{"ID":11,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1007,  "NAME":"КЛ Н.Братц.-Яш. 2 ТМ Ток фазы А", "Links":{ "Arch":"4338"}},
+{"ID":12,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1008,  "NAME":"КЛ Н.Братц.-Яш. 2 ТМ Ток фазы В", "Links":{ "Arch":"4338"}},
+{"ID":13,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1009,  "NAME":"КЛ Н.Братц.-Яш. 2 ТМ Ток фазы С", "Links":{ "Arch":"4338"}},
+{"ID":14,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1010,  "NAME":"КВЛ Яшино-Герцево ТМ Ток фазы А", "Links":{ "Arch":"4338"}},
+{"ID":15,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1011,  "NAME":"КВЛ Яшино-Герцево ТМ Ток фазы В", "Links":{ "Arch":"4338"}},
+{"ID":16,	"Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1012,  "NAME":"КВЛ Яшино-Герцево ТМ Ток фазы С", "Links":{ "Arch":"4338"}},
+{"ID":17,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4001,  "NAME":"КЛ Н.Братц.-Яш. 1 REL511 Отключение от защит", "Links":{ "Arch":"4338"}},
+{"ID":18,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4002,  "NAME":"КЛ Н.Братц.-Яш. 1 REL 2К Отключение от защит", "Links":{ "Arch":"4338"}},
+{"ID":19,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4003,  "NAME":"КЛ Н.Братц.-Яш. 1 REL 1К Отключение от защит", "Links":{ "Arch":"4338"}},
+{"ID":20,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4007,  "NAME":"КЛ Н.Братц.-Яш. 2 REL511 Отключение от защит", "Links":{ "Arch":"4338"}},
+{"ID":21,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4008,  "NAME":"КЛ Н.Братц.-Яш. 2 REL 2К Отключение от защит", "Links":{ "Arch":"4338"}},
+{"ID":22,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4009,  "NAME":"КЛ Н.Братц.-Яш. 2 REL 1К Отключение от защит", "Links":{ "Arch":"4338"}},
+{"ID":23,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4005,  "NAME":"КВЛ Центр.-Яшино  REL 1К Откл. от защиты по Y2 и Y3", "Links":{ "Arch":"4338"}},
+{"ID":24,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4006,  "NAME":"КВЛ Центр.-Яшино  REL 2К Откл. от защиты по Y2 и Y3", "Links":{ "Arch":"4338"}},
+{"ID":25,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4011,  "NAME":"КВЛ Яшино-Герцево REL 1К Откл. от защиты по Y2 и Y3", "Links":{ "Arch":"4338"}},
+{"ID":26,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4012,  "NAME":"КВЛ Яшино-Герцево REL 2К Откл. от защиты по Y2 и Y3", "Links":{ "Arch":"4138"}},
+{"ID":27,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1112, "NAME":"ПС653 КЛ Н.Братц.-Яш. 1  Активная мощность P", "Links":{ "Arch":"4338"}},
+{"ID":28,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1113, "NAME":"ПС653 КЛ Н.Братц.-Яш. 1  Реактивная мощность Q", "Links":{ "Arch":"4338"}},
+{"ID":29,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1114, "NAME":"ПС653 КВЛ Центр.-Яшино   Активная мощность P", "Links":{ "Arch":"4338"}},
+{"ID":30,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1115, "NAME":"ПС653 КВЛ Центр.-Яшино   Реактивная мощность Q", "Links":{ "Arch":"4338"}},
+{"ID":31,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1116, "NAME":"ПС653 КЛ Н.Братц.-Яш. 2  Активная мощность P", "Links":{ "Arch":"4338"}},
+{"ID":32,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1117, "NAME":"ПС653 КЛ Н.Братц.-Яш. 2  Реактивная мощность Q", "Links":{ "Arch":"4338"}},
+{"ID":33,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1118, "NAME":"ПС653 КВЛ Яшино-Герцево  Активная мощность P", "Links":{ "Arch":"4338"}},
+{"ID":34,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1119, "NAME":"ПС653 КВЛ Яшино-Герцево  Реактивная мощность Q", "Links":{ "Arch":"4338"}},
+{"ID":35,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1120, "NAME":"ПС653 220кВ Т-1          Ток фазы А", "Links":{ "Arch":"4338"}},
+{"ID":36,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1121, "NAME":"ПС653 220кВ Т-1          Ток фазы В", "Links":{ "Arch":"4338"}},
+{"ID":37,   "Mes":"A", "TypeTele":"TM", "VER":"General", "IOA":1122, "NAME":"ПС653 220кВ Т-1          Ток фазы С", "Links":{ "Arch":"4338"}},
+{"ID":38,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1123, "NAME":"ПС653 220кВ Т-1          Активная мощность P", "Links":{ "Arch":"4338"}},
+{"ID":39,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1124, "NAME":"ПС653 220кВ Т-1          Реактивная мощность Q", "Links":{ "Arch":"4338"}},
+{"ID":40,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1125, "NAME":"ПС653 220кВ ШСЭВ         Ток фазы А", "Links":{ "Arch":"4338"}},
+{"ID":41,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1126, "NAME":"ПС653 220кВ ШСЭВ         Ток фазы В", "Links":{ "Arch":"4338"}},
+{"ID":42,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1127, "NAME":"ПС653 220кВ ШСЭВ         Ток фазы С", "Links":{ "Arch":"4338"}},
+{"ID":43,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1128, "NAME":"ПС653 220кВ ШСЭВ         Активная мощность P", "Links":{ "Arch":"4338"}},
+{"ID":44,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1129, "NAME":"ПС653 220кВ ШСЭВ         Реактивная мощность Q", "Links":{ "Arch":"4338"}},
+{"ID":45,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1130, "NAME":"ПС653 220кВ Т-2          Ток фазы А", "Links":{ "Arch":"4338"}},
+{"ID":46,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1131, "NAME":"ПС653 220кВ Т-2          Ток фазы В", "Links":{ "Arch":"4338"}},
+{"ID":47,   "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1132, "NAME":"ПС653 220кВ Т-2          Ток фазы С", "Links":{ "Arch":"4338"}},
+{"ID":48,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1133, "NAME":"ПС653 220кВ Т-2          Активная мощность P", "Links":{ "Arch":"4338"}},
+{"ID":49,   "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":1134, "NAME":"ПС653 220кВ Т-2          Реактивная мощность Q", "Links":{ "Arch":"4338"}},
+{"ID":50,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1135, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Uab I СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":51,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1136, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Ubc I СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":52,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1137, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Uca I СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":53,   "Mes":"Гц", "TypeTele":"TM", "VER":"General", "IOA":1138, "NAME":"ПС653 220кВ ТН 1-2 СШ    Частота F I СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":54,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1139, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение Ua I СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":55,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1140, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Ub I СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":56,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1141, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Uc I СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":57,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1142, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Uab II СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":58,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1143, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Ubc II СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":59,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1144, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Uca II СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":60,   "Mes":"Гц", "TypeTele":"TM", "VER":"General", "IOA":1145, "NAME":"ПС653 220кВ ТН 1-2 СШ    Частота F II СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":61,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1146, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение Ua II СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":62,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1147, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Ub II СШ 220 кВ", "Links":{ "Arch":"4338"}},
+{"ID":63,   "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":1148, "NAME":"ПС653 220кВ ТН 1-2 СШ    Напряжение  Uc II СШ 220 кВ", "Links":{ "Arch":"4338"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"6533",	"NAME":"Система АСУ ТП и ТМ}"}
+	]}
+}

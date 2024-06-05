@@ -1,0 +1,19 @@
+{
+	"Configuration": {"Type":"DBWrite", "Version":1001, "Port":5432, "DivideByYear": true},
+	"Info": {"ID":"DB357", "Type":"DBWrite", "Location":"ПС357/Шкаф№98/БОД[KSA7823452]/МТ",
+		"NameMin":"ПС357 Запись в БД", "NameMax":"Модуль записи информации в БД ПС 357"},
+	"DB":
+	[
+		{ "ID":1, "Host":"192.168.0.59", "NameDB":"archive_sedatec_data", "User":"sedatec", "Password":"sedatec" },
+		{ "ID":2, "Host":"192.168.0.59", "NameDB":"archive_sedatec_data2", "User":"sedatec", "Password":"sedatec" }
+	],
+	"WriteDB":
+	[
+		{"ID_Program":"LOG", "Table":"log", "isFullWrite":true, "DB":1},
+
+		{"ID_Program":"SEGMT855", "Table":"profile", "isFullWrite":true, "DB":1},
+		
+
+		{"ID_Program":"GS855/Data", "Table":"tele", "isFullWrite":true, "DB":1}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"Configuration": {"Type":"DBReadWrite", "Version":1001, "Port":5432, "HTTPServerIP":"Сейчас IP не используется", "HTTPServerPort": 8081},
+	"DB": { "ID":1, "Host":"192.168.0.59", "NameDB":"basic_information", "User":"sedatec", "Password":"sedatec" },
+	"AutorizationLink": { "IP":"Сейчас IP не используется", "Port":"4000"},
+	"HomeLink": { "IP":"Сейчас IP не используется", "Port":"4004"},
+    "AccessMatrixChangedLink": { "IP":"Сейчас IP не используется", "Port":"3999"},
+
+	"EventReportsFolder": "/usr/src/app/Otchet",
+
+	"UserImagesFolder": "/usr/src/app/Img",
+
+	"DBExpImpFolder": "D:/_____Sedatec_DBExpImp",
+
+	"ConfigurationCassandra": {"contactPoints":"localhost", "localDataCenter":"datacenter1"},
+	"DBCassandra": { "ID":1, "keyspace":"archive_sedatec_data" },
+
+	"ConfigurationPostgres": {"Port":5432},
+	"DBPostgres":
+	[
+		{ "ID":1, "Host":"192.168.0.59", "NameDB":"parchive_sedatec_data", "User":"sedatec", "Password":"sedatec" },
+		{ "ID":2, "Host":"192.168.0.59", "NameDB":"parchive_sedatec_data2", "User":"sedatec", "Password":"sedatec" }
+	]
+
+}

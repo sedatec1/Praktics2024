@@ -1,0 +1,107 @@
+{
+    "Configuration": {"Type":"SegmentsProfiles", "Version":1001, "Port":3004},
+	"Info": {"ID":"SEGMT786", "Type":"Segments", "Location":"ПС786/Шкаф№14/БОД[KSA2883126]/МТ", "NameMin":"ПС786 МТ Сегментация", "NameMax":"Модуль сегментация данных ПС 786 Термоконтроль"},
+	"ProfilesFiberOptics" : 
+	[
+		{"ID_Program" : "PC786", "ID":209},
+		{"ID_Program" : "PC786", "ID":210},
+		{"ID_Program" : "PC786", "ID":211},
+		{"ID_Program" : "PC786", "ID":212},
+		{"ID_Program" : "PC786", "ID":213},
+		{"ID_Program" : "PC786", "ID":214},
+		{"ID_Program" : "PC786", "ID":215},
+		{"ID_Program" : "PC786", "ID":216},
+		{"ID_Program" : "PC786", "ID":217},
+		{"ID_Program" : "PC786", "ID":218},
+		{"ID_Program" : "PC786", "ID":219},
+		{"ID_Program" : "PC786", "ID":220}
+
+	],
+	"Profiles":
+	[
+		{ "ID": 209, "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза Ж" , "L_ProfilesFiberOptics_ID": 209, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2929, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":5380, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5380, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2930, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":5380, "OPTICEND":5880, "CONSTRUCTBEGIN":5380, "CONSTRUCTEND":5880, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 210, "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза З" , "L_ProfilesFiberOptics_ID": 210, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2931, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":5360, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5360, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2932, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":5360, "OPTICEND":5860, "CONSTRUCTBEGIN":5360, "CONSTRUCTEND":5860, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 211, "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза К" , "L_ProfilesFiberOptics_ID": 211, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2933, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":5420, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5420, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2934, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":5420, "OPTICEND":5920, "CONSTRUCTBEGIN":5420, "CONSTRUCTEND":5920, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 212, "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 2 Фаза Ж" , "L_ProfilesFiberOptics_ID": 212, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2935, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":5420, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5420, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2936, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":5420, "OPTICEND":5920, "CONSTRUCTBEGIN":5420, "CONSTRUCTEND":5920, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 213, "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 2 Фаза З" , "L_ProfilesFiberOptics_ID": 213, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2937, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":5440, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5440, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2938, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":5440, "OPTICEND":5940, "CONSTRUCTBEGIN":5440, "CONSTRUCTEND":5940, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 214, "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 2 Фаза К" , "L_ProfilesFiberOptics_ID": 214, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2939, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":5400, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5400, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2940, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":5400, "OPTICEND":5900, "CONSTRUCTBEGIN":5400, "CONSTRUCTEND":5900, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 215, "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-1 Фаза Ж" , "L_ProfilesFiberOptics_ID": 215, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2941, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":4376, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4376, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2942, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":4376, "OPTICEND":4500, "CONSTRUCTBEGIN":4367, "CONSTRUCTEND":4500, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 216, "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-1 Фаза З" , "L_ProfilesFiberOptics_ID": 216, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2943, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":4283, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4283, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2944, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":4283, "OPTICEND":4500, "CONSTRUCTBEGIN":4283, "CONSTRUCTEND":4500, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 217, "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-1 Фаза К" , "L_ProfilesFiberOptics_ID": 217, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2945, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":4282, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4282, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2946, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":4382, "OPTICEND":4500, "CONSTRUCTBEGIN":4382, "CONSTRUCTEND":4500, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 218, "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-2 Фаза Ж" , "L_ProfilesFiberOptics_ID": 218, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2947, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":4402, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4402, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2948, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":4402, "OPTICEND":4800, "CONSTRUCTBEGIN":4402, "CONSTRUCTEND":4800, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 219, "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-2 Фаза З" , "L_ProfilesFiberOptics_ID": 219, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2949, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":4274, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4274, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2950, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":4274, "OPTICEND":4500, "CONSTRUCTBEGIN":4274, "CONSTRUCTEND":4500, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		},
+		{ "ID": 220, "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-2 Фаза К" , "L_ProfilesFiberOptics_ID": 220, 
+			"Segments":
+			[
+				{ "SEGMENT_ID": 2951, "NAME": "Сегмент 1", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":4386, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4386, "K":0, "B":0, "S":1, "SORT":1  },
+				{ "SEGMENT_ID": 2952, "NAME": "Сегмент 2", "IS_USE":true, "OPTICBEGIN":0, "OPTICEND":6000, "CONSTRUCTBEGIN":4386, "CONSTRUCTEND":4800, "K":0, "B":0, "S":1, "SORT":2  }
+			]
+		}
+	]
+}

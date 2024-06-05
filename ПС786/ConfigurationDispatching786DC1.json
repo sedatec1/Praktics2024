@@ -1,0 +1,123 @@
+{
+	"Configuration": {"Type":"Dispatching", "Version":1001, "Port":4517, "W":825, "H":290},
+	"Title": {"FullName":"Система мониторинга сети постоянного тока ЩПТ1 (МикроСРЗ-193и)", "MinName":"ПС Золотаревская ЩПТ1", "SysName":"Система мониторинга сети постоянного тока (МикроСРЗ-193и)"},
+	"Info": {"ID":"DISP786DC1", "Subst":"786", "Type":"Dispatching", "Location":"ПС786/Сервер ТМ ПС Золотаревская", "NameMin":"ПС786 ТП Дисп", "NameMax":"Модуль Дисп. ГС786 PTCH ТМ ПС Золотаревская"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP786DC1"},
+		{"ID_Program" : "GS786/DC1"}
+	],
+	"Coord":"PS786",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4503"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+	"Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Золотаревская(786)/АСУТП",
+        "ASDU":50, "TOPIC_ID":8,  "IpList":["192.168.18.16:2404", "192.168.18.20:2404", "10.16.3.150:2612", "10.16.3.150:2704"]}
+
+    ],
+	"TELE":
+	[
+		{"L_TOPIC_ID":8, "SysId":"DC1", "DATA": [
+
+		{ "ID":"46", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1046", "NAME":"МикроСРЗ ЩПТ1 Ток аккумуляторной батареи", "Links":{ "Arch":"4538"}},
+		{ "ID":"47", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1047", "NAME":"МикроСРЗ ЩПТ1 Ток зарядноко устройства ВЗП1", "Links":{ "Arch":"4538"}},
+		{ "ID":"48", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1048", "NAME":"МикроСРЗ ЩПТ1 Ток зарядноко устройства ВЗП2", "Links":{ "Arch":"4538"}},
+		{ "ID":"49", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1049", "NAME":"МикроСРЗ ЩПТ1 Напряжение на главных шинах", "Links":{ "Arch":"4538"}},
+		{ "ID":"50", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1050", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП1", "Links":{ "Arch":"4538"}},
+		{ "ID":"51", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1051", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП2", "Links":{ "Arch":"4538"}},
+		{ "ID":"52", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1052", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП3", "Links":{ "Arch":"4538"}},
+		{ "ID":"53", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1053", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП4", "Links":{ "Arch":"4538"}},
+		{ "ID":"54", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1054", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП1.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"55", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1055", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП1.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"56", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1056", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП2.1", "Links":{ "Arch":"4538"}},
+		{ "ID":"57", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1057", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП2.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"58", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1058", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП3.1", "Links":{ "Arch":"4538"}},
+		{ "ID":"59", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1059", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП3.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"60", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1060", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП4.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"61", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1061", "NAME":"МикроСРЗ ЩПТ1 Сопрот. изол. присоединения ДП4.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"62", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1062", "NAME":"МикроСРЗ ЩПТ1 Напряжение положительного полюса сети", "Links":{ "Arch":"4538"}},
+		{ "ID":"63", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1063", "NAME":"МикроСРЗ ЩПТ1 Напряжение отрицательного полюса сети", "Links":{ "Arch":"4538"}},
+		{ "ID":"64", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1064", "NAME":"МикроСРЗ ЩПТ1 Пульсация напряжения на главных шинах", "Links":{ "Arch":"4538"}},
+		{ "ID":"65", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1065", "NAME":"МикроСРЗ ЩПТ1 Сопротивление изоляции положительного полюса", "Links":{ "Arch":"4538"}},
+		{ "ID":"66", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1066", "NAME":"МикроСРЗ ЩПТ1 Сопротивление изоляции отрицательного полюса", "Links":{ "Arch":"4538"}},
+		{ "ID":"67", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1067", "NAME":"МикроСРЗ ЩПТ1 Емкость сети", "Links":{ "Arch":"4538"}},
+		{ "ID":"68", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1068", "NAME":"МикроСРЗ ЩПТ1 Сопротивление изоляции главных шин и аккумуляторной батареи", "Links":{ "Arch":"4538"}},
+		{ "ID":"69", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1069", "NAME":"МикроСРЗ ЩПТ1 Напряжение асимметрии батареи / напряжение на шинах питания", "Links":{ "Arch":"4538"}},
+		{ "ID":"70", "Mes":"Ом", "TypeTele":"TM", "VER":"General", "IOA":"1070", "NAME":"МикроСРЗ ЩПТ1 Полное сопротивление изоляции сети", "Links":{ "Arch":"4538"}},
+ 
+		{ "ID":"159", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4060", "NAME":"МикроСРЗ ЩПТ1 Земля в сети", "Links":{ "Arch":"4538"}},
+		{ "ID":"160", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4061", "NAME":"МикроСРЗ ЩПТ1 Напряжение на главных шинах выше/ниже нормы", "Links":{ "Arch":"4538"}},
+		{ "ID":"161", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4062", "NAME":"МикроСРЗ ЩПТ1 Асимметрия батареи", "Links":{ "Arch":"4538"}},
+		{ "ID":"162", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4063", "NAME":"МикроСРЗ ЩПТ1 Пульсация выше нормы", "Links":{ "Arch":"4538"}},
+		{ "ID":"163", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4064", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с одним или более интеллектуальными датчиками", "Links":{ "Arch":"4538"}},
+		{ "ID":"164", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4065", "NAME":"МикроСРЗ ЩПТ1 Reserve", "Links":{ "Arch":"4538"}},
+		{ "ID":"165", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4066", "NAME":"МикроСРЗ ЩПТ1 Разряд батареи или обратный ток датчика тока 1", "Links":{ "Arch":"4538"}},
+		{ "ID":"166", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4067", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП1", "Links":{ "Arch":"4538"}},
+		{ "ID":"167", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4068", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП2", "Links":{ "Arch":"4538"}},
+		{ "ID":"168", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4069", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП3", "Links":{ "Arch":"4538"}},
+		{ "ID":"169", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4070", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП4", "Links":{ "Arch":"4538"}},
+		{ "ID":"170", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4071", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП1.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"171", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4072", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП1.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"172", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4073", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП2.1", "Links":{ "Arch":"4538"}},
+		{ "ID":"173", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4074", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП2.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"174", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4075", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП3.1", "Links":{ "Arch":"4538"}},
+		{ "ID":"175", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4076", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП3.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"176", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4077", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП4.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"177", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4078", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП4.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"178", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4079", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП1.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"179", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4080", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП1.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"180", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4081", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП1.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"181", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4082", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП2.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"182", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4083", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП2.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"183", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4084", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП2.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"184", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4085", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП2.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"185", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4086", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП3.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"186", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4087", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП3.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"187", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4088", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП3.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"188", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4089", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП3.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"189", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4090", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП4.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"190", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4091", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП4.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"191", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4092", "NAME":"МикроСРЗ ЩПТ1 Измерение Rизол. невозможно ДП4.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"192", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4093", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-1", "Links":{ "Arch":"4538"}},
+		{ "ID":"193", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4094", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-3", "Links":{ "Arch":"4538"}},
+		{ "ID":"194", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4095", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-2", "Links":{ "Arch":"4538"}},
+		{ "ID":"195", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4096", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-4", "Links":{ "Arch":"4538"}},
+		{ "ID":"196", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4097", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-3.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"197", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4098", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-4.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"198", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4099", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-1.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"199", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4100", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-2.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"200", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4101", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-4.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"201", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4102", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-2.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"202", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4103", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-3.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"203", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4104", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-3.1", "Links":{ "Arch":"4538"}},
+		{ "ID":"204", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4105", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-4.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"205", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4106", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-3.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"206", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4107", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-2.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"207", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4108", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-1.4", "Links":{ "Arch":"4538"}},
+		{ "ID":"208", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4109", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-4.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"209", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4110", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-3.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"210", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4111", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-2.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"211", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4112", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-4.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"212", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4113", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-1.2", "Links":{ "Arch":"4538"}},
+		{ "ID":"213", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4114", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-2.1", "Links":{ "Arch":"4538"}},
+		{ "ID":"214", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4115", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-1.3", "Links":{ "Arch":"4538"}},
+		{ "ID":"215", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4116", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-2.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"216", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4117", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-1.5", "Links":{ "Arch":"4538"}},
+		{ "ID":"217", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4118", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ДП-3.6", "Links":{ "Arch":"4538"}},
+		{ "ID":"218", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4119", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   ВЗП 1", "Links":{ "Arch":"4538"}},
+		{ "ID":"219", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4120", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   БЗП 2", "Links":{ "Arch":"4538"}},
+		{ "ID":"220", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4121", "NAME":"МикроСРЗ ЩПТ1 Ошибка связи с интелектуальным датчиком   АКБ", "Links":{ "Arch":"4538"}},
+		{ "ID":"221", "Mes":"-", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4122", "NAME":"МикроСРЗ ЩПТ1 Неисправность комплекса", "Links":{ "Arch":"4538"}}
+		]}
+	],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"78614",	"NAME":"Система мониторинга сети постоянного тока ЩПТ1}"}
+		]}
+}
+

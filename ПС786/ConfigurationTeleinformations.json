@@ -1,0 +1,372 @@
+{
+    "Configuration": {"Type":"TeleinformationsProfiles", "Version":1001, "Port":3005},
+	"Info": {"ID":"TELEMT786", "Type":"Teleinformations", "Location":"ПС786/Шкаф№14/БОД[KSA2883126]/МТ", "NameMin":"ПС786 МТ Телеинформация", "NameMax":"Модуль расчёта телеинформации ПС 786 Термоконтроль"},
+	"ProfilesFiberOptics" : 
+	[
+		{"ID_Program" : "SEGMT786", "ID":209},
+		{"ID_Program" : "SEGMT786", "ID":210},
+		{"ID_Program" : "SEGMT786", "ID":211},
+		{"ID_Program" : "SEGMT786", "ID":212},
+		{"ID_Program" : "SEGMT786", "ID":213},
+		{"ID_Program" : "SEGMT786", "ID":214},
+		{"ID_Program" : "SEGMT786", "ID":215},
+		{"ID_Program" : "SEGMT786", "ID":216},
+		{"ID_Program" : "SEGMT786", "ID":217},
+		{"ID_Program" : "SEGMT786", "ID":218},
+		{"ID_Program" : "SEGMT786", "ID":219},
+		{"ID_Program" : "SEGMT786", "ID":220}
+	],
+	"StatusInterval":900,
+	"Profiles":
+	[
+		{ "ID": 209, "SysId":"MT1", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза Ж" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2409, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5880,
+					 "TELE":
+					[
+						{ "ID":15252, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15253, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15254, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15255, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15256, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15257, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15258, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15259, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2410, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":5380, "CONSTRUCTEND":5880,
+					 "TELE":
+					[
+						{ "ID":15260, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15261, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15262, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15263, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15264, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15265, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 210, "SysId":"MT1", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза З" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2411, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5860,
+					 "TELE":
+					[
+						{ "ID":15269, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15270, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15271, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15272, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15273, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15274, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15275, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15276, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2412, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":5360, "CONSTRUCTEND":5860,
+					 "TELE":
+					[
+						{ "ID":15277, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15278, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15279, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15280, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15281, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15282, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 211, "SysId":"MT1", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза К" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2413, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5920,
+					 "TELE":
+					[
+						{ "ID":15286, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15287, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15288, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15289, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15290, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15291, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15292, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15293, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2414, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":5420, "CONSTRUCTEND":5920,
+					 "TELE":
+					[
+						{ "ID":15294, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15295, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15296, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15297, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15298, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15299, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 212, "SysId":"MT1", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 2 Фаза Ж" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2415, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5920,
+					 "TELE":
+					[
+						{ "ID":15303, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15304, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15305, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15306, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15307, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15308, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15309, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15310, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2416, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":5420, "CONSTRUCTEND":5920,
+					 "TELE":
+					[
+						{ "ID":15311, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15312, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15313, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15314, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15315, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15316, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 213, "SysId":"MT1", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 2 Фаза З" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2417, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5940,
+					 "TELE":
+					[
+						{ "ID":15320, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15321, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15322, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15323, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15324, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15325, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15326, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15327, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2418, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":5440, "CONSTRUCTEND":5940,
+					 "TELE":
+					[
+						{ "ID":15328, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15329, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15330, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15331, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15332, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15333, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 214, "SysId":"MT1", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 2 Фаза К" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2419, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":5900,
+					 "TELE":
+					[
+						{ "ID":15337, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15338, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15339, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15340, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15341, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15342, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15343, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15344, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2420, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":5400, "CONSTRUCTEND":5900,
+					 "TELE":
+					[
+						{ "ID":15345, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15346, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15347, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15348, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15349, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15350, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 215, "SysId":"MT2", "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-1 Фаза Ж" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2421, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15378, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15379, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15380, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15381, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15382, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15383, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15384, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15385, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2422, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":4367, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15386, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15387, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15388, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15389, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15390, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15391, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 216, "SysId":"MT2", "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-1 Фаза З" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2423, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15395, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15396, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15397, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15398, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15399, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15400, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15401, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15402, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2424, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":4283, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15403, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15404, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15405, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15406, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15407, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15408, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 217, "SysId":"MT2", "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-1 Фаза К" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2425, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15412, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15413, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15414, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15415, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15416, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15417, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15418, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15419, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2426, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":4382, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15420, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15421, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15422, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15423, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15424, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15425, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 218, "SysId":"MT2", "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-2 Фаза Ж" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2427, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4800,
+					 "TELE":
+					[
+						{ "ID":15429, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15430, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15431, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15432, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15433, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15434, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15435, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15436, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2428, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":4402, "CONSTRUCTEND":4800,
+					 "TELE":
+					[
+						{ "ID":15437, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15438, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15439, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15440, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15441, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15442, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 219, "SysId":"MT2", "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-2 Фаза З" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2429, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15446, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15447, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15448, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15449, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15450, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15451, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15452, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15453, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2430, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":4274, "CONSTRUCTEND":4500,
+					 "TELE":
+					[
+						{ "ID":15454, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15455, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15456, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15457, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15458, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15459, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		},
+		{ "ID": 220, "SysId":"MT2", "NAME": "ПС Золотарёвская Золотарёвская-ТЭЦ12-2 Фаза К" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2431, "NAME": "Телесегмент №0", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":4800,
+					 "TELE":
+					[
+						{ "ID":15463, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":15464, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":15465, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15466, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15467, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15468, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15469, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":15470, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2432, "NAME": "Телесегмент №1", "isGS":false, "CONSTRUCTBEGIN":4386, "CONSTRUCTEND":4800,
+					 "TELE":
+					[
+						{ "ID":15471, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":15472, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":15473, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":15474, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":15475, "NAME":"Превышение аварийного предела (30°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":30},
+						{ "ID":15476, "NAME":"Превышение предупредительного предела (40°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":40}
+					]
+				}
+			]
+		}
+	]
+
+}

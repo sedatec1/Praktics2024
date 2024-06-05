@@ -1,0 +1,4 @@
+{
+	"Configuration": {"Type":"DBEventsWriter", "Version":1001, "Port":5432},
+	"DB": { "ID":1, "Host":"192.168.0.59", "NameDB":"basic_information", "User":"sedatec", "Password":"sedatec" }
+}

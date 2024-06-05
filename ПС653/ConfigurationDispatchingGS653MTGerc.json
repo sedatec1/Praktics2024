@@ -1,0 +1,109 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4301, "W":825, "H":290},
+	"Title": {"FullName":"Система мониторинга температуры КВЛ 220 кВ Яшино – Герцево, КВЛ 220 кВ Центральная – Яшино (TOPAZ)", "MinName":"Мониторинт темп. КВЛ Яшино-Герцево", "SysName":"Система мониторинга температуры (TOPAZ)"},
+	"Info": {"ID":"DISP653MT1", "Subst":"653", "Type":"Dispatching", "Location":"ПС848/Сервер ТМ ПС Ваганьковская", "NameMin":"ПС848 ТП Дисп", "NameMax":"Модуль Дисп. ГС848 PTCH ТМ ПС Ваганьковская"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP653MT1"},
+		{"ID_Program" : "GS653/MT1"}
+	],
+"Coord":"PS653",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4303"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Яшино(653)/МТ(TOPAZ)",
+        "ASDU":1, "TOPIC_ID":6,  "IpList":["10.22.8.51:2415"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":6, "SysId":"MT1", "DATA": [
+
+{"ID":"1", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"18",  "NAME":"Яшино - Центральная ф.Ж Канал 1 Зона КЛ: Превышение t1", "Links":{ "Arch":"4338"}},
+{"ID":"2", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"17",  "NAME":"Яшино - Центральная ф.Ж Канал 1 Зона КЛ: Превышение t2", "Links":{ "Arch":"4338"}},
+{"ID":"3", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"19",  "NAME":"Яшино - Центральная ф.Ж Канал 1 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4338"}},
+{"ID":"4", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"21",  "NAME":"Яшино - Центральная ф.З Канал 2 Зона КЛ: Превышение t1", "Links":{ "Arch":"4338"}},
+{"ID":"5", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"20",  "NAME":"Яшино - Центральная ф.З Канал 2 Зона КЛ: Превышение t2", "Links":{ "Arch":"4338"}},
+{"ID":"6", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"22",  "NAME":"Яшино - Центральная ф.З Канал 2 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4338"}},
+{"ID":"7", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"24",  "NAME":"Яшино - Центральная ф.К Канал 3 Зона КЛ: Превышение t1", "Links":{ "Arch":"4338"}},
+{"ID":"8", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"23",  "NAME":"Яшино - Центральная ф.К Канал 3 Зона КЛ: Превышение t2", "Links":{ "Arch":"4338"}},
+{"ID":"9", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"25",  "NAME":"Яшино - Центральная ф.К Канал 3 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4338"}},
+{"ID":"10", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"27",  "NAME":"Яшино - Герцево ф.Ж Канал 4 Зона КЛ: Превышение t1", "Links":{ "Arch":"4338"}},
+{"ID":"11", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"26",  "NAME":"Яшино - Герцево ф.Ж Канал 4 Зона КЛ: Превышение t2", "Links":{ "Arch":"4338"}},
+{"ID":"12", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"28",  "NAME":"Яшино - Герцево ф.Ж Канал 4 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4338"}},
+{"ID":"13", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"30",  "NAME":"Яшино - Герцево ф.З Канал 5 Зона КЛ: Превышение t1", "Links":{ "Arch":"4338"}},
+{"ID":"14", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"29",  "NAME":"Яшино - Герцево ф.З Канал 5 Зона КЛ: Превышение t2", "Links":{ "Arch":"4338"}},
+{"ID":"15", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"31",  "NAME":"Яшино - Герцево ф.З Канал 5 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4338"}},
+{"ID":"16", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"33",  "NAME":"Яшино - Герцево ф.К Канал 6 Зона КЛ: Превышение t1", "Links":{ "Arch":"4338"}},
+{"ID":"17", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"32",  "NAME":"Яшино - Герцево ф.К Канал 6 Зона КЛ: Превышение t2", "Links":{ "Arch":"4338"}},
+{"ID":"18", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"34",  "NAME":"Яшино - Герцево ф.К Канал 6 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4338"}},
+{"ID":"19", "TypeTele":"TS", "TypeAlarm":"Warning", "InvertTS":true, "VER":"General", "IOA":"102",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Работа вход 1", "Links":{ "Arch":"4338"}},
+{"ID":"20", "TypeTele":"TS", "TypeAlarm":"Warning", "InvertTS":true, "VER":"General", "IOA":"103",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Работа вход 2", "Links":{ "Arch":"4338"}},
+{"ID":"21", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"104",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Отсутствует U вход 1", "Links":{ "Arch":"4338"}},
+{"ID":"22", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"105",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Отсутствует U вход 2", "Links":{ "Arch":"4338"}},
+{"ID":"23", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"106",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Неисправность АКБ", "Links":{ "Arch":"4338"}},
+{"ID":"24", "TypeTele":"TS", "TypeAlarm":"Warning", "InvertTS":true, "VER":"General", "IOA":"107",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Связь с модулем", "Links":{ "Arch":"4338"}},
+{"ID":"25", "TypeTele":"TS", "TypeAlarm":"Warning", "InvertTS":true, "VER":"General", "IOA":"108",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Работа вход 1", "Links":{ "Arch":"4338"}},
+{"ID":"26", "TypeTele":"TS", "TypeAlarm":"Warning", "InvertTS":true, "VER":"General", "IOA":"109",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Работа вход 2", "Links":{ "Arch":"4338"}},
+{"ID":"27", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"110",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Отсутствует U вход 1", "Links":{ "Arch":"4338"}},
+{"ID":"28", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"111",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Отсутствует U вход 2", "Links":{ "Arch":"4338"}},
+{"ID":"29", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"112",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Неисправность АКБ", "Links":{ "Arch":"4338"}},
+{"ID":"30", "TypeTele":"TS", "TypeAlarm":"Warning", "InvertTS":true, "VER":"General", "IOA":"113",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Связь с модулем", "Links":{ "Arch":"4338"}},
+{"ID":"31", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"114",  "NAME":"Шкаф СМТ Топаз Отсутствие выхода БП1", "Links":{ "Arch":"4338"}},
+{"ID":"32", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"115",  "NAME":"Шкаф СМТ Топаз Отсутствие выхода БП2", "Links":{ "Arch":"4338"}},
+{"ID":"33", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"36",  "NAME":"Шкаф СМТ Топаз Работа от АКБ", "Links":{ "Arch":"4338"}},
+{"ID":"34", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"35",  "NAME":"Шкаф СМТ Топаз Сбой системы Термоконтроля", "Links":{ "Arch":"4338"}},
+{"ID":"35", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"101",  "NAME":"Шкаф СМТ Топаз Дверь шкафа", "Links":{ "Arch":"4338"}},
+{"ID":"36", "TypeTele":"TM",  "Mes":"°C", "VER":"General", "IOA":"1210", "NAME":"Шкаф СМТ Топаз T в месте установки блока термом.", "Links":{ "Arch":"4338"}},
+{"ID":"37", "TypeTele":"TM",  "Mes":"°C", "VER":"General", "IOA":"1013", "NAME":"Яшино - Центральная ф.Ж Канал 1 Зона КЛ: t макс., С", "Links":{ "Arch":"4338"}},
+{"ID":"38", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1016", "NAME":"Яшино - Центральная ф.Ж Канал 1 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4338"}},
+{"ID":"39", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1143", "NAME":"Яшино - Центральная ф.Ж Канал 1 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4338"}},
+{"ID":"40", "TypeTele":"TM",  "Mes":"°C", "VER":"General", "IOA":"1014", "NAME":"Яшино - Центральная ф.З Канал 2 Зона КЛ: t макс., С", "Links":{ "Arch":"4338"}},
+{"ID":"41", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1017", "NAME":"Яшино - Центральная ф.З Канал 2 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4338"}},
+{"ID":"42", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1144", "NAME":"Яшино - Центральная ф.З Канал 2 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4338"}},
+{"ID":"43", "TypeTele":"TM",  "Mes":"°C", "VER":"General", "IOA":"1015", "NAME":"Яшино - Центральная ф.К Канал 3 Зона КЛ: t макс., С", "Links":{ "Arch":"4338"}},
+{"ID":"44", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1018", "NAME":"Яшино - Центральная ф.К Канал 3 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4338"}},
+{"ID":"45", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1145", "NAME":"Яшино - Центральная ф.К Канал 3 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4338"}},
+{"ID":"46", "TypeTele":"TM",  "Mes":"°C", "VER":"General", "IOA":"1019", "NAME":"Яшино - Герцево ф.Ж Канал 4 Зона КЛ: t макс., С", "Links":{ "Arch":"4338"}},
+{"ID":"47", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1022", "NAME":"Яшино - Герцево ф.Ж Канал 4 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4338"}},
+{"ID":"48", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1146", "NAME":"Яшино - Герцево ф.Ж Канал 4 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4338"}},
+{"ID":"49", "TypeTele":"TM",  "Mes":"°C", "VER":"General", "IOA":"1020", "NAME":"Яшино - Герцево ф.З Канал 5 Зона КЛ: t макс., С", "Links":{ "Arch":"4338"}},
+{"ID":"50", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1023", "NAME":"Яшино - Герцево ф.З Канал 5 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4338"}},
+{"ID":"51", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1147", "NAME":"Яшино - Герцево ф.З Канал 5 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4338"}},
+{"ID":"52", "TypeTele":"TM",  "Mes":"°C", "VER":"General", "IOA":"1021", "NAME":"Яшино - Герцево ф.К Канал 6 Зона КЛ: t макс., С", "Links":{ "Arch":"4338"}},
+{"ID":"53", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1024", "NAME":"Яшино - Герцево ф.К Канал 6 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4338"}},
+{"ID":"54", "TypeTele":"TM",  "Mes":"м ", "VER":"General", "IOA":"1148", "NAME":"Яшино - Герцево ф.К Канал 6 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4338"}},
+{"ID":"55", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1201", "NAME":"Шкаф СМТ Топаз PSC24 (1) U вход.1", "Links":{ "Arch":"4338"}},
+{"ID":"56", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1202", "NAME":"Шкаф СМТ Топаз PSC24 (1) U вход.2", "Links":{ "Arch":"4338"}},
+{"ID":"57", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1203", "NAME":"Шкаф СМТ Топаз PSC24 (1) U вход АКБ", "Links":{ "Arch":"4338"}},
+{"ID":"58", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1204", "NAME":"Шкаф СМТ Топаз PSC24 (1) U выход.1", "Links":{ "Arch":"4338"}},
+{"ID":"59", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1205", "NAME":"Шкаф СМТ Топаз PSC24 (1) U выход.2", "Links":{ "Arch":"4338"}},
+{"ID":"60", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1206", "NAME":"Шкаф СМТ Топаз PSC24 (2) U вход.1", "Links":{ "Arch":"4338"}},
+{"ID":"61", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1207", "NAME":"Шкаф СМТ Топаз PSC24 (2) U вход.2", "Links":{ "Arch":"4338"}},
+{"ID":"62", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1208", "NAME":"Шкаф СМТ Топаз PSC24 (2) U выход.1", "Links":{ "Arch":"4338"}},
+{"ID":"63", "TypeTele":"TM",  "Mes":"В", "VER":"General", "IOA":"1209", "NAME":"Шкаф СМТ Топаз PSC24 (2) U выход.2", "Links":{ "Arch":"4338"}}
+	]}	
+
+],
+	
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"6531",	"NAME":"Термометрия (TOPAZ)}"}
+	]}
+}
+

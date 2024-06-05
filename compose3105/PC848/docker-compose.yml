@@ -1,0 +1,267 @@
+﻿services:
+        disp848_1:
+            image: 'disppd:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS557CHR841.json
+            ports:
+             - 4805:4805
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_1_1:
+            image: 'disppd:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS557CHR842.json
+            ports:
+             - 4822:4822
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_1_2:
+            image: 'disppd:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848CHR52.json
+            ports:
+             - 4809:4809
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_2:
+            image: 'disppd:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848CHR62.json
+            ports:
+             - 4808:4808
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_2_2:
+            image: 'disppd:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848CHR681.json
+            ports:
+             - 4814:4814
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_3:
+            image: 'dispgs:v1.1.0'
+            build: DispGS/
+            command: node app.js ConfigurationDispatching848GS.json
+            ports:
+             - 4803:4803
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.View.DispatchingGS/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_4:
+            image: 'disppd:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848CHR682.json
+            ports:
+             - 4806:4806
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_5:
+            image: 'disppd:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848CHRHS3.json
+            ports:
+             - 4807:4807
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_6:
+            image: 'dispdc:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848DC1.json
+            ports:
+             - 4815:4815
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_7:
+            image: 'dispdc:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848DC2.json
+            ports:
+             - 4816:4816
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_8:
+            image: 'dispmt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848MT62.json
+            ports:
+             - 4802:4802
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_8_2:
+            image: 'dispmt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848MT69.json
+            ports:
+             - 4801:4801
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_8_2_1:
+            image: 'dispmt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848MT69v2.json
+            ports:
+             - 4821:4821
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_8_3:
+            image: 'dispasu:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848ASU.json
+            ports:
+             - 4810:4810
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_8_4:
+            image: 'dispskt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848SKT69.json
+            ports:
+             - 4817:4817
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_8_4_1:
+            image: 'dispskt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848SKT69v2.json
+            ports:
+             - 4827:4827
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_8_5:
+            image: 'disptm:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848TM.json
+            ports:
+             - 4813:4813
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_9:
+            image: 'dispwt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848WT.json
+            ports:
+             - 4811:4811
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp848_10:
+            image: 'dispwt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatchingGS848BKT.json
+            ports:
+             - 4820:4820
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+
+        gs848_1:
+            image: 'gsall:v1.0.8'
+            restart: always
+            build: GS/
+            command: node appGS.js ConfigurationGS848.json
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/System/SeDaTec.System.GS/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+        ReadArch:
+            image: 'arh:v1.0.5'
+            build: ReadArch/
+            command: node app.js ConfigurationArchRT848.json
+            ports:
+             - 4838:4838
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.View.ArchMain/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.View.ArchMain/ArchivePostgresReader/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        ReadArch2:
+            image: 'arhg:v1.0.5'
+            build: ReadArchG/
+            command: node app.js ConfigurationArchRT8482.json
+            ports:
+             - 4848:4848
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.View.ArchMain2D/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.View.ArchMain2D/ArchivePostgresReader/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        Gal:
+            image: 'gal:v1.1.0'
+            build: Gal/
+            command: node app.js ConfigurationGallery.json
+            ports:
+             - 4877:4877
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.View.Gallery/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerBuilder/PC848/Gal/View/SeDaTec.View.Gallery/Server/app_settings/uploads:/usr/src/app/View/SeDaTec.View.Gallery/Server/app_settings/uploads
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        MAP:
+            image: 'mapv:v1.1.0'
+            build: MAP/
+            command: node app.js ConfigurationMap.json
+            ports:
+             - 7801:7801
+            volumes:
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/View/SeDaTec.View.Map/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС848:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        

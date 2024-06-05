@@ -1,0 +1,28 @@
+{
+	"Configuration": {"Type":"FileWrite", "Version":1001},
+	"Info": {"ID":"DB357", "Type":"FileWrite", "Location":"ПС357/Шкаф№98/БОД[KSA7823452]/МТ",
+		"NameMin":"ПС357 Запись в БД", "NameMax":"Модуль записи информации в БД ПС 357"},
+	"DB":
+	[
+		{ "ID":1, "FolderFullName":"D:/_____Sedatec/WebMain/DB/Archive/ServerWriter/archive_sedatec_data", "FileBaseName":"archive_sedatec_data" },
+		{ "ID":2, "FolderFullName":"D:/_____Sedatec/WebMain/DB/Archive/ServerWriter/archive_sedatec_data22", "FileBaseName":"archive_sedatec_data2" }
+	],
+	"WriteDB":
+	[
+		{"ID_Program":"LOG", "Table":"log", "isFullWrite":true, "DB":1},
+
+		{"ID_Program":"PLEERMT357", "Table":"profile", "isFullWrite":true, "DB":1},
+		{"ID_Program":"SEGMT357",   "Table":"profile", "isFullWrite":true, "DB":1},
+
+		{"ID_Program":"PLEERTELE357", "Table":"tele", "isFullWrite":true, "DB":1},
+		{"ID_Program":"PLEERTELE862SKT1", "Table":"tele", "isFullWrite":true, "DB":1},
+		{"ID_Program":"PLEERTELE862SKT1", "Table":"tele", "isFullWrite":false, "ID_DB":2, "DB":2}
+
+	],
+	"WriteCSV":
+	[
+		{"ID_Program":"PLEERMT357", "SignalType":"profile", "ID_DB":210, 
+			"FolderFullName":"D:/_____Sedatec/WebMain/DB/Archive/ServerWriter/archive_sedatec_csv_data", 
+			"FileBaseName":"210-profile" }
+	]
+}

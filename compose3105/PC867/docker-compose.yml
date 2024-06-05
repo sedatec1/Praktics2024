@@ -1,0 +1,114 @@
+services:
+        disp867_1:
+            image: 'dispasu:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatching867ASU.json
+            ports:
+             - 4405:4405
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp867_2:
+            image: 'dispdc:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatching867DC1.json
+            ports:
+             - 4407:4407
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp867_2_2:
+            image: 'dispdc:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatching867DC2.json
+            ports:
+             - 4409:4409
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp867_3:
+            image: 'dispgs:v1.1.0'
+            build: DispGS/
+            command: node app.js ConfigurationDispatching867GS.json
+            ports:
+             - 4403:4403
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.View.DispatchingGS/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp867_4:
+            image: 'dispmt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatching867MT.json
+            ports:
+             - 4401:4401
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp867_6:
+            image: 'dispwt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatching867WT.json
+            ports:
+             - 4408:4408
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        disp867_7:
+            image: 'dispwt:v1.1.0'
+            build: Disp/
+            command: node app.js ConfigurationDispatching867TCol.json
+            ports:
+             - 4410:4410
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.Main.Dispatching/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+        ReadArch:
+            image: 'arh:v1.0.5'
+            build: ReadArch/
+            command: node app.js ConfigurationArchRT867.json
+            ports:
+             - 4438:4438
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.View.ArchMain/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.View.ArchMain/ArchivePostgresReader/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+
+        Gal:
+            image: 'gal:v1.1.0'
+            build: Gal/
+            command: node app.js ConfigurationGallery.json
+            ports:
+             - 4477:4477
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/View/SeDaTec.View.Gallery/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerBuilder/PC867/Gal/View/SeDaTec.View.Gallery/Server/app_settings/uploads:/usr/src/app/View/SeDaTec.View.Gallery/Server/app_settings/uploads
+             - /home/sedatec/Img:/usr/src/app/View/UserPhotos
+      
+         
+
+        gs867_1:
+            image: 'gsall:v1.0.8'
+            restart: always
+            build: GS/
+            command: node appGS.js ConfigurationGS867.json
+            volumes:
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/System/SeDaTec.System.GS/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.MQTT/Configuration
+             - /home/sedatec/DockerConfig/ПС867:/usr/src/app/Components/SeDaTec.Component.Info/Configuration

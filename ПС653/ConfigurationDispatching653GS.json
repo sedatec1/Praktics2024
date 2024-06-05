@@ -1,0 +1,38 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4303, "W":1405, "H":420},
+	"Title": {"FullName":"ПС 653 Яшино КЛ 220кВ", "MinName":"ПС Яшино"},
+	"Info": {"ID":"PS653", "Type":"Dispatching", "Location":"ПС653/Шкаф№23/БОД[******]/МТ", "NameMin":"ПС653 МТ Дисп", "NameMax":"Модуль Дисп ПС 653"},
+	"AceptFrom":["DISP653DC","DISP653ASU","DISP653TM","DISP653MT2","DISP653VN","DISP653WT", "DISP653MT1"],
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP653"}
+	],
+"Coord":"PS653",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "10.16.18.33", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "10.16.18.33", "Port" : "4004"},
+		 {"TypeLink" : "Home", "IP" : "10.16.18.33", "Port" : "4004"},
+		 {"TypeLink" : "dbTables", "Port" : "3900"},
+		 {"TypeLink" : "Gallery",  "Port" : "4377"}
+	],
+	"TELE":
+	[
+
+
+
+		{"ID":20, "VER":"Label",   	"X":0, 	"Y":0, 	"H":155,    "W":465, "NAME":"КЛ 220кв Яшино - Герцево, Центральная - Яшино"},
+		{"ID":1, "VER":"GSV1000",	"ID_Program":"GS653",   "LINK_TELE_ID":"DISP653MT1", 	"X":5, 	 "Y":50,    "W":455, "NAME":"Система мониторинга температуры (TOPAZ)", "Link":"4301"},
+		
+		{"ID":21, "VER":"Label",   	"X":475, 	"Y":0, 	"H":155,    "W":465, "NAME":"Яшино - Новобратцево 1,Яшино - Новобратцево 2"},
+		{"ID":2, "VER":"GSV1000",	"ID_Program":"GS653",   "LINK_TELE_ID":"DISP653MT2", 	"X":480, "Y":50,    "W":455, "NAME":"Система мониторинга температуры (Lios)", "Link":"4302"},
+		
+		
+		{"ID":12, "VER":"GSV1000",	"ID_Program":"GS653", 	"LINK_TELE_ID":"DISP653ASU", 	"X":925, "Y":215, 	"W":455, "NAME":"Система АСУ ТП и ТМ ПС Яшино", "Link":"4305"},
+		{"ID":13, "VER":"GSV1000",	"ID_Program":"GS653", 	"LINK_TELE_ID":"DISP653VN", "X":5, 	 "Y":215, 	"W":455, "NAME":"Система контроля ёмкости и тангенса δ ВВ вводов Т1, Т2", "Link":"4306"},
+		{"ID":14, "VER":"GSV1000",	"ID_Program":"GS653", 	"LINK_TELE_ID":"DISP653DC", 	"X":5, 	 "Y":320, 	"W":455, "NAME":"Система мониторинга сети постоянного тока", "Link":"4307"},
+		{"ID":15, "VER":"GSV1000",	"ID_Program":"GS653", 	"LINK_TELE_ID":"DISP653TM","X":465, "Y":215, 	"W":455, "NAME":"Система телемеханики", "Link":"4308"},
+		{"ID":16, "VER":"GSV1000",	"ID_Program":"GS653", 	"LINK_TELE_ID":"DISP653WT",  "X":465, "Y":320, 	"W":455, "NAME":"Система температуры обмоток трансформаторов", "Link":"4309"}
+	]
+}

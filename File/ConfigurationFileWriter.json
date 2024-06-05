@@ -1,0 +1,26 @@
+{
+	"Configuration": {"Type":"FileWrite", "Version":1001},
+	"Info": {"ID":"DB357", "Type":"FileWrite", "Location":"ПС357/Шкаф№98/БОД[KSA7823452]/МТ",
+		"NameMin":"ПС357 Запись в БД", "NameMax":"Модуль записи информации в БД ПС 357"},
+	"DB":
+	[
+		{ "ID":1, "FolderFullName":"/home/sedatec/File", "FileBaseName":"archive_sedatec_data" },
+		{ "ID":2, "FolderFullName":"/home/sedatec/File", "FileBaseName":"archive_sedatec_data2" }
+	],
+	"WriteDB":
+	[
+		{"ID_Program":"LOG", "Table":"log", "isFullWrite":true, "DB":1},
+
+		{"ID_Program":"SEGMT855B", "Table":"profile", "isFullWrite":true, "DB":1},
+		
+
+		{"ID_Program":"GS855/Data", "Table":"tele", "isFullWrite":true, "DB":1}
+
+	],
+	"WriteCSV":
+	[
+		{"ID_Program":"GS855/Data", "SignalType":"tele", "ID_DB":1032, 
+			"FolderFullName":"/home/sedatec/File", 
+			"FileBaseName":"228-profile" }
+	]
+}

@@ -1,0 +1,84 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4302, "W":825, "H":290},
+	"Title": {"FullName":"КЛ 220 кВ Яшино – Новобратцево №1, КЛ 220 кВ Яшино – Новобратцево №2 Lios", "MinName":"ПС Яшино Lios", "SysName":"Система мониторинга температур Lios"},
+	"Info": {"ID":"DISP653MT2", "Subst":"653", "Type":"Dispatching", "Location":"ПС855/Сервер ТМ ПС Яшино", "NameMin":"ПС855 Lios Дисп", "NameMax":"Модуль Дисп. ПС 855 Lios ТМ ПС Яшино"},
+	"Coord":"PS653",
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP653MT2"},
+		{"ID_Program" : "GS653/MT2"}
+	],
+
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4303"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Яшино(653)/МТ(Lios)",
+        "ASDU":1, "TOPIC_ID":7,  "IpList":["10.22.8.52:2415"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":7, "SysId":"MT2", "DATA": [
+
+{"ID":28, "TypeTele":"TS", "TypeAlarm":"Alarm", "InvertTS":true,  "VER":"General", "IOA":37,  "NAME":"Лиос Яшино Состояние КП", "Links":{ "Arch":"4338"}},
+{"ID":29,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":38,  "NAME":"Лиос Яшино Общий сбой Lios1", "Links":{ "Arch":"4338"}},
+{"ID":30,	"Mes":"", "TypeTele":"TM",   "TypeAlarm":"Warning",  "VER":"General", "IOA":39,  "NAME":"КЛ Яшино-Новобратцево 1 ф.Ж Т 60 КЛ Яшино-Новобратцево1 Ж", "Links":{ "Arch":"4338"}},
+{"ID":31,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":40,  "NAME":"КЛ Яшино-Новобратцево 1 ф.Ж Т 70 КЛ Яшино-Новобратцево1 Ж", "Links":{ "Arch":"4338"}},
+{"ID":32,	"Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":41,  "NAME":"КЛ Яшино-Новобратцево 1 ф.Ж Обрыв волокна Яшино-Новобратцево1 Ж", "Links":{ "Arch":"4338"}},
+{"ID":33,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Warning",  "VER":"General", "IOA":42,  "NAME":"КЛ Яшино-Новобратцево 1 ф.З Т 60 КЛ Яшино-Новобратцево1 З", "Links":{ "Arch":"4338"}},
+{"ID":34,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":43,  "NAME":"КЛ Яшино-Новобратцево 1 ф.З Т 70 КЛ Яшино-Новобратцево1 З", "Links":{ "Arch":"4338"}},
+{"ID":35,	"Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":44,  "NAME":"КЛ Яшино-Новобратцево 1 ф.З Обрыв волокна Яшино-Новобратцево1 З", "Links":{ "Arch":"4338"}},
+{"ID":36,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Warning",  "VER":"General", "IOA":45,  "NAME":"КЛ Яшино-Новобратцево 1 ф.К Т 60 КЛ Яшино-Новобратцево1 К", "Links":{ "Arch":"4338"}},
+{"ID":37,	"Mes":"", "TypeTele":"TM", "TypeAlarm":"Alarm",  "VER":"General", "IOA":46,  "NAME":"КЛ Яшино-Новобратцево 1 ф.К Т 70 КЛ Яшино-Новобратцево1 К", "Links":{ "Arch":"4338"}},
+{"ID":38,	"Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":47,  "NAME":"КЛ Яшино-Новобратцево 1 ф.К Обрыв волокна Яшино-Новобратцево1 К", "Links":{ "Arch":"4338"}},
+{"ID":39,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Warning",  "VER":"General", "IOA":48,  "NAME":"КЛ Яшино-Новобратцево 2 ф.Ж Т 60 КЛ Яшино-Новобратцево2 Ж", "Links":{ "Arch":"4338"}},
+{"ID":40,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":49,  "NAME":"КЛ Яшино-Новобратцево 2 ф.Ж Т 70 КЛ Яшино-Новобратцево2 Ж", "Links":{ "Arch":"4338"}},
+{"ID":41,	"Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":50,  "NAME":"КЛ Яшино-Новобратцево 2 ф.Ж Обрыв волокна Яшино-Новобратцево2 Ж", "Links":{ "Arch":"4338"}},
+{"ID":42,	"Mes":"", "TypeTele":"TM", "TypeAlarm":"Warning",  "VER":"General", "IOA":51,  "NAME":"КЛ Яшино-Новобратцево 2 ф.З Т 60 КЛ Яшино-Новобратцево2 З", "Links":{ "Arch":"4338"}},
+{"ID":43,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":52,  "NAME":"КЛ Яшино-Новобратцево 2 ф.З Т 70 КЛ Яшино-Новобратцево2 З", "Links":{ "Arch":"4338"}},
+{"ID":44,	"Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":53,  "NAME":"КЛ Яшино-Новобратцево 2 ф.З Обрыв волокна Яшино-Новобратцево2 З", "Links":{ "Arch":"4338"}},
+{"ID":45,	"Mes":"", "TypeTele":"TM", "TypeAlarm":"Warning",  "VER":"General", "IOA":54,  "NAME":"КЛ Яшино-Новобратцево 2 ф.К Т 60 КЛ Яшино-Новобратцево2 К", "Links":{ "Arch":"4338"}},
+{"ID":46,	"Mes":"", "TypeTele":"TM",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":55,  "NAME":"КЛ Яшино-Новобратцево 2 ф.К Т 70 КЛ Яшино-Новобратцево2 К", "Links":{ "Arch":"4338"}},
+{"ID":47,	"Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":56,  "NAME":"КЛ Яшино-Новобратцево 2 ф.К Обрыв волокна Яшино-Новобратцево2 К", "Links":{ "Arch":"4338"}},
+{"ID":48,	"Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":57,  "NAME":"Лиос Яшино Отсутствие 220В", "Links":{ "Arch":"4338"}},
+{"ID":49,	"Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":1025,  "NAME":"КЛ Яшино-Новобратцево 1 ф.Ж Тmax КЛ Яшино-Новобратцево1 Ж весь1", "Links":{ "Arch":"4338"}},
+{"ID":50,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1042, "NAME":"КЛ Яшино-Новобратцево 1 ф.Ж L до обрыва Яшино-Новобратцево1 Ж", "Links":{ "Arch":"4338"}},
+{"ID":51,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1043, "NAME":"КЛ Яшино-Новобратцево 1 ф.Ж L до Тmax Яшино-Новобратцево1 Ж", "Links":{ "Arch":"4338"}},
+{"ID":52,	"Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":1044, "NAME":"КЛ Яшино-Новобратцево 1 ф.З Тmax КЛ Яшино-Новобратцево1 З весь1", "Links":{ "Arch":"4338"}},
+{"ID":53,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1061,  "NAME":"КЛ Яшино-Новобратцево 1 ф.З L до обрыва Яшино-Новобратцево1 З", "Links":{ "Arch":"4338"}},
+{"ID":54,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1062,  "NAME":"КЛ Яшино-Новобратцево 1 ф.З L до Тmax Яшино-Новобратцево1 З", "Links":{ "Arch":"4338"}},
+{"ID":55,	"Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":1063, "NAME":"КЛ Яшино-Новобратцево 1 ф.К Тmax КЛ Яшино-Новобратцево1 К весь1", "Links":{ "Arch":"4338"}},
+{"ID":56,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1080,  "NAME":"КЛ Яшино-Новобратцево 1 ф.К L до обрыва Яшино-Новобратцево1 К", "Links":{ "Arch":"4338"}},
+{"ID":57,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1081,  "NAME":"КЛ Яшино-Новобратцево 1 ф.К L до Тmax Яшино-Новобратцево1 К", "Links":{ "Arch":"4338"}},
+{"ID":58,	"Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":1082, "NAME":"КЛ Яшино-Новобратцево 2 ф.Ж Тmax КЛ Яшино-Новобратцево2 Ж весь1", "Links":{ "Arch":"4338"}},
+{"ID":59,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1099,  "NAME":"КЛ Яшино-Новобратцево 2 ф.Ж L до обрыва Яшино-Новобратцево2 Ж", "Links":{ "Arch":"4338"}},
+{"ID":60,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1100,  "NAME":"КЛ Яшино-Новобратцево 2 ф.Ж L до Тmax Яшино-Новобратцево2 Ж", "Links":{ "Arch":"4338"}},
+{"ID":61,	"Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":1101, "NAME":"КЛ Яшино-Новобратцево 2 ф.З Тmax КЛ Яшино-Новобратцево2 З весь1", "Links":{ "Arch":"4338"}},
+{"ID":62,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1118,  "NAME":"КЛ Яшино-Новобратцево 2 ф.З L до обрыва Яшино-Новобратцево2 З", "Links":{ "Arch":"4338"}},
+{"ID":63,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1119,  "NAME":"КЛ Яшино-Новобратцево 2 ф.З L до Тmax Яшино-Новобратцево2 З", "Links":{ "Arch":"4338"}},
+{"ID":64,	"Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":1120, "NAME":"КЛ Яшино-Новобратцево 2 ф.К Тmax КЛ Яшино-Новобратцево2 К весь1", "Links":{ "Arch":"4338"}},
+{"ID":65,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1137,  "NAME":"КЛ Яшино-Новобратцево 2 ф.К L до обрыва Яшино-Новобратцево2 К", "Links":{ "Arch":"4338"}},
+{"ID":66,	"Mes":"м", "TypeTele":"TM",  "VER":"General", "IOA":1138,  "NAME":"КЛ Яшино-Новобратцево 2 ф.К L до Тmax Яшино-Новобратцево2 К", "Links":{ "Arch":"4338"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"6532",	"NAME":"Термометрия (Lios)}"}
+	]}
+}

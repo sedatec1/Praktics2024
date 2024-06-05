@@ -1,0 +1,58 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4516, "W":825, "H":290},
+	"Title": {"FullName":"Система мониторинга температуры обмоток ТСН1, ТСН2, ТСН-3", "MinName":"ПС Золотаревская TCH", "SysName":"Система мониторинга температуры обмоток ТСН1, ТСН2, ТСН-3"},
+	"Info": {"ID":"DISP786WT", "Subst":"786", "Type":"Dispatching", "Location":"ПС786/Сервер ТМ ПС Золотаревская", "NameMin":"ПС786 ТП Дисп", "NameMax":"Модуль Дисп. ПС786 PTCH ТМ ПС Золотаревская"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP786WT"},
+		{"ID_Program" : "GS786/WT"}
+	],
+	"Coord":"PS786",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4503"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+	"Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Золотаревская(786)/АСУТП",
+        "ASDU":50, "TOPIC_ID":16,  "IpList":["192.168.18.16:2404", "192.168.18.20:2404", "10.16.3.150:2612", "10.16.3.150:2704"]}
+
+    ],
+	"TELE":
+	[
+		{"L_TOPIC_ID":16, "SysId":"WT", "DATA": [
+
+		{ "ID":"57", "VER":"General", "TypeTele":"TM", "IOA":"1037","Mes":"°C",	 "NAME":"Температура обмотки фА ТСН-1", "Links":{ "Arch":"4538"}},
+		{ "ID":"58", "VER":"General", "TypeTele":"TM", "IOA":"1038","Mes":"°C",	 "NAME":"Температура обмотки фВ ТСН-1", "Links":{ "Arch":"4538"}},
+		{ "ID":"59", "VER":"General", "TypeTele":"TM", "IOA":"1039","Mes":"°C",	 "NAME":"Температура обмотки фС ТСН-1", "Links":{ "Arch":"4538"}},
+		{ "ID":"60", "VER":"General", "TypeTele":"TM", "IOA":"1040","Mes":"°C",	 "NAME":"Температура обмотки фА ТСН-2", "Links":{ "Arch":"4538"}},
+		{ "ID":"61", "VER":"General", "TypeTele":"TM", "IOA":"1041","Mes":"°C",	 "NAME":"Температура обмотки фВ ТСН-2", "Links":{ "Arch":"4538"}},
+		{ "ID":"62", "VER":"General", "TypeTele":"TM", "IOA":"1042","Mes":"°C",	 "NAME":"Температура обмотки фС ТСН-2", "Links":{ "Arch":"4538"}},
+		{ "ID":"63", "VER":"General", "TypeTele":"TM", "IOA":"1043","Mes":"°C",	 "NAME":"Температура обмотки фА ТСН-3", "Links":{ "Arch":"4538"}},
+		{ "ID":"64", "VER":"General", "TypeTele":"TM", "IOA":"1044","Mes":"°C",	 "NAME":"Температура обмотки фВ ТСН-3", "Links":{ "Arch":"4538"}},
+		{ "ID":"65", "VER":"General", "TypeTele":"TM", "IOA":"1045","Mes":"°C",	 "NAME":"Температура обмотки фС ТСН-3", "Links":{ "Arch":"4538"}},
+		{ "ID":"66", "VER":"General", "TypeTele":"TS", "IOA":"4045",  "TypeAlarm":"Warning", "NAME":"ТСН-1 Включен вентилятор", "Links":{ "Arch":"4538"}},
+		{ "ID":"67", "VER":"General", "TypeTele":"TS", "IOA":"4046",  "TypeAlarm":"Alarm",   "NAME":"ТСН-1 Аварийная сигнализация", "Links":{ "Arch":"4538"}},
+		{ "ID":"68", "VER":"General", "TypeTele":"TS", "IOA":"4047",  "TypeAlarm":"Alarm",   "NAME":"ТСН-1 Аварийное отключение", "Links":{ "Arch":"4538"}},
+		{ "ID":"69", "VER":"General", "TypeTele":"TS", "IOA":"4048",  "TypeAlarm":"Alarm",   "NAME":"ТСН-1 Сигнализация о неисправности", "Links":{ "Arch":"4538"}},
+		{ "ID":"70", "VER":"General", "TypeTele":"TS", "IOA":"4049",  "TypeAlarm":"Warning", "NAME":"ТСН-1 Включение вентилятора в ручном режиме", "Links":{ "Arch":"4538"}},
+		{ "ID":"71", "VER":"General", "TypeTele":"TS", "IOA":"4050",  "TypeAlarm":"Warning", "NAME":"ТСН-2 Включен вентилятор", "Links":{ "Arch":"4538"}},
+		{ "ID":"72", "VER":"General", "TypeTele":"TS", "IOA":"4051",  "TypeAlarm":"Alarm",   "NAME":"ТСН-2 Аварийная сигнализация", "Links":{ "Arch":"4538"}},
+		{ "ID":"73", "VER":"General", "TypeTele":"TS", "IOA":"4052",  "TypeAlarm":"Alarm",   "NAME":"ТСН-2 Аварийное отключение", "Links":{ "Arch":"4538"}},
+		{ "ID":"74", "VER":"General", "TypeTele":"TS", "IOA":"4053",  "TypeAlarm":"Alarm",   "NAME":"ТСН-2 Сигнализация о неисправности", "Links":{ "Arch":"4538"}},
+		{ "ID":"75", "VER":"General", "TypeTele":"TS", "IOA":"4054",  "TypeAlarm":"Warning", "NAME":"ТСН-2 Включение вентилятора в ручном режиме", "Links":{ "Arch":"4538"}},
+		{ "ID":"76", "VER":"General", "TypeTele":"TS", "IOA":"4055",  "TypeAlarm":"Warning", "NAME":"ТСН-3 Включен вентилятор", "Links":{ "Arch":"4538"}},
+		{ "ID":"77", "VER":"General", "TypeTele":"TS", "IOA":"4056",  "TypeAlarm":"Alarm",   "NAME":"ТСН-3 Аварийная сигнализация", "Links":{ "Arch":"4538"}},
+		{ "ID":"78", "VER":"General", "TypeTele":"TS", "IOA":"4057",  "TypeAlarm":"Alarm",   "NAME":"ТСН-3 Аварийное отключение", "Links":{ "Arch":"4538"}},
+		{ "ID":"79", "VER":"General", "TypeTele":"TS", "IOA":"4058",  "TypeAlarm":"Alarm",   "NAME":"ТСН-3 Сигнализация о неисправности", "Links":{ "Arch":"4538"}},
+		{ "ID":"80", "VER":"General", "TypeTele":"TS", "IOA":"4059",  "TypeAlarm":"Warning", "NAME":"ТСН-3 Включение вентилятора в ручном режиме", "Links":{ "Arch":"4538"}}
+		]}
+	],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"78613",	"NAME":"Система мониторинга темп. обмоток ТСН1, ТСН2, РТСН}"}
+		]}
+}
+

@@ -1,0 +1,55 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4308, "W":825, "H":290},
+	"Title": {"FullName":"КВЛ 220 кВ Центральная – Яшино, КВЛ 220 кВ Яшино – Герцево, ПП №218", "MinName":"ПС Яшино Телемеханика", "SysName":"Система телемеханики (оперативная информация)"},
+	"Info": {"ID":"DISP653TM", "Subst":"653", "Type":"Dispatching", "Location":"ПС855/Сервер ТМ ПС Яшино", "NameMin":"ПС855 АСУ ТП Дисп", "NameMax":"Модуль Дисп. ПС 855 АСУ ТМ ПС Яшино"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP653TM"},
+		{"ID_Program" : "GS653/TM"}
+	],
+"Coord":"PS653",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4303"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Яшино(653)/АСУТП",
+        "ASDU":243, "TOPIC_ID":3,  "IpList":["192.168.5.21:2404", "192.168.5.22:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":3, "SysId":"TM", "DATA": [
+
+{"ID":1,	"TypeTele":"TSD",  "VER":"General", "IOA":3008,  "NAME":"КВЛ Яшино-Герцево ЛР ПП Положение разъединителя", "Links":{ "Arch":"4338"}},
+{"ID":2,	"TypeTele":"TSD",  "VER":"General", "IOA":3010,  "NAME":"КВЛ Яшино-Герцево ЗН ВЛ Положение заземляющего ножа", "Links":{ "Arch":"4338"}},
+{"ID":3,	"TypeTele":"TSD",  "VER":"General", "IOA":3009,  "NAME":"КВЛ Яшино-Герцево ЗН КЛ Положение заземляющего ножа", "Links":{ "Arch":"4338"}},
+{"ID":4,	"TypeTele":"TSD",  "VER":"General", "IOA":3005,  "NAME":"КВЛ Центр.-Яшино  ЛР ПП Положение разъединителя", "Links":{ "Arch":"4338"}},
+{"ID":5,	"TypeTele":"TSD",  "VER":"General", "IOA":3007,  "NAME":"КВЛ Центр.-Яшино  ЗН ВЛ Положение заземляющего ножа", "Links":{ "Arch":"4338"}},
+{"ID":6,	"TypeTele":"TSD",  "VER":"General", "IOA":3006,  "NAME":"КВЛ Центр.-Яшино  ЗН КЛ Положение заземляющего ножа", "Links":{ "Arch":"4338"}},
+{"ID":7,	"TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4438,  "NAME":"ПП шк. ТМ         Диаг. Дверь открыта", "Links":{ "Arch":"4338"}},
+{"ID":8,	"TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4439,  "NAME":"ПП шк. ТМ         Диаг. Отсутствие Uвход", "Links":{ "Arch":"4338"}},
+{"ID":9,	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":4440,  "NAME":"ПП шк. ТМ         Диаг. Неисправность батареи", "Links":{ "Arch":"4338"}},
+{"ID":10,	"TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4441,  "NAME":"ПП шк. ТМ         Диаг. Работа от батареи", "Links":{ "Arch":"4338"}},
+{"ID":11,	"TypeTele":"TS", "TypeAlarm":"Warning",  "VER":"General", "IOA":4442,  "NAME":"ПП шк. ТМ         Диаг. Связь с модулем PSC", "Links":{ "Arch":"4338"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"6536",	"NAME":"Система телемеханики}"}
+	]}
+}

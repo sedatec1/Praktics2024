@@ -1,0 +1,41 @@
+{
+   "Configuration": {"Type":"RealTime", "Version":1001, "Port":4530},
+	"Title": {"FullName":"ПС Золотарёвская КЛ 220кВ Золотарёвская-ТЭЦ20 1", "MinName":"ПС Золотарёвская"},
+	"Info": {"ID":"RT786T20L1", "Type":"RealTime", "Location":"ПС786/Шкаф№68/БОД[******]/МТ", "NameMin":"ПС786 МТ RT", "NameMax":"Модуль RT ПС 786"},
+	"Profiles" : 
+	[
+		{"ID_Program" : "SEGMT786/ProfilesConstruction", "ID":209},
+		{"ID_Program" : "SEGMT786/ProfilesConstruction", "ID":210},
+		{"ID_Program" : "SEGMT786/ProfilesConstruction", "ID":211}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "localhost", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "localhost", "Port" : "4501"},
+		 {"TypeLink" : "Home", "IP" : "localhost", "Port" : "4004"}
+	],
+    "Channels":
+	[
+		{ "ID": 209,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза Ж" , "LINK_CHANNEL_ID": 209, "H":90, "COLOUR":"orange", "AxisXmin":0 , "AxisXmax":5880, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 2929, "NAME": "Сегмент 1", "BEGIN":0, "END":5380, "SORT":1},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 2930, "NAME": "Сегмент 2", "BEGIN":5380, "END":5880, "SORT":2}
+			]
+		},
+		{ "ID": 210,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза З" , "LINK_CHANNEL_ID": 210, "H":90, "COLOUR":"green", "AxisXmin":0 , "AxisXmax":5860, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 2931, "NAME": "Сегмент 1", "BEGIN":0, "END":5360, "SORT":1},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 2932, "NAME": "Сегмент 2", "BEGIN":5360, "END":5860, "SORT":2}
+			]
+		},
+		{ "ID": 211,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Золотарёвская Золотарёвская-ТЭЦ20 1 Фаза К" , "LINK_CHANNEL_ID": 211, "H":90, "COLOUR":"red", "AxisXmin":0 , "AxisXmax":5920, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 2933, "NAME": "Сегмент 1", "BEGIN":0, "END":5420, "SORT":1},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 2934, "NAME": "Сегмент 1", "BEGIN":5420, "END":5920, "SORT":2}
+			]
+		}
+	]
+}
