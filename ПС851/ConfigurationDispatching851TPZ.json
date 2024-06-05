@@ -1,0 +1,111 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4902, "W":825, "H":290},
+	"Title": {"FullName":"Система мониторинга температуры КЛ 110 кВ Бутово – Грач №1, КЛ 110 кВ Бутово – Грач №2 (TOPAZ)", "MinName":"ПС Грач Температура2", "SysName":"Система мониторинга температуры КЛ 110 кВ Бутово – Грач №1, КЛ 110 кВ Бутово – Грач №2 (TOPAZ)"},
+	"Info": {"ID":"DISP851TPZ", "Subst":"851", "Type":"Dispatching", "Location":"ПС851/Сервер ТМ ПС Грач", "NameMin":"ПС851 ТП Дисп", "NameMax":"Модуль Дисп. ПС 851 ТМ ПС Грач"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP851TPZ"},
+		{"ID_Program" : "GS851/TPZ"}
+	],
+"Coord":"PS851",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4904"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Грач(851)/МТ(TOPAZ 110кВ Грач - Бутово 1, 2)",
+        "ASDU":1, "TOPIC_ID":4,  "IpList":["10.22.0.51:2415"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":4, "SysId":"TPZ", "DATA": [
+
+{"ID":"58", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"53",  "NAME":"КЛ Грач - Бутово 1 ф.Ж Канал 1 Зона КЛ: Превышение t1", "Links":{ "Arch":"4938"}},		
+{"ID":"59", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"120",  "NAME":"КЛ Грач - Бутово 1 ф.Ж Канал 1 Зона КЛ: Превышение t2", "Links":{ "Arch":"4938"}},		
+{"ID":"60", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"56",  "NAME":"КЛ Грач - Бутово 1 ф.Ж Канал 1 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4938"}},		
+{"ID":"61", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"54",  "NAME":"КЛ Грач - Бутово 1 ф.З Канал 2 Зона КЛ: Превышение t1", "Links":{ "Arch":"4938"}},		
+{"ID":"62", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"121",  "NAME":"КЛ Грач - Бутово 1 ф.З Канал 2 Зона КЛ: Превышение t2", "Links":{ "Arch":"4938"}},		
+{"ID":"63", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"57",  "NAME":"КЛ Грач - Бутово 1 ф.З Канал 2 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4938"}},		
+{"ID":"64", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"55",  "NAME":"КЛ Грач - Бутово 1 ф.К Канал 3 Зона КЛ: Превышение t1", "Links":{ "Arch":"4938"}},		
+{"ID":"65", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"122",  "NAME":"КЛ Грач - Бутово 1 ф.К Канал 3 Зона КЛ: Превышение t2", "Links":{ "Arch":"4938"}},		
+{"ID":"66", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"58",  "NAME":"КЛ Грач - Бутово 1 ф.К Канал 3 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4938"}},		
+{"ID":"67", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"59",  "NAME":"КЛ Грач - Бутово 2 ф.Ж Канал 4 Зона КЛ: Превышение t1", "Links":{ "Arch":"4938"}},		
+{"ID":"68", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"123",  "NAME":"КЛ Грач - Бутово 2 ф.Ж Канал 4 Зона КЛ: Превышение t2", "Links":{ "Arch":"4938"}},		
+{"ID":"69", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"62",  "NAME":"КЛ Грач - Бутово 2 ф.Ж Канал 4 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4938"}},		
+{"ID":"70", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"60",  "NAME":"КЛ Грач - Бутово 2 ф.З Канал 5 Зона КЛ: Превышение t1", "Links":{ "Arch":"4938"}},		
+{"ID":"71", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"124",  "NAME":"КЛ Грач - Бутово 2 ф.З Канал 5 Зона КЛ: Превышение t2", "Links":{ "Arch":"4938"}},		
+{"ID":"72", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"63",  "NAME":"КЛ Грач - Бутово 2 ф.З Канал 5 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4938"}},		
+{"ID":"73", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"61",  "NAME":"КЛ Грач - Бутово 2 ф.К Канал 6 Зона КЛ: Превышение t1", "Links":{ "Arch":"4938"}},		
+{"ID":"74", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"125",  "NAME":"КЛ Грач - Бутово 2 ф.К Канал 6 Зона КЛ: Превышение t2", "Links":{ "Arch":"4938"}},		
+{"ID":"75", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"64",  "NAME":"КЛ Грач - Бутово 2 ф.К Канал 6 Зона КЛ: Обрыв линии", "Links":{ "Arch":"4938"}},	
+
+{"ID":"76", "TypeTele":"TS",  "TypeAlarm":"Warning",  "InvertTS":true, "VER":"General", "IOA":"102",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Работа вход 1", "Links":{ "Arch":"4938"}},		
+{"ID":"77", "TypeTele":"TS",  "TypeAlarm":"Warning",  "InvertTS":true, "VER":"General", "IOA":"103",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Работа вход 2", "Links":{ "Arch":"4938"}},		
+{"ID":"78", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"104",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Отсутствует U вход 1", "Links":{ "Arch":"4938"}},		
+{"ID":"79", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"105",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Отсутствует U вход 2", "Links":{ "Arch":"4938"}},		
+{"ID":"80", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"106",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Неисправность АКБ", "Links":{ "Arch":"4938"}},		
+{"ID":"81", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "InvertTS":true, "VER":"General", "IOA":"107",  "NAME":"Шкаф СМТ Топаз PSC24 (1) Связь с модулем", "Links":{ "Arch":"4938"}},		
+{"ID":"82", "TypeTele":"TS",  "TypeAlarm":"Warning",  "InvertTS":true, "VER":"General", "IOA":"108",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Работа вход 1", "Links":{ "Arch":"4938"}},		
+{"ID":"83", "TypeTele":"TS",  "TypeAlarm":"Warning",  "InvertTS":true, "VER":"General", "IOA":"109",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Работа вход 2", "Links":{ "Arch":"4938"}},		
+{"ID":"84", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"110",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Отсутствует U вход 1", "Links":{ "Arch":"4938"}},		
+{"ID":"85", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"111",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Отсутствует U вход 2", "Links":{ "Arch":"4938"}},		
+{"ID":"86", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"112",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Неисправность АКБ", "Links":{ "Arch":"4938"}},		
+{"ID":"87", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "InvertTS":true, "VER":"General", "IOA":"113",  "NAME":"Шкаф СМТ Топаз PSC24 (2) Связь с модулем", "Links":{ "Arch":"4938"}},		
+{"ID":"88", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"114",  "NAME":"Шкаф СМТ Топаз Отсутствие выхода БП1", "Links":{ "Arch":"4938"}},		
+{"ID":"89", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"115",  "NAME":"Шкаф СМТ Топаз Отсутствие выхода БП2", "Links":{ "Arch":"4938"}},		
+{"ID":"90", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"116",  "NAME":"Шкаф СМТ Топаз Работа от АКБ", "Links":{ "Arch":"4938"}},		
+{"ID":"91", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"117",  "NAME":"Шкаф СМТ Топаз Сбой системы Термоконтроля", "Links":{ "Arch":"4938"}},		
+{"ID":"92", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"101",  "NAME":"Шкаф СМТ Топаз Дверь шкафа", "Links":{ "Arch":"4938"}},		
+
+{"ID":"93",  "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1210", "NAME":"Шкаф СМТ Топаз T в месте установки блока термом.", "Links":{ "Arch":"4938"}},
+{"ID":"94",  "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1113", "NAME":"КЛ Грач - Бутово 1 ф.Ж Канал 1 Зона КЛ: t макс., С", "Links":{ "Arch":"4938"}},		
+{"ID":"95",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1116", "NAME":"КЛ Грач - Бутово 1 ф.Ж Канал 1 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4938"}},		
+{"ID":"96",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1119", "NAME":"КЛ Грач - Бутово 1 ф.Ж Канал 1 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4938"}},		
+{"ID":"97",  "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1114", "NAME":"КЛ Грач - Бутово 1 ф.З Канал 2 Зона КЛ: t макс., С", "Links":{ "Arch":"4938"}},		
+{"ID":"98",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1117", "NAME":"КЛ Грач - Бутово 1 ф.З Канал 2 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4938"}},		
+{"ID":"99",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1120", "NAME":"КЛ Грач - Бутово 1 ф.З Канал 2 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4938"}},		
+{"ID":"100",  "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1115", "NAME":"КЛ Грач - Бутово 1 ф.К Канал 3 Зона КЛ: t макс., С", "Links":{ "Arch":"4938"}},		
+{"ID":"101",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1118", "NAME":"КЛ Грач - Бутово 1 ф.К Канал 3 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4938"}},		
+{"ID":"102",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1121", "NAME":"КЛ Грач - Бутово 1 ф.К Канал 3 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4938"}},		
+{"ID":"103",  "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1122", "NAME":"КЛ Грач - Бутово 2 ф.Ж Канал 4 Зона КЛ: t макс., С", "Links":{ "Arch":"4938"}},		
+{"ID":"104",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1125", "NAME":"КЛ Грач - Бутово 2 ф.Ж Канал 4 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4938"}},		
+{"ID":"105",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1128", "NAME":"КЛ Грач - Бутово 2 ф.Ж Канал 4 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4938"}},		
+{"ID":"106",  "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1123", "NAME":"КЛ Грач - Бутово 2 ф.З Канал 5 Зона КЛ: t макс., С", "Links":{ "Arch":"4938"}},		
+{"ID":"107",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1126", "NAME":"КЛ Грач - Бутово 2 ф.З Канал 5 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4938"}},		
+{"ID":"108",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1129", "NAME":"КЛ Грач - Бутово 2 ф.З Канал 5 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4938"}},		
+{"ID":"109",  "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1124", "NAME":"КЛ Грач - Бутово 2 ф.К Канал 6 Зона КЛ: t макс., С", "Links":{ "Arch":"4938"}},		
+{"ID":"110",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1127", "NAME":"КЛ Грач - Бутово 2 ф.К Канал 6 Зона КЛ: расстояние до t макс., м", "Links":{ "Arch":"4938"}},		
+{"ID":"111",  "Mes":"m", "TypeTele":"TM", "VER":"General", "IOA":"1130", "NAME":"КЛ Грач - Бутово 2 ф.К Канал 6 Зона КЛ: расстояние до обрыва, м", "Links":{ "Arch":"4938"}},	
+
+{"ID":"112",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1201",  "NAME":"Шкаф СМТ Топаз PSC24 (1) U вход.1", "Links":{ "Arch":"4938"}},		
+{"ID":"113",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1202",  "NAME":"Шкаф СМТ Топаз PSC24 (1) U вход.2", "Links":{ "Arch":"4938"}},		
+{"ID":"114",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1203",  "NAME":"Шкаф СМТ Топаз PSC24 (1) U вход АКБ", "Links":{ "Arch":"4938"}},		
+{"ID":"115",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1204",  "NAME":"Шкаф СМТ Топаз PSC24 (1) U выход.1", "Links":{ "Arch":"4938"}},		
+{"ID":"116",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1205",  "NAME":"Шкаф СМТ Топаз PSC24 (1) U выход.2", "Links":{ "Arch":"4938"}},		
+{"ID":"117",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1206",  "NAME":"Шкаф СМТ Топаз PSC24 (2) U вход.1", "Links":{ "Arch":"4938"}},		
+{"ID":"118",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1207",  "NAME":"Шкаф СМТ Топаз PSC24 (2) U вход.2", "Links":{ "Arch":"4938"}},		
+{"ID":"119",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1208",  "NAME":"Шкаф СМТ Топаз PSC24 (2) U выход.1", "Links":{ "Arch":"4938"}},		
+{"ID":"120",  "Mes":"V", "TypeTele":"TM", "VER":"General", "IOA":"1209",  "NAME":"Шкаф СМТ Топаз PSC24 (2) U выход.2", "Links":{ "Arch":"4938"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8512",	"NAME":"Термометрия Бутово-Грач 1,2(TOPAZ)}"}
+		]}
+}
+

@@ -1,0 +1,43 @@
+{
+   "Configuration": {"Type":"RealTime", "Version":1001, "Port":4029},
+	"Title": {"FullName":"ПС Марфино КЛ 220кВ", "MinName":"ПС Марфино"},
+	"Info": {"ID":"RT855S2", "Type":"RealTime", "Location":"ПС855/Шкаф№67/БОД[******]/МТ", "NameMin":"ПС855 МТ RT", "NameMax":"Модуль RT ПС 855"},
+	"Profiles" : 
+	[
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":233},
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":234},
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":235}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4001"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+    "Channels":
+    [
+		{ "ID": 233,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Марфино Марфино - Свиблово 2 Марфино-Свиблово 2 Фаза Ж" , "LINK_CHANNEL_ID": 233, "H":90, "COLOUR":"orange", "AxisXmin":-60 , "AxisXmax":183, 
+		"Segments":
+		[
+			{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3223, "NAME": "ПТС2-КМ", "BEGIN":-60, "END":0, "SORT":0},
+			{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3224, "NAME": "КМ-Конец КЛ", "BEGIN":0, "END":183, "SORT":1}
+		]
+	},
+	{ "ID": 234,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Марфино Марфино - Свиблово 2 Марфино-Свиблово 2 Фаза З" , "LINK_CHANNEL_ID": 234, "H":90, "COLOUR":"green", "AxisXmin":-53 , "AxisXmax":183, 
+		"Segments":
+		[
+			{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3225, "NAME": "ПТС2-КМ", "BEGIN":-53, "END":0, "SORT":0},
+			{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3226, "NAME": "КМ-Конец КЛ", "BEGIN":0, "END":183, "SORT":1}
+		]
+	},
+	{ "ID": 235,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Марфино Марфино - Свиблово 2 Марфино-Свиблово 2 Фаза К" , "LINK_CHANNEL_ID": 235, "H":90, "COLOUR":"red", "AxisXmin":-57 , "AxisXmax":183, 
+		"Segments":
+		[
+			{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3227, "NAME": "ПТС2-КМ", "BEGIN":-57, "END":0, "SORT":0},
+			{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3228, "NAME": "КМ-Конгец КЛ", "BEGIN":0, "END":183, "SORT":1}
+		]
+	}
+
+	
+    ]
+}

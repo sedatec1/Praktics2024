@@ -1,0 +1,30 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":5303, "W":1405, "H":420},
+	"Title": {"FullName":"ПС 857 Никулино КЛ 220кВ", "MinName":"ПС Никулино"},
+	"Info": {"ID":"PS857", "Type":"Dispatching", "Location":"ПС857/Шкаф№72/БОД[******]/МТ", "NameMin":"ПС857 МТ Дисп", "NameMax":"Модуль Дисп ПС 857"},
+	"AceptFrom":["DISP857VN","DISP857MT","DISP857ASU","DISP857DC","DISP857WT"],
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP857"}
+	],
+"Coord":"PS857",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "10.16.18.33", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "10.16.18.33", "Port" : "4004"},
+		 {"TypeLink" : "Home", "IP" : "10.16.18.33", "Port" : "4004"},
+		 {"TypeLink" : "dbTables", "Port" : "3900"},
+		 {"TypeLink" : "Gallery",  "Port" : "5377"}
+	],
+	"TELE":
+	[
+		{"ID":20, "VER":"Label",   	"X":0, 	"Y":0, 	"H":155,    "W":465, "NAME":"КЛ 220кв Очаково - Никулино 1, Очаково - Никулино 2"},
+
+		{"ID":1, "VER":"GSV1000",	"ID_Program":"GS857",   "LINK_TELE_ID":"DISP857MT", 	"X":5, 	 "Y":50,    "W":455, "NAME":"Система мониторинга температуры (ПТС-1500)", "Link":"5301"},
+		{"ID":12, "VER":"GSV1000",	"ID_Program":"GS857", 	"LINK_TELE_ID":"DISP857ASU", 	"X":925, "Y":215, 	"W":455, "NAME":"Система АСУ ТП и ТМ ПС Никулино", "Link":"5305"},
+		{"ID":13, "VER":"GSV1000",	"ID_Program":"GS857", 	"LINK_TELE_ID":"DISP857VN", 	"X":5, 	 "Y":320, 	"W":455, "NAME":"Система контроля ёмкости и тангенса δ ВВ вводов Т1-Т4", "Link":"5306"},
+		{"ID":14, "VER":"GSV1000",	"ID_Program":"GS857", 	"LINK_TELE_ID":"DISP857DC", 	"X":5, 	 "Y":215, 	"W":455, "NAME":"Система мониторинга сети постоянного тока", "Link":"5307"},
+		{"ID":15, "VER":"GSV1000",	"ID_Program":"GS857", 	"LINK_TELE_ID":"DISP857WT", 	"X":465, "Y":215, 	"W":455, "NAME":"Система мониторинга темп. обмоток ТСН1, ТСН2, РТСН", "Link":"5308"}
+	]
+}

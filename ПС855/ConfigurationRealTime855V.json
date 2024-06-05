@@ -1,0 +1,113 @@
+{
+   "Configuration": {"Type":"RealTime", "Version":1001, "Port":4030},
+	"Title": {"FullName":"ПС Марфино КЛ 220кВ", "MinName":"ПС Марфино"},
+	"Info": {"ID":"RT855V", "Type":"RealTime", "Location":"ПС855/Шкаф№67/БОД[******]/МТ", "NameMin":"ПС855 МТ RT", "NameMax":"Модуль RT ПС 855"},
+	"Profiles" : 
+	[
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":227},
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":228},
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":229}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "localhost", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "localhost", "Port" : "4002"},
+		 {"TypeLink" : "Home", "IP" : "localhost", "Port" : "4004"}
+	],
+    "Channels":
+	[
+		{ "ID": 227,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Марфино Марфино-Владыкино Марфино-Владыкино Фаза Ж" , "LINK_CHANNEL_ID": 227, "H":90, "COLOUR":"orange", "AxisXmin":-74 , "AxisXmax":2916, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3062, "NAME": "ПТС-1000-КМ", "BEGIN":-74, "END":0, "SORT":1},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3068, "NAME": "КМ-ПС", "BEGIN":0, "END":22, "SORT":2},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3069, "NAME": "ПС-ГНБ1", "BEGIN":22, "END":200, "SORT":3},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3070, "NAME": "ГНБ1", "BEGIN":200, "END":305, "SORT":4},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3081, "NAME": "ГНБ1-ТТ1", "BEGIN":305, "END":332, "SORT":5},
+				{"COLOUR":"rgba(0, 97, 98, 0.2)", "SEGMENT_ID": 3082, "NAME": "ТТ1", "BEGIN":332, "END":356, "SORT":6},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3071, "NAME": "ТТ1-М1", "BEGIN":356, "END":469, "SORT":7},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3072, "NAME": "М1", "BEGIN":469, "END":478, "SORT":8},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3073, "NAME": "М1-М2", "BEGIN":478, "END":914, "SORT":9},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3074, "NAME": "М2", "BEGIN":914, "END":923, "SORT":10},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3075, "NAME": "М2-М3", "BEGIN":923, "END":1403, "SORT":11},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3076, "NAME": "М3", "BEGIN":1403, "END":1412, "SORT":12},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3077, "NAME": "М3-ГНБ2", "BEGIN":1412, "END":1492, "SORT":13},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3078, "NAME": "ГНБ2", "BEGIN":1492, "END":1606, "SORT":14},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3079, "NAME": "ГНБ2-ГНБ3", "BEGIN":1606, "END":1723, "SORT":15},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3080, "NAME": "ГНБ3", "BEGIN":1723, "END":1856, "SORT":16},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3083, "NAME": "ГНБ3-М4", "BEGIN":1856, "END":1880.6, "SORT":17},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3084, "NAME": "М4", "BEGIN":1880.6, "END":1889.4, "SORT":18},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3085, "NAME": "М4-М5", "BEGIN":1889.4, "END":2313, "SORT":19},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3086, "NAME": "М5", "BEGIN":2313, "END":2322, "SORT":20},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3087, "NAME": "М5-ГНБ4", "BEGIN":2322, "END":2635, "SORT":21},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3088, "NAME": "ГНБ4", "BEGIN":2635, "END":2687, "SORT":22},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3089, "NAME": "ГНБ4-ГНБ5", "BEGIN":2687, "END":2701, "SORT":23},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3090, "NAME": "ГНБ5", "BEGIN":2701, "END":2859, "SORT":24},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3091, "NAME": "ГНБ5-М6", "BEGIN":2859, "END":2889, "SORT":25},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3092, "NAME": "М6", "BEGIN":2889, "END":2916, "SORT":26}
+			]
+		},
+		{ "ID": 228,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Марфино Марфино-Владыкино Марфино-Владыкино Фаза З" , "LINK_CHANNEL_ID": 228, "H":90, "COLOUR":"green", "AxisXmin":-74 , "AxisXmax":2916, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3093, "NAME": "ПТС-1000-КМ", "BEGIN":-74, "END":0, "SORT":1},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3094, "NAME": "КМ-ПС", "BEGIN":0, "END":22, "SORT":2},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3095, "NAME": "ПС-ГНБ1", "BEGIN":22, "END":200, "SORT":3},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3096, "NAME": "ГНБ1", "BEGIN":200, "END":305, "SORT":4},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3097, "NAME": "ГНБ1-ТТ1", "BEGIN":305, "END":332, "SORT":5},
+				{"COLOUR":"rgba(0, 97, 98, 0.2)", "SEGMENT_ID": 3098, "NAME": "ТТ1", "BEGIN":332, "END":356, "SORT":6},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3099, "NAME": "ТТ1-М1", "BEGIN":356, "END":469, "SORT":7},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3100, "NAME": "М1", "BEGIN":469, "END":478, "SORT":8},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3101, "NAME": "М1-М2", "BEGIN":478, "END":914, "SORT":9},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3102, "NAME": "М2", "BEGIN":914, "END":923, "SORT":10},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3103, "NAME": "М2-М3", "BEGIN":923, "END":1403, "SORT":11},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3104, "NAME": "М3", "BEGIN":1403, "END":1412, "SORT":12},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3105, "NAME": "М3-ГНБ2", "BEGIN":1412, "END":1492, "SORT":13},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3106, "NAME": "ГНБ2", "BEGIN":1492, "END":1606, "SORT":14},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3107, "NAME": "ГНБ2-ГНБ3", "BEGIN":1606, "END":1723, "SORT":15},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3108, "NAME": "ГНБ3", "BEGIN":1723, "END":1856, "SORT":16},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3109, "NAME": "ГНБ3-М4", "BEGIN":1856, "END":1880.6, "SORT":17},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3110, "NAME": "М4", "BEGIN":1880.6, "END":1889.4, "SORT":18},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3111, "NAME": "М4-М5", "BEGIN":1889.4, "END":2313, "SORT":19},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3112, "NAME": "М5", "BEGIN":2313, "END":2322, "SORT":20},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3113, "NAME": "М5-ГНБ4", "BEGIN":2322, "END":2635, "SORT":21},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3114, "NAME": "ГНБ4", "BEGIN":2635, "END":2687, "SORT":22},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3115, "NAME": "ГНБ4-ГНБ5", "BEGIN":2687, "END":2701, "SORT":23},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3116, "NAME": "ГНБ5", "BEGIN":2701, "END":2859, "SORT":24},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3117, "NAME": "ГНБ5-М6", "BEGIN":2859, "END":2889, "SORT":25},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3118, "NAME": "М6", "BEGIN":2889, "END":2916, "SORT":26}
+			]
+		},
+		{ "ID": 229,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС-Марфино Марфино-Владыкино Марфино-Владыкино Фаза К" , "LINK_CHANNEL_ID": 229, "H":90, "COLOUR":"red", "AxisXmin":-74 , "AxisXmax":2916, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3119, "NAME": "ПТС-1000-КМ", "BEGIN":-74, "END":0, "SORT":1},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3120, "NAME": "КМ-ПС", "BEGIN":0, "END":22, "SORT":2},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3121, "NAME": "ПС-ГНБ1", "BEGIN":22, "END":200, "SORT":3},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3122, "NAME": "ГНБ1", "BEGIN":200, "END":305, "SORT":4},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3123, "NAME": "ГНБ1-ТТ1", "BEGIN":305, "END":332, "SORT":5},
+				{"COLOUR":"rgba(0, 97, 98, 0.2)", "SEGMENT_ID": 3124, "NAME": "ТТ1", "BEGIN":332, "END":356, "SORT":6},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3125, "NAME": "ТТ1-М1", "BEGIN":356, "END":469, "SORT":7},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3126, "NAME": "М1", "BEGIN":469, "END":478, "SORT":8},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3127, "NAME": "М1-М2", "BEGIN":478, "END":914, "SORT":9},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3128, "NAME": "М2", "BEGIN":914, "END":923, "SORT":10},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3129, "NAME": "М2-М3", "BEGIN":923, "END":1403, "SORT":11},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3130, "NAME": "М3", "BEGIN":1403, "END":1412, "SORT":12},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3131, "NAME": "М3-ГНБ2", "BEGIN":1412, "END":1492, "SORT":13},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3132, "NAME": "ГНБ2", "BEGIN":1492, "END":1606, "SORT":14},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3133, "NAME": "ГНБ2-ГНБ3", "BEGIN":1606, "END":1723, "SORT":15},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3134, "NAME": "ГНБ3", "BEGIN":1723, "END":1856, "SORT":16},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3135, "NAME": "ГНБ3-М4", "BEGIN":1856, "END":1880.6, "SORT":17},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3136, "NAME": "М4", "BEGIN":1880.6, "END":1889.4, "SORT":18},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3137, "NAME": "М4-М5", "BEGIN":1889.4, "END":2313, "SORT":19},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3138, "NAME": "М5", "BEGIN":2313, "END":2322, "SORT":20},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3139, "NAME": "М5-ГНБ4", "BEGIN":2322, "END":2635, "SORT":21},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3140, "NAME": "ГНБ4", "BEGIN":2635, "END":2687, "SORT":22},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3141, "NAME": "ГНБ4-ГНБ5", "BEGIN":2687, "END":2701, "SORT":23},
+				{"COLOUR":"rgba(0, 30, 98, 0.2)", "SEGMENT_ID": 3142, "NAME": "ГНБ5", "BEGIN":2701, "END":2859, "SORT":24},
+				{"COLOUR":"rgba(5, 73, 0, 0.2)", "SEGMENT_ID": 3143, "NAME": "ГНБ5-М6", "BEGIN":2859, "END":2889, "SORT":25},
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 3144, "NAME": "М6", "BEGIN":2889, "END":2916, "SORT":26}
+			]
+		}
+	]
+}

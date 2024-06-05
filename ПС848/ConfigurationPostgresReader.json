@@ -1,0 +1,4 @@
+{
+	"Configuration": {"Type":"DBRead", "Version":1001, "Port":5432, "DivideByYear": true},
+	"DB": { "ID":1, "Host":"10.16.18.34", "NameDB":"archive_sedatec_data", "User":"sedatec", "Password":"sedatec" }
+}

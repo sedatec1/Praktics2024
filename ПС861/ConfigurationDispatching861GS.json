@@ -1,0 +1,34 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":5003, "W":1405, "H":420},
+	"Title": {"FullName":"ПС 861 Парковая КЛ 220кВ", "MinName":"ПС Парковая"},
+	"Info": {"ID":"PS861", "Type":"Dispatching", "Location":"ПС861/Шкаф№58/БОД[******]/МТ", "NameMin":"ПС861 МТ Дисп", "NameMax":"Модуль Дисп ПС 861"},
+	"AceptFrom":["DISP861DC2","DISP861TM","DISP861MT","DISP861MT2","DISP861ASU","DISP861WT", "DISP861DC1"],
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP861"}
+	],
+"Coord":"PS861",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.159", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.159", "Port" : "4004"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.159", "Port" : "4004"},
+		 {"TypeLink" : "dbTables", "Port" : "3900"},
+		 {"TypeLink" : "Gallery",  "Port" : "5077"}
+	],
+	"TELE":
+	[
+		{"ID":20, "VER":"Label",   	"X":0, 	"Y":0, 	"H":155,    "W":465, "NAME":"КВЛ 220кв Парковая - Гольяново 1, Парковая - Гольяново 2"},
+		{"ID":1, "VER":"GSV1000",	"ID_Program":"GS861",   "LINK_TELE_ID":"DISP861MT1", 	"X":5, 	 "Y":50,    "W":455, "NAME":"Система мониторинга температуры (ПТС-1000)", "Link":"5001"},
+		
+				{"ID":21, "VER":"Label",   	"X":475, 	"Y":0, 	"H":155,    "W":465, "NAME":"КЛ 220кв Баскаково - Парковая, Парковая - Восточная"},
+		{"ID":2, "VER":"GSV1000",	"ID_Program":"GS861",   "LINK_TELE_ID":"DISP861MT2", 	"X":480, "Y":50,    "W":455, "NAME":"Система мониторинга температуры (ПТС-1500)", "Link":"5002"},
+		
+		{"ID":12, "VER":"GSV1000",	"ID_Program":"GS861", 	"LINK_TELE_ID":"DISP861ASU", 	"X":925, "Y":215, 	"W":455, "NAME":"Система АСУ ТП и ТМ ПС Парковая", "Link":"5005"},
+		{"ID":14, "VER":"GSV1000",	"ID_Program":"GS861", 	"LINK_TELE_ID":"DISP861DC1", 	"X":5, 	 "Y":215, 	"W":455, "NAME":"Система мониторинга сети постоянного тока ЩПТ1", "Link":"5007"},
+		{"ID":15, "VER":"GSV1000",	"ID_Program":"GS861", 	"LINK_TELE_ID":"DISP861TM", 	"X":465, "Y":215, 	"W":455, "NAME":"Телемеханика Баскаково-Парковая,Парковая-Восточная", "Link":"5008"},
+		{"ID":16, "VER":"GSV1000",	"ID_Program":"GS861", 	"LINK_TELE_ID":"DISP861DC2", 	"X":5, 	 "Y":320, 	"W":455, "NAME":"Система мониторинга сети постоянного тока ЩПТ2", "Link":"5009"},
+		{"ID":17, "VER":"GSV1000",	"ID_Program":"GS861", 	"LINK_TELE_ID":"DISP861WT", 	"X":465, "Y":320, 	"W":455, "NAME":"Система мониторинга темп. обмоток ТСН1, ТСН2, РТСН", "Link":"5010"}
+	]
+}

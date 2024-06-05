@@ -1,0 +1,322 @@
+{
+    "Configuration": {"Type":"TeleinformationsProfiles", "Version":1001, "Port":3005},
+	"Info": {"ID":"TELEMT855", "Type":"Teleinformations", "Location":"ПС855/Шкаф№14/БОД[KSA2883126]/МТ", "NameMin":"ПС855 МТ Телеинформация", "NameMax":"Модуль расчёта телеинформации ПС 855 Термоконтроль"},
+	"ProfilesFiberOptics" : 
+	[
+		{"ID_Program" : "SEGMT855B", "ID":227},
+		{"ID_Program" : "SEGMT855B", "ID":228},
+		{"ID_Program" : "SEGMT855B", "ID":229},
+		{"ID_Program" : "SEGMT855B", "ID":230},
+		{"ID_Program" : "SEGMT855B", "ID":231},
+		{"ID_Program" : "SEGMT855B", "ID":232},
+		{"ID_Program" : "SEGMT855B", "ID":233},
+		{"ID_Program" : "SEGMT855B", "ID":234},
+		{"ID_Program" : "SEGMT855B", "ID":235},
+		{"ID_Program" : "SEGMT855B", "ID":11},
+		{"ID_Program" : "SEGMT855B", "ID":12},
+		{"ID_Program" : "SEGMT855B", "ID":13}
+	],
+	"StatusInterval":900,
+	"Profiles":
+	[
+		{ "ID": 227, "SysId":"MT2", "NAME": "ПС-Марфино Марфино-Владыкино Марфино-Владыкино Фаза Ж" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2541, "NAME": "ТИС 1", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2916,
+					 "TELE":
+					[
+						{ "ID":16132, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":16133, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":16136, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16137, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16138, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":16139, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2547, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-74, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16192, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16193, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16194, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16195, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16196, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":16197, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 228, "SysId":"MT2", "NAME": "ПС-Марфино Марфино-Владыкино Марфино-Владыкино Фаза З" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2542, "NAME": "ТИС 2", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2916,
+					 "TELE":
+					[
+						{ "ID":16140, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":16141, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":16144, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16145, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16146, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":16147, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2548, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-74, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16199, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":16200, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16201, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16202, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16203, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16204, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 229, "SysId":"MT2", "NAME": "ПС-Марфино Марфино-Владыкино Марфино-Владыкино Фаза К" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2543, "NAME": "ТИС 3", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2916,
+					 "TELE":
+					[
+						{ "ID":16148, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":16149, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":16152, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16153, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16154, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":16155, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2550, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-74, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16212, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":16213, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16214, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16215, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16216, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16217, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 230, "SysId":"MT2", "NAME": "ПС-Марфино Марфино - Свиблово 1 Марфино-Свиблово 1 Фаза Ж" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2544, "NAME": "ТИС 4", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2957,
+					 "TELE":
+					[
+						{ "ID":16156, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":16157, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":16160, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16161, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16162, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":16163, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2552, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-67, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16225, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":16226, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16227, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16228, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16229, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16230, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 231, "SysId":"MT2", "NAME": "ПС-Марфино Марфино - Свиблово 1 Марфино-Свиблово 1 Фаза З" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2545, "NAME": "ТИС 5", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2957,
+					 "TELE":
+					[
+						{ "ID":16164, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":16165, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":16168, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16169, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16170, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":16171, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2555, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-67, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16245, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":16246, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16247, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16248, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16249, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16250, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 232, "SysId":"MT2", "NAME": "ПС-Марфино Марфино - Свиблово 1 Марфино-Свиблово 1 Фаза К" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2546, "NAME": "ТИС 6", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2957,
+					 "TELE":
+					[
+						{ "ID":16172, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+						{ "ID":16173, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+						{ "ID":16176, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16177, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16178, "NAME":"Превышение аварийного предела (70°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":70},
+						{ "ID":16179, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+					]
+				},
+				{ "TELESEGMENT_ID": 2557, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-67, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16259, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+						{ "ID":16260, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16261, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16262, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16263, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16264, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 233, "SysId":"MT1", "NAME": "ПС-Марфино Марфино - Свиблово 2 Марфино-Свиблово 2 Фаза Ж" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2558, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-60, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16270, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16271, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16272, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16273, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16274, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":16275, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1}
+					]
+				},
+				{ "TELESEGMENT_ID": 2559, "NAME": "КЛ", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":183,
+					 "TELE":
+					[
+						{ "ID":16276, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16277, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16278, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16279, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16280, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":16281, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 234, "SysId":"MT1", "NAME": "ПС-Марфино Марфино - Свиблово 2 Марфино-Свиблово 2 Фаза З" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2560, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-53, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16282, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16283, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16284, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16285, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16286, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":16287, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1}
+					]
+				},
+				{ "TELESEGMENT_ID": 2561, "NAME": "КЛ", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":183,
+					 "TELE":
+					[
+						{ "ID":16288, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16289, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16290, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16291, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16292, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":16293, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1}
+					]
+				}
+			]
+		},
+		{ "ID": 235, "SysId":"MT1", "NAME": "ПС-Марфино Марфино - Свиблово 2 Марфино-Свиблово 2 Фаза К" , 
+			"TeleSegments":
+			[
+				{ "TELESEGMENT_ID": 2562, "NAME": "ПС", "isGS":false, "CONSTRUCTBEGIN":-57, "CONSTRUCTEND":0,
+					 "TELE":
+					[
+						{ "ID":16294, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16295, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16296, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16297, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16298, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":16299, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1}
+					]
+				},
+				{ "TELESEGMENT_ID": 2563, "NAME": "КЛ", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":183,
+					 "TELE":
+					[
+						{ "ID":16300, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+						{ "ID":16301, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+						{ "ID":16302, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+						{ "ID":16303, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60},
+						{ "ID":16304, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+						{ "ID":16305, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1}
+					]
+				}
+			]
+		},
+
+	{ "ID": 11, "SysId":"MT1", "NAME": "ПС Марфино Проходная 1 Фаза Ж" , 
+		"TeleSegments":
+		[
+			{ "TELESEGMENT_ID": 11, "NAME": "Телесегмент №4", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2000,
+				 "TELE":
+				[
+					{ "ID":92, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+					{ "ID":93, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+					{ "ID":94, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+					{ "ID":95, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+					{ "ID":96, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+					{ "ID":97, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+					{ "ID":98, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+					{ "ID":99, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+				]
+			}
+		]
+	},
+	{ "ID": 12, "SysId":"MT1", "NAME": "ПС Марфино Проходная 1 Фаза З" , 
+		"TeleSegments":
+		[
+			{ "TELESEGMENT_ID": 12, "NAME": "Телесегмент №5", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2000,
+				 "TELE":
+				[
+					{ "ID":100, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+					{ "ID":101, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+					{ "ID":102, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+					{ "ID":103, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+					{ "ID":104, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+					{ "ID":105, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+					{ "ID":106, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+					{ "ID":107, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+				]
+			}
+		]
+	},
+	{ "ID": 13, "SysId":"MT1", "NAME": "ПС Марфино Проходная 1 Фаза К" , 
+		"TeleSegments":
+		[
+			{ "TELESEGMENT_ID": 13, "NAME": "Телесегмент №6", "isGS":false, "CONSTRUCTBEGIN":0, "CONSTRUCTEND":2000,
+				 "TELE":
+				[
+					{ "ID":108, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":0},
+					{ "ID":109, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":0},
+					{ "ID":110, "NAME":"Максмимальная тепература", "TYPE_TELE":"MaxTemp", "SET":1},
+					{ "ID":111, "NAME":"Расстояние до макисмальной темпертуры", "TYPE_TELE":"MaxTempLocation", "SET":1},
+					{ "ID":112, "NAME":"Обрыв волокна", "TYPE_TELE":"FiberDamaged"},
+					{ "ID":113, "NAME":"Расстояние до обрыва волокна", "TYPE_TELE":"FiberDamageLocation"},
+					{ "ID":114, "NAME":"Превышение аварийного предела (80°C)", "TYPE_TELE":"HighTempAlarm", "LEVEL":80},
+					{ "ID":115, "NAME":"Превышение предупредительного предела (60°C)", "TYPE_TELE":"HighTempWarning", "LEVEL":60}
+				]
+			}
+		]
+	}
+	]
+
+}

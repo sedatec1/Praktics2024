@@ -1,0 +1,116 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4860, "W":825, "H":290},
+	"Title": {"FullName":"СМЧР Ваганьковская – Мневники", "MinName":"ПС Ваганьковская СМЧР", "SysName":"СМЧР"},
+	"Info": {"ID":"DISP848PDVaganMnevniki", "Type":"Dispatching", "Location":"ПС848//Сервер ЧР ПС Ваганьковская", "NameMin":"ПС848 ТП Дисп", "NameMax":"Система мониторинга частичных зарядов Ваганьковская-Мневники"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP848PD62"},
+		{"ID_Program" : "GS848/CHRVaganMnevniki"}
+	],
+
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4803"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+	"TELE":
+	[
+
+    {"ID":"20" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"700",  "Mes":"", "NAME":"NQNP СМЧР  Датчик ВЧДТ1", "Links":{ "Arch":"4838"}},
+    {"ID":"21" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"701",  "Mes":"", "NAME":"NQNP СМЧР  Датчик ВЧДТ2", "Links":{ "Arch":"4838"}},
+    {"ID":"22" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"702",  "Mes":"", "NAME":"NQNP СМЧР  Датчик ВЧДТ3", "Links":{ "Arch":"4838"}},
+    {"ID":"23" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"703",  "Mes":"", "NAME":"NQNP СМЧР  Датчик ВЧДТ4", "Links":{ "Arch":"4838"}},
+    {"ID":"24" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"704",  "Mes":"", "NAME":"NQNP СМЧР  Датчик ВЧДТ5", "Links":{ "Arch":"4838"}},
+    {"ID":"25" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"705",  "Mes":"", "NAME":"NQNP СМЧР  Датчик ВЧДТ6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"30" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"800",  "Mes":"", "NAME":"NQNN СМЧР  Датчик ВЧДТ1", "Links":{ "Arch":"4838"}},
+    {"ID":"31" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"801",  "Mes":"", "NAME":"NQNN СМЧР  Датчик ВЧДТ2", "Links":{ "Arch":"4838"}},
+    {"ID":"32" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"802",  "Mes":"", "NAME":"NQNN СМЧР  Датчик ВЧДТ3", "Links":{ "Arch":"4838"}},
+    {"ID":"33" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"803",  "Mes":"", "NAME":"NQNN СМЧР  Датчик ВЧДТ4", "Links":{ "Arch":"4838"}},
+    {"ID":"34" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"804",  "Mes":"", "NAME":"NQNN СМЧР  Датчик ВЧДТ5", "Links":{ "Arch":"4838"}},
+    {"ID":"35" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"805",  "Mes":"", "NAME":"NQNN СМЧР  Датчик ВЧДТ6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"40" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"400",  "Mes":"", "NAME":"QMP СМЧР  Датчик ВЧДТ1", "Links":{ "Arch":"4838"}},
+    {"ID":"41" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"401",  "Mes":"", "NAME":"QMP СМЧР  Датчик ВЧДТ2", "Links":{ "Arch":"4838"}},
+    {"ID":"42" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"402",  "Mes":"", "NAME":"QMP СМЧР  Датчик ВЧДТ3", "Links":{ "Arch":"4838"}},
+    {"ID":"43" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"403",  "Mes":"", "NAME":"QMP СМЧР  Датчик ВЧДТ4", "Links":{ "Arch":"4838"}},
+    {"ID":"44" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"404",  "Mes":"", "NAME":"QMP СМЧР  Датчик ВЧДТ5", "Links":{ "Arch":"4838"}},
+    {"ID":"45" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"405",  "Mes":"", "NAME":"QMP СМЧР  Датчик ВЧДТ6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"50" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"500",  "Mes":"", "NAME":"QMN СМЧР  Датчик ВЧДТ1", "Links":{ "Arch":"4838"}},
+    {"ID":"51" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"501",  "Mes":"", "NAME":"QMN СМЧР  Датчик ВЧДТ2", "Links":{ "Arch":"4838"}},
+    {"ID":"52" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"502",  "Mes":"", "NAME":"QMN СМЧР  Датчик ВЧДТ3", "Links":{ "Arch":"4838"}},
+    {"ID":"53" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"503",  "Mes":"", "NAME":"QMN СМЧР  Датчик ВЧДТ4", "Links":{ "Arch":"4838"}},
+    {"ID":"54" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"504",  "Mes":"", "NAME":"QMN СМЧР  Датчик ВЧДТ5", "Links":{ "Arch":"4838"}},
+    {"ID":"55" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"505",  "Mes":"", "NAME":"QMN СМЧР  Датчик ВЧДТ6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"60" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"100",  "Mes":"", "NAME":"Тревога СМЧР  Датчик ВЧДТ1", "Links":{ "Arch":"4838"}},
+    {"ID":"61" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"104",  "Mes":"", "NAME":"Тревога СМЧР  Датчик ВЧДТ2", "Links":{ "Arch":"4838"}},
+    {"ID":"62" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"108",  "Mes":"", "NAME":"Тревога СМЧР  Датчик ВЧДТ3", "Links":{ "Arch":"4838"}},
+    {"ID":"63" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"112",  "Mes":"", "NAME":"Тревога СМЧР  Датчик ВЧДТ4", "Links":{ "Arch":"4838"}},
+    {"ID":"64" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"116",  "Mes":"", "NAME":"Тревога СМЧР  Датчик ВЧДТ5", "Links":{ "Arch":"4838"}},
+    {"ID":"65" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"120",  "Mes":"", "NAME":"Тревога СМЧР  Датчик ВЧДТ6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"70" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"101",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик ВЧДТ1", "Links":{ "Arch":"4838"}},
+    {"ID":"71" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"105",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик ВЧДТ2", "Links":{ "Arch":"4838"}},
+    {"ID":"72" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"109",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик ВЧДТ3", "Links":{ "Arch":"4838"}},
+    {"ID":"73" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"113",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик ВЧДТ4", "Links":{ "Arch":"4838"}},
+    {"ID":"74" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"117",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик ВЧДТ5", "Links":{ "Arch":"4838"}},
+    {"ID":"75" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"121",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик ВЧДТ6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"120" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"706",  "Mes":"", "NAME":"NQNP СМЧР  Датчик АкД1", "Links":{ "Arch":"4838"}},
+    {"ID":"121" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"707",  "Mes":"", "NAME":"NQNP СМЧР  Датчик АкД2", "Links":{ "Arch":"4838"}},
+    {"ID":"122" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"708",  "Mes":"", "NAME":"NQNP СМЧР  Датчик АкД3", "Links":{ "Arch":"4838"}},
+    {"ID":"123" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"709",  "Mes":"", "NAME":"NQNP СМЧР  Датчик АкД4", "Links":{ "Arch":"4838"}},
+    {"ID":"124" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"710",  "Mes":"", "NAME":"NQNP СМЧР  Датчик АкД5", "Links":{ "Arch":"4838"}},
+    {"ID":"125" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"711",  "Mes":"", "NAME":"NQNP СМЧР  Датчик АкД6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"130" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"806",  "Mes":"", "NAME":"NQNN СМЧР  Датчик АкД1", "Links":{ "Arch":"4838"}},
+    {"ID":"131" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"807",  "Mes":"", "NAME":"NQNN СМЧР  Датчик АкД2", "Links":{ "Arch":"4838"}},
+    {"ID":"132" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"808",  "Mes":"", "NAME":"NQNN СМЧР  Датчик АкД3", "Links":{ "Arch":"4838"}},
+    {"ID":"133" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"809",  "Mes":"", "NAME":"NQNN СМЧР  Датчик АкД4", "Links":{ "Arch":"4838"}},
+    {"ID":"134" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"810",  "Mes":"", "NAME":"NQNN СМЧР  Датчик АкД5", "Links":{ "Arch":"4838"}},
+    {"ID":"135" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"811",  "Mes":"", "NAME":"NQNN СМЧР  Датчик АкД6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"140" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"406",  "Mes":"", "NAME":"QMP СМЧР  Датчик АкД1", "Links":{ "Arch":"4838"}},
+    {"ID":"141" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"407",  "Mes":"", "NAME":"QMP СМЧР  Датчик АкД2", "Links":{ "Arch":"4838"}},
+    {"ID":"142" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"408",  "Mes":"", "NAME":"QMP СМЧР  Датчик АкД3", "Links":{ "Arch":"4838"}},
+    {"ID":"143" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"409",  "Mes":"", "NAME":"QMP СМЧР  Датчик АкД4", "Links":{ "Arch":"4838"}},
+    {"ID":"144" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"410",  "Mes":"", "NAME":"QMP СМЧР  Датчик АкД5", "Links":{ "Arch":"4838"}},
+    {"ID":"145" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"411",  "Mes":"", "NAME":"QMP СМЧР  Датчик АкД6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"150" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"506",  "Mes":"", "NAME":"QMN СМЧР  Датчик АкД1", "Links":{ "Arch":"4838"}},
+    {"ID":"151" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"507",  "Mes":"", "NAME":"QMN СМЧР  Датчик АкД2", "Links":{ "Arch":"4838"}},
+    {"ID":"152" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"508",  "Mes":"", "NAME":"QMN СМЧР  Датчик АкД3", "Links":{ "Arch":"4838"}},
+    {"ID":"153" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"509",  "Mes":"", "NAME":"QMN СМЧР  Датчик АкД4", "Links":{ "Arch":"4838"}},
+    {"ID":"154" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"510",  "Mes":"", "NAME":"QMN СМЧР  Датчик АкД5", "Links":{ "Arch":"4838"}},
+    {"ID":"155" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"511",  "Mes":"", "NAME":"QMN СМЧР  Датчик АкД6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"160" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"124",  "Mes":"", "NAME":"Тревога СМЧР  Датчик АкД1", "Links":{ "Arch":"4838"}},
+    {"ID":"161" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"128",  "Mes":"", "NAME":"Тревога СМЧР  Датчик АкД2", "Links":{ "Arch":"4838"}},
+    {"ID":"162" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"132",  "Mes":"", "NAME":"Тревога СМЧР  Датчик АкД3", "Links":{ "Arch":"4838"}},
+    {"ID":"163" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"136",  "Mes":"", "NAME":"Тревога СМЧР  Датчик АкД4", "Links":{ "Arch":"4838"}},
+    {"ID":"164" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"140",  "Mes":"", "NAME":"Тревога СМЧР  Датчик АкД5", "Links":{ "Arch":"4838"}},
+    {"ID":"165" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"144",  "Mes":"", "NAME":"Тревога СМЧР  Датчик АкД6", "Links":{ "Arch":"4838"}},
+    
+    {"ID":"170" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"125",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик АкД1", "Links":{ "Arch":"4838"}},
+    {"ID":"171" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"129",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик АкД2", "Links":{ "Arch":"4838"}},
+    {"ID":"172" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"133",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик АкД3", "Links":{ "Arch":"4838"}},
+    {"ID":"173" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"137",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик АкД4", "Links":{ "Arch":"4838"}},
+    {"ID":"174" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"141",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик АкД5", "Links":{ "Arch":"4838"}},
+    {"ID":"175" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"145",  "Mes":"", "NAME":"Предупреждение СМЧР  Датчик АкД6", "Links":{ "Arch":"4838"}},
+
+    {"ID":"100" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"2002",  "Mes":"", "NAME":"UPSCharge", "Links":{ "Arch":"4838"}},
+    {"ID":"101" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"2000",  "Mes":"", "NAME":"PowerFailed", "Links":{ "Arch":"4838"}},
+    {"ID":"102" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"2003",  "Mes":"", "NAME":"LowCharge", "Links":{ "Arch":"4838"}},
+    {"ID":"103" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"2004",  "Mes":"", "NAME":"BatteryVoltage", "Links":{ "Arch":"4838"}},
+    {"ID":"105" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"2001",  "Mes":"", "NAME":"ReplaceBattery", "Links":{ "Arch":"4838"}},
+    {"ID":"5000" , "TYPE":"General", "ID_Program":"GS868/Data/CHRVaganMnevniki", "LINK_TELE_ID":"1",  "Mes":"", "NAME":"Связь со шкафом ЧР №62 сбой", "Links":{ "Arch":"4838"}}
+
+    ],
+    "ReqDataFromDB":{"Port":8081, "ReqData":[
+        {"ID":"848500",	"NAME":"СМЧР Ваганьковская-Мневники"}
+    ]}
+}

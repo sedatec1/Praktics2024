@@ -1,0 +1,56 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4813, "W":825, "H":290},
+	"Title": {"FullName":"Система телемеханики ТОР КЛ 220 кВ ТЭЦ-16 – Ваганьковская №2", "MinName":"ПС Ваганьковская Телемеханика", "SysName":"Система телемеханики ТОР КЛ 220 кВ ТЭЦ-16"},
+	"Info": {"ID":"DISP848TM", "Subst":"848", "Type":"Dispatching", "Location":"ПС848/Сервер ТМ ПС Ваганьковская", "NameMin":"ПС848 ТП Дисп", "NameMax":"Модуль Дисп. ПС848 ТМ ПС Ваганьковская"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP848TM"},
+		{"ID_Program" : "GS848/TM"}
+	],
+	"Coord":"PS848",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4803"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Ваганьковская(848)/АСУТП",
+        "ASDU":50, "TOPIC_ID":18,  "IpList":["192.168.17.13:2404", "192.168.17.17:2404", "10.16.3.150:2613", "10.16.3.150:2611"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":18, "SysId":"TM", "DATA": [
+
+{"ID":"81", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"3009", "NAME":"РР КЛ 220 кВ ТЭЦ-16 – Ваганьковская №2 Включен", "Links":{ "Arch":"4838"}},
+
+{"ID":"83", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"3011", "NAME":"ЗН РР КЛ 220 кВ ТЭЦ-16 – Ваганьковская №2 в сторону реактора Включен", "Links":{ "Arch":"4838"}},
+
+{"ID":"85", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"3013", "NAME":"ЗН РР КЛ 220 кВ ТЭЦ-16 – Ваганьковская №2 в сторону КЛ Включен", "Links":{ "Arch":"4838"}},
+
+
+{"ID":"87", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"4025", "NAME":"РТЗО. Вызов на стойку", "Links":{ "Arch":"4838"}},
+{"ID":"88", "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General", "IOA":"4026", "NAME":"РТЗО. Работа АВР", "Links":{ "Arch":"4838"}},
+{"ID":"89", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"4027", "NAME":"Сработала охранная сигнализация", "Links":{ "Arch":"4838"}},
+{"ID":"90", "TypeTele":"TS",  "TypeAlarm":"Alarm", "VER":"General", "IOA":"4028", "NAME":"Сработала пожарная сигнализация", "Links":{ "Arch":"4838"}}
+	]}		
+		
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"84812",	"NAME":"Система телемеханики}"}
+		]}
+}
+

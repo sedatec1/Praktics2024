@@ -1,0 +1,71 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":5010, "W":825, "H":290},
+	"Title": {"FullName":"Система мониторинга температуры обмоток ТСН-7, ТСН-8, РТСН-9", "MinName":"ПС Парковая АСУ", "SysName":"Система мониторинга температуры обмоток ТСН1, ТСН2, РТСН"},
+	"Info": {"ID":"DISP861WT", "Subst":"861", "Type":"Dispatching", "Location":"ПС861/Сервер ТМ ПС Парковая", "NameMin":"ПС861  АСУ ТП Дисп", "NameMax":"Модуль Дисп. ПС 861 АСУ ТМ ПС Парковая"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP861WT"},
+		{"ID_Program" : "GS861/WT"}
+	],
+"Coord":"PS861",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "5003"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Парковая(861)/АСУТП",
+        "ASDU":205, "TOPIC_ID":7,  "IpList":["10.140.2.11:2404", "10.140.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":7, "SysId":"WT", "DATA": [
+
+{"ID":"617", "TypeTele":"TSD", "VER":"General", "IOA":"5465", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Включен вентилятор", "Links":{ "Arch":"5038"}},
+{"ID":"618", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5467", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Требуется аварийное отключение", "Links":{ "Arch":"5038"}},
+{"ID":"619", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5468", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Неисправность приб. контроля", "Links":{ "Arch":"5038"}},
+{"ID":"620", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"5469", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Включ.вентилятора в руч.режиме", "Links":{ "Arch":"5038"}},
+{"ID":"621", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"5466", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Температура больше 155 град.", "Links":{ "Arch":"5038"}},
+{"ID":"622", "TypeTele":"TSD", "VER":"General", "IOA":"5471", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Включен вентилятор", "Links":{ "Arch":"5038"}},
+{"ID":"623", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"5472", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Температура больше 155 град.", "Links":{ "Arch":"5038"}},
+{"ID":"624", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5473", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Требуется аварийное отключение", "Links":{ "Arch":"5038"}},
+{"ID":"625", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5474", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Неисправность приб. контроля", "Links":{ "Arch":"5038"}},
+{"ID":"626", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"5475", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Включ.вентилятора в руч.режиме", "Links":{ "Arch":"5038"}},
+{"ID":"627", "TypeTele":"TSD", "VER":"General", "IOA":"5477", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Включен вентилятор", "Links":{ "Arch":"5038"}},
+{"ID":"628", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"5478", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Температура больше 125 град.", "Links":{ "Arch":"5038"}},
+{"ID":"629", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5479", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Требуется аварийное отключение", "Links":{ "Arch":"5038"}},
+{"ID":"630", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5480", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Неисправность приб. контроля", "Links":{ "Arch":"5038"}},
+{"ID":"631", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"5481", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Включ.вентилятора в руч.режиме", "Links":{ "Arch":"5038"}},
+{"ID":"632", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1189", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Температура обмотки ф.А", "Links":{ "Arch":"5038"}},
+{"ID":"633", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1190", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Температура обмотки ф.В", "Links":{ "Arch":"5038"}},
+{"ID":"634", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1191", "NAME":" ЩСН-0,4 кВ ТСН-7   QUALITROL Температура обмотки ф.С", "Links":{ "Arch":"5038"}},
+{"ID":"635", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1192", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Температура обмотки ф.А", "Links":{ "Arch":"5038"}},
+{"ID":"636", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1193", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Температура обмотки ф.В", "Links":{ "Arch":"5038"}},
+{"ID":"637", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1194", "NAME":" ЩСН-0,4 кВ ТСН-8   QUALITROL Температура обмотки ф.С", "Links":{ "Arch":"5038"}},
+{"ID":"638", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1195", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Температура обмотки ф.А", "Links":{ "Arch":"5038"}},
+{"ID":"639", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1196", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Температура обмотки ф.В", "Links":{ "Arch":"5038"}},
+{"ID":"640", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1197", "NAME":" ЩСН-0,4 кВ РТСН-9  QUALITROL Температура обмотки ф.С", "Links":{ "Arch":"5038"}},
+{"ID":"641", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5470", "NAME":" ЩСН-0,4 кВ ТСН-7  QUALITROL Связь с прибором контроля", "Links":{ "Arch":"5038"}},
+{"ID":"642", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5476", "NAME":" ЩСН-0,4 кВ ТСН-8  QUALITROL Связь с прибором контроля", "Links":{ "Arch":"5038"}},
+{"ID":"643", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"5482", "NAME":" ЩСН-0,4 кВ ТСН-9  QUALITROL Связь с прибором контроля", "Links":{ "Arch":"5038"}}
+    ]}
+
+],
+    "ReqDataFromDB":{"Port":8081, "ReqData":[
+        {"ID":"8616",	"NAME":"Система мониторинга темп. обмоток ТСН1, ТСН2, РТСН}"}
+        ]}
+}

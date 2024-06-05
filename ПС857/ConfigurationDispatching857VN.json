@@ -1,0 +1,145 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":5306, "W":825, "H":290},
+	"Title": {"FullName":"Система диагностики ВН вводов трансформаторов Т1, Т2, Т3, Т4 (Intego TM3)", "MinName":"ПС Никулино ВН 3", "SysName":"Система диагностики ВН вводов трансформаторов Т1, Т2 (Intego TM3)"},
+	"Info": {"ID":"DISP857VN", "Subst":"857", "Type":"Dispatching", "Location":"ПС857/Сервер ТМ ПС Никулино", "NameMin":"ПС857 ТП Дисп", "NameMax":"Модуль Дисп. ПС857 ТМ ПС Никулино"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP857VN"},
+		{"ID_Program" : "GS857/VN"}
+	],
+"Coord":"PS857",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "5303"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Никулино(857)/АСУТП",
+        "ASDU":244, "TOPIC_ID":4,  "IpList":["192.168.7.91:2404", "192.168.7.92:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":4, "SysId":"VN", "DATA": [
+
+{"ID":44,  "Mes":"А-", "TypeTele":"TM",     "VER":"General", "IOA":"1007",  "NAME":"ПС857 220кВ Т-1     Intego Ток нагрузки", "Links":{ "Arch":"5338"}},
+{"ID":45,  "Mes":"°C", "TypeTele":"TM",     "VER":"General", "IOA":"1008",  "NAME":"ПС857 220кВ Т-1     Intego Температура окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":46,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1009",   "NAME":"ПС857 220кВ Т-1     Intego Отн. емкость ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":47,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1010",   "NAME":"ПС857 220кВ Т-1     Intego Отн. емкость ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":48,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1011",   "NAME":"ПС857 220кВ Т-1     Intego Отн. емкость ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":49,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1012",   "NAME":"ПС857 220кВ Т-1     Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":50,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1013",   "NAME":"ПС857 220кВ Т-1     Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":51,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1014",   "NAME":"ПС857 220кВ Т-1     Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":52,  "Mes":"%", "TypeTele":"TM",     "VER":"General", "IOA":"1015",   "NAME":"ПС857 220кВ Т-1     Intego Влажность окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":53,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1016",   "NAME":"ПС857 220кВ Т-1     Intego Уровень ЧР ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":54,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1017",   "NAME":"ПС857 220кВ Т-1     Intego Уровень ЧР ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":55,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1018",   "NAME":"ПС857 220кВ Т-1     Intego Уровень ЧР ф.С1", "Links":{ "Arch":"5338"}},
+{"ID":56,  "Mes":"А", "TypeTele":"TM",     "VER":"General", "IOA":"1019",   "NAME":"ПС857 220кВ Т-2     Intego Ток нагрузки", "Links":{ "Arch":"5338"}},
+{"ID":57,  "Mes":"°C", "TypeTele":"TM",     "VER":"General", "IOA":"1020",  "NAME":"ПС857 220кВ Т-2     Intego Температура окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":58,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1021",   "NAME":"ПС857 220кВ Т-2     Intego Отн. емкость ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":59,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1022",   "NAME":"ПС857 220кВ Т-2     Intego Отн. емкость ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":60,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1023",   "NAME":"ПС857 220кВ Т-2     Intego Отн. емкость ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":61,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1024",   "NAME":"ПС857 220кВ Т-2     Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":62,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1025",   "NAME":"ПС857 220кВ Т-2     Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":63,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1026",   "NAME":"ПС857 220кВ Т-2     Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":64,  "Mes":"%", "TypeTele":"TM",     "VER":"General", "IOA":"1027",   "NAME":"ПС857 220кВ Т-2     Intego Влажность окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":65,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1028",   "NAME":"ПС857 220кВ Т-2     Intego Уровень ЧР ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":66,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1029",   "NAME":"ПС857 220кВ Т-2     Intego Уровень ЧР ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":67,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1030",   "NAME":"ПС857 220кВ Т-2     Intego Уровень ЧР ф.С1", "Links":{ "Arch":"5338"}},
+{"ID":68,  "Mes":"А", "TypeTele":"TM",     "VER":"General", "IOA":"1031",   "NAME":"ПС857 220кВ Т-3     Intego Ток нагрузки", "Links":{ "Arch":"5338"}},
+{"ID":69,  "Mes":"°C", "TypeTele":"TM",     "VER":"General", "IOA":"1032",  "NAME":"ПС857 220кВ Т-3     Intego Температура окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":70,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1033",   "NAME":"ПС857 220кВ Т-3     Intego Отн. емкость ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":71,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1034",   "NAME":"ПС857 220кВ Т-3     Intego Отн. емкость ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":72,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1035",   "NAME":"ПС857 220кВ Т-3     Intego Отн. емкость ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":73,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1036",   "NAME":"ПС857 220кВ Т-3     Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":74,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1037",   "NAME":"ПС857 220кВ Т-3     Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":75,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1038",   "NAME":"ПС857 220кВ Т-3     Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":76,  "Mes":"%", "TypeTele":"TM",     "VER":"General", "IOA":"1039",   "NAME":"ПС857 220кВ Т-3     Intego Влажность окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":77,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1040",   "NAME":"ПС857 220кВ Т-3     Intego Уровень ЧР ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":78,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1041",   "NAME":"ПС857 220кВ Т-3     Intego Уровень ЧР ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":79,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1042",   "NAME":"ПС857 220кВ Т-3     Intego Уровень ЧР ф.С1", "Links":{ "Arch":"5338"}},
+{"ID":80,  "Mes":"А", "TypeTele":"TM",     "VER":"General", "IOA":"1043",   "NAME":"ПС857 220кВ Т-4     Intego Ток нагрузки", "Links":{ "Arch":"5338"}},
+{"ID":81,  "Mes":"°C", "TypeTele":"TM",     "VER":"General", "IOA":"1044",  "NAME":"ПС857 220кВ Т-4     Intego Температура окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":82,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1045",   "NAME":"ПС857 220кВ Т-4     Intego Отн. емкость ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":83,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1046",   "NAME":"ПС857 220кВ Т-4     Intego Отн. емкость ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":84,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1047",   "NAME":"ПС857 220кВ Т-4     Intego Отн. емкость ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":85,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1048",   "NAME":"ПС857 220кВ Т-4     Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":86,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1049",   "NAME":"ПС857 220кВ Т-4     Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":87,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1050",   "NAME":"ПС857 220кВ Т-4     Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"5338"}},
+{"ID":88,  "Mes":"%", "TypeTele":"TM",     "VER":"General", "IOA":"1051",   "NAME":"ПС857 220кВ Т-4     Intego Влажность окружающей среды", "Links":{ "Arch":"5338"}},
+{"ID":89,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1052",   "NAME":"ПС857 220кВ Т-4     Intego Уровень ЧР ф.A1", "Links":{ "Arch":"5338"}},
+{"ID":90,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1053",   "NAME":"ПС857 220кВ Т-4     Intego Уровень ЧР ф.B1", "Links":{ "Arch":"5338"}},
+{"ID":91,  "Mes":"", "TypeTele":"TM",     "VER":"General", "IOA":"1054",   "NAME":"ПС857 220кВ Т-4     Intego Уровень ЧР ф.С1", "Links":{ "Arch":"5338"}},
+{"ID":92,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4005",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":93,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4006",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":94,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4007",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":95,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4008",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":96,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4009",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.пред.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":97,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4010",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.авар.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":98,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4011",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.пред.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":99,  "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4012",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.авар.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":100, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4013",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.пред.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":101, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4014",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.авар.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":102, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4015",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":103, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4016",   "NAME":"ПС857 220кВ Т-1     Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":104, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4017",   "NAME":"ПС857 220кВ Т-1     Intego Неисправность", "Links":{ "Arch":"5338"}},
+{"ID":105, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4018",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":106, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4019",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":107, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4020",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":108, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4021",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":109, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4022",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.пред.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":110, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4023",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.авар.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":111, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4024",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.пред.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":112, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4025",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.авар.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":113, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4026",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.пред.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":114, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4027",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.авар.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":115, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4028",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":116, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4029",   "NAME":"ПС857 220кВ Т-2     Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":117, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4030",   "NAME":"ПС857 220кВ Т-2     Intego Неисправность", "Links":{ "Arch":"5338"}},
+{"ID":118, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4031",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":119, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4032",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":120, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4033",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":121, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4034",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":122, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4035",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.пред.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":123, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4036",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.авар.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":124, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4037",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.пред.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":125, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4038",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.авар.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":126, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4039",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.пред.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":127, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4040",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.авар.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":128, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4041",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":129, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4042",   "NAME":"ПС857 220кВ Т-3     Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":130, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4043",   "NAME":"ПС857 220кВ Т-3     Intego Неисправность", "Links":{ "Arch":"5338"}},
+{"ID":131, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4044",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":132, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4045",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"5338"}},
+{"ID":133, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4046",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":134, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4047",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"5338"}},
+{"ID":135, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4048",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.пред.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":136, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4049",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.авар.пред.темп.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":137, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4050",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.пред.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":138, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",    "VER":"General", "IOA":"4051",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.авар.пред.влажн.окр.ср.", "Links":{ "Arch":"5338"}},
+{"ID":139, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4052",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.пред.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":140, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",    "VER":"General", "IOA":"4053",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.авар.пред.тока нагр.", "Links":{ "Arch":"5338"}},
+{"ID":141, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Warning",     "VER":"General", "IOA":"4054",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":142, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4055",   "NAME":"ПС857 220кВ Т-4     Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"5338"}},
+{"ID":143, "Mes":"", "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4056",   "NAME":"ПС857 220кВ Т-4     Intego Неисправность", "Links":{ "Arch":"5338"}}
+    ]}
+
+],
+    "ReqDataFromDB":{"Port":8081, "ReqData":[
+        {"ID":"8573",	"NAME":"Система диагностики ВН вводов трансформаторов Т1-Т4}"}
+        ]}
+}
+         

@@ -1,0 +1,96 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4906, "W":825, "H":290},
+	"Title": {"FullName":"Система диагностики ВН вводов трансформаторов Т1, Т2 (Intego TM3)", "MinName":"ПС Грач ВН 3", "SysName":"Система диагностики ВН вводов трансформаторов Т1, Т2 (Intego TM3)"},
+	"Info": {"ID":"DISP851VN3", "Subst":"851", "Type":"Dispatching", "Location":"ПС851/Сервер ТМ ПС Грач", "NameMin":"ПС851 ТП Дисп", "NameMax":"Модуль Дисп. ПС851 ТМ ПС Грач"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP851VN3"},
+		{"ID_Program" : "GS851/VN3"}
+	],
+"Coord":"PS851",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4913"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Грач(851)/АСУТП",
+        "ASDU":3, "TOPIC_ID":5,  "IpList":["10.137.2.11:2404", "10.137.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":5, "SysId":"VN3", "DATA": [
+
+{"ID":"292", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1013", "NAME":"Т-1  Intego Отн. емкость ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"293", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1014", "NAME":"Т-1  Intego Отн. емкость ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"294", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1015", "NAME":"Т-1  Intego Отн. емкость ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"295", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1016", "NAME":"Т-1  Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"296", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1017", "NAME":"Т-1  Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"297", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1018", "NAME":"Т-1  Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"298", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1019", "NAME":"Т-1  Intego Уровень ЧР ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"299", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1020", "NAME":"Т-1  Intego Уровень ЧР ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"300", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1021", "NAME":"Т-1  Intego Уровень ЧР ф.С1", "Links":{ "Arch":"4938"}},
+{"ID":"301", "Mes":"А", "TypeTele":"TM",    "VER":"General", "IOA":"1022", "NAME":"Т-1  Intego Ток нагрузки", "Links":{ "Arch":"4938"}},
+{"ID":"302", "Mes":"°C", "TypeTele":"TM",   "VER":"General", "IOA":"1023", "NAME":"Т-1  Intego Температура окружающей среды", "Links":{ "Arch":"4938"}},
+{"ID":"303", "Mes":"%", "TypeTele":"TM",    "VER":"General", "IOA":"1024", "NAME":"Т-1  Intego Влажность окружающей среды", "Links":{ "Arch":"4938"}},
+{"ID":"304", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1025", "NAME":"Т-2  Intego Отн. емкость ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"305", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1026", "NAME":"Т-2  Intego Отн. емкость ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"306", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1027", "NAME":"Т-2  Intego Отн. емкость ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"307", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1028", "NAME":"Т-2  Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"308", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1029", "NAME":"Т-2  Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"309", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1030", "NAME":"Т-2  Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"310", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1031", "NAME":"Т-2  Intego Уровень ЧР ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"311", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1032", "NAME":"Т-2  Intego Уровень ЧР ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"312", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1033", "NAME":"Т-2  Intego Уровень ЧР ф.С1", "Links":{ "Arch":"4938"}},
+{"ID":"313", "Mes":"А", "TypeTele":"TM",    "VER":"General", "IOA":"1034", "NAME":"Т-2  Intego Ток нагрузки", "Links":{ "Arch":"4938"}},
+{"ID":"314", "Mes":"°C", "TypeTele":"TM",   "VER":"General", "IOA":"1035", "NAME":"Т-2  Intego Температура окружающей среды", "Links":{ "Arch":"4938"}},
+{"ID":"315", "Mes":"%", "TypeTele":"TM",    "VER":"General", "IOA":"1036", "NAME":"Т-2  Intego Влажность окружающей среды", "Links":{ "Arch":"4938"}},
+
+{"ID":"316", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4013", "NAME":"Т-1  Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"317", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4014", "NAME":"Т-1  Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"318", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4015", "NAME":"Т-1  Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"319", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4016", "NAME":"Т-1  Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"320", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4017", "NAME":"Т-1  Intego Превыш.пред.пред.темп.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"321", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4018", "NAME":"Т-1  Intego Превыш.авар.пред.темп.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"322", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4019", "NAME":"Т-1  Intego Превыш.пред.пред.влажн.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"323", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4020", "NAME":"Т-1  Intego Превыш.авар.пред.влажн.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"324", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4021", "NAME":"Т-1  Intego Превыш.пред.пред.тока нагр.", "Links":{ "Arch":"4938"}},
+{"ID":"325", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4022", "NAME":"Т-1  Intego Превыш.авар.пред.тока нагр.", "Links":{ "Arch":"4938"}},
+{"ID":"326", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4023", "NAME":"Т-1  Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"4938"}},
+{"ID":"327", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4024", "NAME":"Т-1  Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"4938"}},
+{"ID":"328", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4025", "NAME":"Т-1  Intego Неисправность", "Links":{ "Arch":"4938"}},
+{"ID":"329", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4026", "NAME":"Т-2  Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"330", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4027", "NAME":"Т-2  Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"331", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4028", "NAME":"Т-2  Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"332", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4029", "NAME":"Т-2  Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"333", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4030", "NAME":"Т-2  Intego Превыш.пред.пред.темп.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"334", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4031", "NAME":"Т-2  Intego Превыш.авар.пред.темп.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"335", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4032", "NAME":"Т-2  Intego Превыш.пред.пред.влажн.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"336", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4033", "NAME":"Т-2  Intego Превыш.авар.пред.влажн.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"337", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4034", "NAME":"Т-2  Intego Превыш.пред.пред.тока нагр.", "Links":{ "Arch":"4938"}},
+{"ID":"338", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4035", "NAME":"Т-2  Intego Превыш.авар.пред.тока нагр.", "Links":{ "Arch":"4938"}},
+{"ID":"339", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4036", "NAME":"Т-2  Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"4938"}},
+{"ID":"340", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4037", "NAME":"Т-2  Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"4938"}},
+{"ID":"341", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4038", "NAME":"Т-2  Intego Неисправность", "Links":{ "Arch":"4938"}}
+    ]}
+
+],
+    "ReqDataFromDB":{"Port":8081, "ReqData":[
+        {"ID":"8514",	"NAME":"Система диагностики ВН вводов (Intego TM3)}"}
+        ]}
+}
+         

@@ -1,0 +1,1783 @@
+{
+	"Configuration": {"Type":"MAP", "Version":1001, "Port":7801},
+	"Title": {"FullName":"Картография и схемография Ваганьковская", "MinName":"ПС 848 MAP"},
+	"Info": {"ID":"MAP848", "Type":"Map", "Location":"ПС848/Шкаф/БОД[*.*.*.*]/МТ", "NameMin":"ПС848 МТ Картография", "NameMax":"Модуль картографии ПС 848 Термоконтроль"},
+	"Map" : {"CenterXLON":37.51857, "CenterYLAT": 55.79606, "Scale": 14, "CountPointAlarm":30},
+	"ProfilesConstruction" : 
+	[
+		{"ID_Program" : "SEGMT848", "ID":258},
+		{"ID_Program" : "SEGMT848", "ID":270},
+		{"ID_Program" : "SEGMT848", "ID":271},
+		{"ID_Program" : "SEGMT848", "ID":272},
+		{"ID_Program" : "SEGMT848", "ID":273},
+		{"ID_Program" : "SEGMT848", "ID":274}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "localhost", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "localhost", "Port" : "4001"},
+		 {"TypeLink" : "Home", "IP" : "localhost", "Port" : "4004"}
+	],
+	"Zones":
+	[
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ПС Гражд.-ГНБ1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 0 , "ConstructionEnd":42, 
+			"Segments":
+			[
+				{ "ID_Segments":13, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ПС Гражд.-ГНБ1", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":83, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ПС Гражд.-ГНБ1", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":258, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ПС Гражд.-ГНБ1", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53930147590714,"YLAT":55.81384184149232, "ID_Point":57, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.539534543009296,"YLAT":55.813811533264754, "ID_Point":56, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.539625549307814,"YLAT":55.813713012362136, "ID_Point":55, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ1" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 42 , "ConstructionEnd":108.7, 
+			"Segments":
+			[
+				{ "ID_Segments":19, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ1", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":84, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ1", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":203, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ1", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.539625549307814,"YLAT":55.813713012362136, "ID_Point":55, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53998510722296,"YLAT":55.81308712351956, "ID_Point":54, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ1-ГНБ2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 108.7 , "ConstructionEnd":127, 
+			"Segments":
+			[
+				{ "ID_Segments":20, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ1-ГНБ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":85, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ1-ГНБ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":240, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ1-ГНБ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53998510722296,"YLAT":55.81308712351956, "ID_Point":54, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53980455176198,"YLAT":55.813006912854334, "ID_Point":53, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ2" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 127 , "ConstructionEnd":392.7, 
+			"Segments":
+			[
+				{ "ID_Segments":21, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":86, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":241, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53980455176198,"YLAT":55.813006912854334, "ID_Point":53, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53922043449338,"YLAT":55.812402383893755, "ID_Point":52, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.539048986682374,"YLAT":55.81215861861847, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53887948599771,"YLAT":55.811978614689465, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53862252126841,"YLAT":55.811824988063634, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53836844273076,"YLAT":55.811731666576044, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.537017732481246,"YLAT":55.8113715255245, "ID_Point":47, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ2-М1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 392.7 , "ConstructionEnd":485, 
+			"Segments":
+			[
+				{ "ID_Segments":22, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ2-М1", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":87, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ2-М1", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":242, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ2-М1", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.537017732481246,"YLAT":55.8113715255245, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.536474844029925,"YLAT":55.8110053572072, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53628844016979,"YLAT":55.81088756502291, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53601218308376,"YLAT":55.810923156300504, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53574445360133,"YLAT":55.81084461294831, "ID_Point":43, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М1" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 485 , "ConstructionEnd":500, 
+			"Segments":
+			[
+				{ "ID_Segments":23, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М1", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":88, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М1", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":243, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М1", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53574445360133,"YLAT":55.81084461294831, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.535586649714986,"YLAT":55.810739772057424, "ID_Point":42, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М1-МТ2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 500 , "ConstructionEnd":813, 
+			"Segments":
+			[
+				{ "ID_Segments":24, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М1-МТ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":89, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М1-МТ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":244, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М1-МТ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.535586649714986,"YLAT":55.810739772057424, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53512255269312,"YLAT":55.81047371606181, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53457199266753,"YLAT":55.81045495744348, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.534420686222454,"YLAT":55.81040895185375, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53439873572165,"YLAT":55.81028877834664, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.534232563283545,"YLAT":55.80997831205089, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53406016938711,"YLAT":55.80989170550344, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5339117561538,"YLAT":55.809752302532154, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53389789120169,"YLAT":55.809708761900254, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.533826536278816,"YLAT":55.809664028671676, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53370195167692,"YLAT":55.80963788679143, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53354884311709,"YLAT":55.80951576486035, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53307880763997,"YLAT":55.8096025611427, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53277279750752,"YLAT":55.80957033856763, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53254854101203,"YLAT":55.80961550469506, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.532144537149506,"YLAT":55.80928195390471, "ID_Point":27, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ2" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 813 , "ConstructionEnd":820, 
+			"Segments":
+			[
+				{ "ID_Segments":25, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":90, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":245, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ2", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.532144537149506,"YLAT":55.80928195390471, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.531994894827704,"YLAT":55.8091707171316, "ID_Point":26, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ2-ГНБ3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 820 , "ConstructionEnd":900.8, 
+			"Segments":
+			[
+				{ "ID_Segments":26, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ2-ГНБ3", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":91, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ2-ГНБ3", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":246, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ2-ГНБ3", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.531994894827704,"YLAT":55.8091707171316, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53181333130568,"YLAT":55.80902328891205, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53146891657198,"YLAT":55.808588634549785, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.531379001370475,"YLAT":55.80851764172951, "ID_Point":23, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ3" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 900.8 , "ConstructionEnd":974, 
+			"Segments":
+			[
+				{ "ID_Segments":27, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":129, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":247, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.531379001370475,"YLAT":55.80851764172951, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53094193025522,"YLAT":55.80793933441365, "ID_Point":22, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ3а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 974 , "ConstructionEnd":1087, 
+			"Segments":
+			[
+				{ "ID_Segments":29, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3а", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":92, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3а", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":248, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3а", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53094193025522,"YLAT":55.80793933441365, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53096887312585,"YLAT":55.807863814370634, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53020363439013,"YLAT":55.80692108968551, "ID_Point":20, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ3а-М3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1087 , "ConstructionEnd":1107, 
+			"Segments":
+			[
+				{ "ID_Segments":30, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3а-М3", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":94, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3а-М3", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":249, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ3а-М3", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53020363439013,"YLAT":55.80692108968551, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.529969483211076,"YLAT":55.80696720911617, "ID_Point":19, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М3" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1107 , "ConstructionEnd":1125.5, 
+			"Segments":
+			[
+				{ "ID_Segments":31, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М3", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":95, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М3", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":233, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М3", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.529969483211076,"YLAT":55.80696720911617, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52976438130789,"YLAT":55.80700162166514, "ID_Point":58, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52968679767952,"YLAT":55.80701463885497, "ID_Point":18, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ4" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1125.5 , "ConstructionEnd":1345.5, 
+			"Segments":
+			[
+				{ "ID_Segments":33, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":97, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":235, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52968679767952,"YLAT":55.80701463885497, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.528165703841005,"YLAT":55.80524832992412, "ID_Point":17, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ4-М4Т" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1345.5 , "ConstructionEnd":1525, 
+			"Segments":
+			[
+				{ "ID_Segments":34, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4-М4Т", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":98, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4-М4Т", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":250, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4-М4Т", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.528165703841005,"YLAT":55.80524832992412, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52780696806005,"YLAT":55.80526830747454, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52773019275268,"YLAT":55.805302630261494, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.527842348478174,"YLAT":55.805469086598755, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52783671408635,"YLAT":55.805489823847, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.527761961921186,"YLAT":55.8055048792228, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.526836549972764,"YLAT":55.80573091120643, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52662645547269,"YLAT":55.80564120545584, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.526368054667685,"YLAT":55.80530372374109, "ID_Point":9, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М4Т" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1525 , "ConstructionEnd":1561, 
+			"Segments":
+			[
+				{ "ID_Segments":35, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М4Т", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":99, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М4Т", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":251, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М4Т", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.526368054667685,"YLAT":55.80530372374109, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.526122182865414,"YLAT":55.80502885708786, "ID_Point":50, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М4Т-ГНБ4а" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1561 , "ConstructionEnd":1578, 
+			"Segments":
+			[
+				{ "ID_Segments":204, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М4Т-ГНБ4а", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":36, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М4Т-ГНБ4а", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":100, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М4Т-ГНБ4а", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.526122182865414,"YLAT":55.80502885708786, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52595577763566,"YLAT":55.8048178683933, "ID_Point":49, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ4а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1578 , "ConstructionEnd":1705.8, 
+			"Segments":
+			[
+				{ "ID_Segments":37, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4а", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":93, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4а", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":252, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ4а", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52595577763566,"YLAT":55.8048178683933, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.525995828586936,"YLAT":55.80426555866301, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52590936310895,"YLAT":55.80404460791673, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.525596689403855,"YLAT":55.80367298483824, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52526665774284,"YLAT":55.803695034574034, "ID_Point":45, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ5" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1705.6 , "ConstructionEnd":1928, 
+			"Segments":
+			[
+				{ "ID_Segments":39, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":101, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":205, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52526665774284,"YLAT":55.803695034574034, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52450659899002,"YLAT":55.80315141308228, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52389548100236,"YLAT":55.80197195703818, "ID_Point":44, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ5-М5" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1928 , "ConstructionEnd":1984, 
+			"Segments":
+			[
+				{ "ID_Segments":40, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5-М5", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":103, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5-М5", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":206, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5-М5", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52389548100236,"YLAT":55.80197195703818, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52384653407978,"YLAT":55.801834569477045, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.522735607441795,"YLAT":55.80206562351465, "ID_Point":41, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М5" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1984 , "ConstructionEnd":1997, 
+			"Segments":
+			[
+				{ "ID_Segments":41, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М5", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":104, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М5", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":207, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М5", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.522735607441795,"YLAT":55.80206562351465, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52242214047494,"YLAT":55.80215039686197, "ID_Point":40, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М5-МТ6" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1997 , "ConstructionEnd":2372, 
+			"Segments":
+			[
+				{ "ID_Segments":42, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М5-МТ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":105, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М5-МТ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":208, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М5-МТ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52242214047494,"YLAT":55.80215039686197, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.521128337705086,"YLAT":55.80245432227188, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52078211492986,"YLAT":55.802439040032866, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.520646761347834,"YLAT":55.80246743440905, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52055461109553,"YLAT":55.80241293781658, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52032156238082,"YLAT":55.80239269373325, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.519750471499385,"YLAT":55.800234046270056, "ID_Point":34, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ6" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2372 , "ConstructionEnd":2409, 
+			"Segments":
+			[
+				{ "ID_Segments":43, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":102, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":209, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.519750471499385,"YLAT":55.800234046270056, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5196980224635,"YLAT":55.80002872999938, "ID_Point":33, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ5а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2409 , "ConstructionEnd":2666, 
+			"Segments":
+			[
+				{ "ID_Segments":45, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5а", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":106, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5а", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":210, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ5а", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5196980224635,"YLAT":55.80002872999938, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.519571108609234,"YLAT":55.79990781565788, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51941028323334,"YLAT":55.799650819825146, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51938617699365,"YLAT":55.79916056148988, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51897086895319,"YLAT":55.79759659430227, "ID_Point":29, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М7" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2666 , "ConstructionEnd":2701, 
+			"Segments":
+			[
+				{ "ID_Segments":47, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М7", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":107, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М7", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":211, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М7", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51897086895319,"YLAT":55.79759659430227, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51888581492241,"YLAT":55.79731817968016, "ID_Point":28, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"М7-ГНБ6" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2701 , "ConstructionEnd":2727, 
+			"Segments":
+			[
+				{ "ID_Segments":48, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"М7-ГНБ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":108, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"М7-ГНБ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":212, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"М7-ГНБ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51888581492241,"YLAT":55.79731817968016, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51877415923555,"YLAT":55.797197005810375, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51882882590594,"YLAT":55.79712779021249, "ID_Point":26, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ6" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2727 , "ConstructionEnd":2838.3, 
+			"Segments":
+			[
+				{ "ID_Segments":49, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":109, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":213, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51882882590594,"YLAT":55.79712779021249, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51857175202695,"YLAT":55.79606995908947, "ID_Point":25, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ6а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2838.3 , "ConstructionEnd":2931.2, 
+			"Segments":
+			[
+				{ "ID_Segments":50, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6а", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":110, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6а", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":214, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6а", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51857175202695,"YLAT":55.79606995908947, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51838256000978,"YLAT":55.79567102363252, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.517890243626645,"YLAT":55.79529436198354, "ID_Point":23, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ6а-МТ8" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2931.2 , "ConstructionEnd":3112, 
+			"Segments":
+			[
+				{ "ID_Segments":51, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6а-МТ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":111, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6а-МТ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":215, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ6а-МТ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.517890243626645,"YLAT":55.79529436198354, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51737532804018,"YLAT":55.795422920928935, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51728980843455,"YLAT":55.79547889011883, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51593582908742,"YLAT":55.795817740254385, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515730913328,"YLAT":55.795753448137724, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51556066489917,"YLAT":55.79554703139337, "ID_Point":18, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ8" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 3112 , "ConstructionEnd":3141, 
+			"Segments":
+			[
+				{ "ID_Segments":52, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":112, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":216, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51556066489917,"YLAT":55.79554703139337, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51527032968525,"YLAT":55.79561841746269, "ID_Point":17, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ8-ГНБ7" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 3141 , "ConstructionEnd":3247, 
+			"Segments":
+			[
+				{ "ID_Segments":53, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ8-ГНБ7", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":113, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ8-ГНБ7", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":217, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ8-ГНБ7", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51527032968525,"YLAT":55.79561841746269, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5148067021983,"YLAT":55.795727581906476, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51470999608722,"YLAT":55.79577654146461, "ID_Point":60, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51457232449267,"YLAT":55.79580533827371, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.514413576610885,"YLAT":55.79581864351183, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51418593288261,"YLAT":55.79595313731638, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51397938290953,"YLAT":55.79594787467372, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5137692259027,"YLAT":55.795995130337154, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.513616829126136,"YLAT":55.79605585648074, "ID_Point":10, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ7" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3247 , "ConstructionEnd":3309.8, 
+			"Segments":
+			[
+				{ "ID_Segments":54, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ7", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":114, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ7", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":218, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ7", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.513616829126136,"YLAT":55.79605585648074, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51273214568876,"YLAT":55.79639743384535, "ID_Point":9, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ8" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3309.8 , "ConstructionEnd":3385.9, 
+			"Segments":
+			[
+				{ "ID_Segments":55, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":115, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":219, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ8", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51273214568876,"YLAT":55.79639743384535, "ID_Point":9, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5125716589193,"YLAT":55.79620597865453, "ID_Point":8, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.512356983979835,"YLAT":55.79598868368267, "ID_Point":7, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51201808019258,"YLAT":55.79574791781585, "ID_Point":6, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ9" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3385.9 , "ConstructionEnd":3529, 
+			"Segments":
+			[
+				{ "ID_Segments":56, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":116, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":220, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51201808019258,"YLAT":55.79574791781585, "ID_Point":6, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51106866568359,"YLAT":55.79453907519918, "ID_Point":5, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ10" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3529 , "ConstructionEnd":3659.2, 
+			"Segments":
+			[
+				{ "ID_Segments":57, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ10", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":117, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ10", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":221, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ10", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51106866568359,"YLAT":55.79453907519918, "ID_Point":5, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510568224334065,"YLAT":55.793950381220995, "ID_Point":4, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51040842590591,"YLAT":55.79342297661999, "ID_Point":3, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ10-МТ9" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 3659.2 , "ConstructionEnd":3679, 
+			"Segments":
+			[
+				{ "ID_Segments":58, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ10-МТ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":118, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ10-МТ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":222, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ10-МТ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51040842590591,"YLAT":55.79342297661999, "ID_Point":74, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51047369692226,"YLAT":55.793202471001024, "ID_Point":73, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ9" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 3679 , "ConstructionEnd":3723, 
+			"Segments":
+			[
+				{ "ID_Segments":59, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":119, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":223, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ9", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51047369692226,"YLAT":55.793202471001024, "ID_Point":73, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510573856158246,"YLAT":55.79313312535004, "ID_Point":72, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5106537004199,"YLAT":55.79299021915871, "ID_Point":71, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ9-ГНБ11" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 3723 , "ConstructionEnd":3766, 
+			"Segments":
+			[
+				{ "ID_Segments":60, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ9-ГНБ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":120, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ9-ГНБ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":224, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ9-ГНБ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5106537004199,"YLAT":55.79299021915871, "ID_Point":71, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51064147919805,"YLAT":55.79293612797103, "ID_Point":70, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51068525548244,"YLAT":55.79281489678092, "ID_Point":69, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510937156659296,"YLAT":55.79248571551049, "ID_Point":68, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ11" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3766 , "ConstructionEnd":3871.5, 
+			"Segments":
+			[
+				{ "ID_Segments":61, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":121, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":225, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.510937156659296,"YLAT":55.79248571551049, "ID_Point":68, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51057272054646,"YLAT":55.791542507517434, "ID_Point":67, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ12" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3871.5 , "ConstructionEnd":4103.7, 
+			"Segments":
+			[
+				{ "ID_Segments":62, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":122, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":226, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51057272054646,"YLAT":55.791542507517434, "ID_Point":67, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51174263450561,"YLAT":55.789509310225604, "ID_Point":66, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ13" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4103.7 , "ConstructionEnd":4267.7, 
+			"Segments":
+			[
+				{ "ID_Segments":63, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":123, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":227, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51174263450561,"YLAT":55.789509310225604, "ID_Point":66, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.512573220864866,"YLAT":55.78808671039804, "ID_Point":65, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ10" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 4267.7 , "ConstructionEnd":4282, 
+			"Segments":
+			[
+				{ "ID_Segments":64, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ10", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":124, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ10", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":228, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ10", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.512573220864866,"YLAT":55.78808671039804, "ID_Point":65, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51264101209901,"YLAT":55.78794165143717, "ID_Point":64, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ13а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4282 , "ConstructionEnd":4392.4, 
+			"Segments":
+			[
+				{ "ID_Segments":65, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ13а", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":125, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ13а", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":229, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ13а", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51264101209901,"YLAT":55.78794165143717, "ID_Point":64, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51310762517987,"YLAT":55.7869587077766, "ID_Point":63, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ14" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4392.4 , "ConstructionEnd":4684.6, 
+			"Segments":
+			[
+				{ "ID_Segments":66, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":126, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":230, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51310762517987,"YLAT":55.7869587077766, "ID_Point":63, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51399040394848,"YLAT":55.785533894746344, "ID_Point":76, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51456501071821,"YLAT":55.78442100305947, "ID_Point":62, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ15" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4684.6 , "ConstructionEnd":4831.4, 
+			"Segments":
+			[
+				{ "ID_Segments":67, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ15", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":127, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ15", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":231, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ15", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51456501071821,"YLAT":55.78442100305947, "ID_Point":62, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51515901440151,"YLAT":55.78309817471393, "ID_Point":61, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ11" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 4831.4 , "ConstructionEnd":4859, 
+			"Segments":
+			[
+				{ "ID_Segments":68, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":128, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":232, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ11", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51515901440151,"YLAT":55.78309817471393, "ID_Point":61, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5152427899058,"YLAT":55.78292929553646, "ID_Point":60, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ11-МТ12" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 4859 , "ConstructionEnd":5010, 
+			"Segments":
+			[
+				{ "ID_Segments":69, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ11-МТ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":130, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ11-МТ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":253, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ11-МТ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5152427899058,"YLAT":55.78292929553646, "ID_Point":60, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51526272644287,"YLAT":55.78288599463598, "ID_Point":59, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51522644121459,"YLAT":55.78284058251376, "ID_Point":58, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51532225573019,"YLAT":55.78266952790432, "ID_Point":57, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51528184303255,"YLAT":55.78258949394707, "ID_Point":56, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515445469806586,"YLAT":55.78227987267904, "ID_Point":55, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51557379949408,"YLAT":55.78222997749535, "ID_Point":54, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51579335369338,"YLAT":55.78183157521731, "ID_Point":53, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51574503646189,"YLAT":55.781790502627814, "ID_Point":52, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51588869866646,"YLAT":55.78151552585723, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515968886324885,"YLAT":55.78147866060294, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51607264742293,"YLAT":55.78128162923029, "ID_Point":49, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ12" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 5010 , "ConstructionEnd":5061, 
+			"Segments":
+			[
+				{ "ID_Segments":70, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":131, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":254, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ12", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51607264742293,"YLAT":55.78128162923029, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51614450305356,"YLAT":55.781151715197645, "ID_Point":48, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ12-ГНБ16" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5061 , "ConstructionEnd":5094, 
+			"Segments":
+			[
+				{ "ID_Segments":72, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ12-ГНБ16", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":132, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ12-ГНБ16", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":255, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ12-ГНБ16", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51614450305356,"YLAT":55.781151715197645, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51627223004468,"YLAT":55.78091570734895, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5161395626449,"YLAT":55.78086605767495, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.516179316581386,"YLAT":55.780742666161146, "ID_Point":45, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ16" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 5094 , "ConstructionEnd":5258.7, 
+			"Segments":
+			[
+				{ "ID_Segments":73, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ16", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":133, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ16", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":256, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ16", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.516179316581386,"YLAT":55.780742666161146, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51650259683825,"YLAT":55.78013641200668, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.516666146523214,"YLAT":55.779802985630326, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51671770820381,"YLAT":55.77960600335961, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51670505948802,"YLAT":55.77941990202582, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51668071515769,"YLAT":55.77934201706105, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51653129259706,"YLAT":55.7790781365205, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51657925241559,"YLAT":55.77900883997145, "ID_Point":38, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ16-МТ13" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5258.7 , "ConstructionEnd":5442, 
+			"Segments":
+			[
+				{ "ID_Segments":74, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ16-МТ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":134, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ16-МТ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":257, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ16-МТ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51657925241559,"YLAT":55.77900883997145, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.516482435742056,"YLAT":55.77887042817281, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51609275856243,"YLAT":55.778812363828386, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51624832662448,"YLAT":55.77849409371147, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.516083508473876,"YLAT":55.77843581785102, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.516043165857205,"YLAT":55.77837742490133, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51567359340899,"YLAT":55.77832799807457, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51551292375205,"YLAT":55.77831083635141, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515440731732745,"YLAT":55.77833687354778, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51530412608224,"YLAT":55.778311032759156, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51521982497064,"YLAT":55.778317604379936, "ID_Point":78, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51490242390749,"YLAT":55.77825947204822, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51482658096945,"YLAT":55.77839804626096, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.514842775482514,"YLAT":55.77843914906703, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5147308925996,"YLAT":55.77860805468401, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51453403582774,"YLAT":55.7785757782492, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51448963582268,"YLAT":55.77850440447205, "ID_Point":23, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ13" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 5442 , "ConstructionEnd":5478, 
+			"Segments":
+			[
+				{ "ID_Segments":75, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":135, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":236, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ13", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51448963582268,"YLAT":55.77850440447205, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51420442055084,"YLAT":55.77846571883056, "ID_Point":22, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ13-ГНБ17" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5478 , "ConstructionEnd":5543, 
+			"Segments":
+			[
+				{ "ID_Segments":76, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ13-ГНБ17", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":136, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ13-ГНБ17", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":237, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ13-ГНБ17", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51420442055084,"YLAT":55.77846571883056, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51404398216111,"YLAT":55.77851997243234, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5131641321772,"YLAT":55.77836931255821, "ID_Point":20, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ17" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 5543 , "ConstructionEnd":5734.8, 
+			"Segments":
+			[
+				{ "ID_Segments":77, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ17", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":137, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ17", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":238, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ17", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5131641321772,"YLAT":55.77836931255821, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.512649783236924,"YLAT":55.77825077048186, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51231611057163,"YLAT":55.77812773023576, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51208277935286,"YLAT":55.777991610958324, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.511901556446276,"YLAT":55.77782730926912, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51136102004605,"YLAT":55.77706172372921, "ID_Point":15, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ17-МТ14" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5734.8 , "ConstructionEnd":5762, 
+			"Segments":
+			[
+				{ "ID_Segments":78, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ17-МТ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":138, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ17-МТ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":239, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ17-МТ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51136102004605,"YLAT":55.77706172372921, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51135682249571,"YLAT":55.777005460886635, "ID_Point":77, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51141697550371,"YLAT":55.77698159912224, "ID_Point":14, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ14" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 5762 , "ConstructionEnd":5787, 
+			"Segments":
+			[
+				{ "ID_Segments":79, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":139, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":259, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ14", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51141697550371,"YLAT":55.77698159912224, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51165767465967,"YLAT":55.77687172460038, "ID_Point":13, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"МТ14-ГНБ18" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5787 , "ConstructionEnd":5846, 
+			"Segments":
+			[
+				{ "ID_Segments":80, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ14-ГНБ18", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":140, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ14-ГНБ18", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":260, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"МТ14-ГНБ18", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51165767465967,"YLAT":55.77687172460038, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51169092275855,"YLAT":55.77672323556113, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.511499517866454,"YLAT":55.77663858260013, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51084158935715,"YLAT":55.77657254698126, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51075723778725,"YLAT":55.77656353707659, "ID_Point":9, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510762741526946,"YLAT":55.776527174895996, "ID_Point":8, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510813236695114,"YLAT":55.776496829894306, "ID_Point":7, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ18" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 5846 , "ConstructionEnd":5954, 
+			"Segments":
+			[
+				{ "ID_Segments":81, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ18", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":141, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ18", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":261, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ18", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.510813236695114,"YLAT":55.776496829894306, "ID_Point":7, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51135540964688,"YLAT":55.775535889052485, "ID_Point":6, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №2" ,"NameSegment":"ГНБ18-ПС Ваг." , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5954 , "ConstructionEnd":6088, 
+			"Segments":
+			[
+				{ "ID_Segments":82, "ID_Phase":13, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ18-ПС Ваг.", "NameLine":"Гражданская №2", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":142, "ID_Phase":14, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ18-ПС Ваг.", "NameLine":"Гражданская №2", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":262, "ID_Phase":15, "ID_Line":5, "ID_Config":2, "NameSegment":"ГНБ18-ПС Ваг.", "NameLine":"Гражданская №2", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51135540964688,"YLAT":55.775535889052485, "ID_Point":6, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51098410772023,"YLAT":55.77544837556326, "ID_Point":5, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510899608980296,"YLAT":55.77539391954272, "ID_Point":4, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510708351258245,"YLAT":55.77535471269759, "ID_Point":3, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51082001548853,"YLAT":55.77511828713704, "ID_Point":2, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51090424932239,"YLAT":55.775090940149006, "ID_Point":1, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.511179878236995,"YLAT":55.775145216380906, "ID_Point":0, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ПС Гражд.-ГНБ1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 0 , "ConstructionEnd":56, 
+			"Segments":
+			[
+				{ "ID_Segments":198, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ПС Гражд.-ГНБ1", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":289, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ПС Гражд.-ГНБ1", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":347, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ПС Гражд.-ГНБ1", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53929562750798,"YLAT":55.81380425997326, "ID_Point":58, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53948268743036,"YLAT":55.81378960341985, "ID_Point":57, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.539568349360245,"YLAT":55.81368710977533, "ID_Point":56, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ1" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 56 , "ConstructionEnd":122.7, 
+			"Segments":
+			[
+				{ "ID_Segments":172, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ1", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":290, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ1", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":348, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ1", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.539568349360245,"YLAT":55.81368710977533, "ID_Point":56, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53989432195189,"YLAT":55.81309026066968, "ID_Point":55, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ1-ГНБ2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 122.7 , "ConstructionEnd":141, 
+			"Segments":
+			[
+				{ "ID_Segments":173, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ1-ГНБ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":291, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ1-ГНБ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":349, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ1-ГНБ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53989432195189,"YLAT":55.81309026066968, "ID_Point":55, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.539742366464694,"YLAT":55.81302300129786, "ID_Point":54, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ2" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 141 , "ConstructionEnd":406.2, 
+			"Segments":
+			[
+				{ "ID_Segments":174, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":314, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":372, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.539742366464694,"YLAT":55.81302300129786, "ID_Point":54, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.539261090284405,"YLAT":55.8125364619975, "ID_Point":53, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5390603934575,"YLAT":55.81225849164672, "ID_Point":52, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53888316624307,"YLAT":55.812047818614744, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53873619610558,"YLAT":55.81193856821258, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.538563947220744,"YLAT":55.81183960667007, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53833752959158,"YLAT":55.81176269268392, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.538073266347176,"YLAT":55.811695034489695, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.536967174986536,"YLAT":55.81139210324378, "ID_Point":46, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ2-М1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 406.2 , "ConstructionEnd":502, 
+			"Segments":
+			[
+				{ "ID_Segments":175, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ2-М1", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":305, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ2-М1", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":363, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ2-М1", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.536967174986536,"YLAT":55.81139210324378, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.536442197771734,"YLAT":55.81103094073609, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.536269154833185,"YLAT":55.810923080406546, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53599838712739,"YLAT":55.81095028943096, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53570740203981,"YLAT":55.81086276752726, "ID_Point":42, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М1" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 502 , "ConstructionEnd":518, 
+			"Segments":
+			[
+				{ "ID_Segments":176, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М1", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":292, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М1", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":350, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М1", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53570740203981,"YLAT":55.81086276752726, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53554237565422,"YLAT":55.81076086631056, "ID_Point":41, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М1-МТ2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 518 , "ConstructionEnd":831, 
+			"Segments":
+			[
+				{ "ID_Segments":177, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М1-МТ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":293, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М1-МТ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":351, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М1-МТ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53554237565422,"YLAT":55.81076086631056, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.535238899714614,"YLAT":55.81058928258171, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53511504017069,"YLAT":55.810501365726125, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.534518617976914,"YLAT":55.810485903786876, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53436651747813,"YLAT":55.81043099941012, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.534334023251645,"YLAT":55.81029052542415, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53418467797315,"YLAT":55.81000087614111, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53401228407672,"YLAT":55.80991426959366, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.533854121171444,"YLAT":55.809763464930555, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.533805662834794,"YLAT":55.80968174648125, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53367024448403,"YLAT":55.80966001411228, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53352060216223,"YLAT":55.809548777339174, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.533079311670484,"YLAT":55.80963616991986, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.532774240603345,"YLAT":55.80960049113675, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53252297224148,"YLAT":55.80965050354484, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53210842465328,"YLAT":55.80929665227562, "ID_Point":26, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ2" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 831 , "ConstructionEnd":838, 
+			"Segments":
+			[
+				{ "ID_Segments":185, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":294, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":352, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ2", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53210842465328,"YLAT":55.80929665227562, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5319452763983,"YLAT":55.80918783864284, "ID_Point":25, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ2-ГНБ3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 838 , "ConstructionEnd":926.8, 
+			"Segments":
+			[
+				{ "ID_Segments":186, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ2-ГНБ3", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":295, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ2-ГНБ3", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":353, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ2-ГНБ3", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5319452763983,"YLAT":55.80918783864284, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53176999631022,"YLAT":55.809040926957145, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.531431865010454,"YLAT":55.80860678912874, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.531322160441825,"YLAT":55.808537702914926, "ID_Point":22, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ3" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 926.8 , "ConstructionEnd":1000, 
+			"Segments":
+			[
+				{ "ID_Segments":187, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":296, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":354, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.531322160441825,"YLAT":55.808537702914926, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53085836748339,"YLAT":55.80793953188959, "ID_Point":21, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ3а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1000 , "ConstructionEnd":1113, 
+			"Segments":
+			[
+				{ "ID_Segments":188, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3а", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":280, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3а", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":338, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3а", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53085836748339,"YLAT":55.80793953188959, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53089758719871,"YLAT":55.80788975490442, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.53016188750208,"YLAT":55.806956525304656, "ID_Point":19, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ3а-М3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1113 , "ConstructionEnd":1130, 
+			"Segments":
+			[
+				{ "ID_Segments":189, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3а-М3", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":273, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3а-М3", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":331, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ3а-М3", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.53016188750208,"YLAT":55.806956525304656, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.529971865372204,"YLAT":55.806993905477256, "ID_Point":18, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М3" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1130 , "ConstructionEnd":1150, 
+			"Segments":
+			[
+				{ "ID_Segments":190, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М3", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":281, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М3", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":339, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М3", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.529971865372204,"YLAT":55.806993905477256, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52964411172617,"YLAT":55.80705353068217, "ID_Point":17, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ4" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1150 , "ConstructionEnd":1370, 
+			"Segments":
+			[
+				{ "ID_Segments":192, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":282, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":340, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52964411172617,"YLAT":55.80705353068217, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52812489601826,"YLAT":55.80528030933523, "ID_Point":16, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_3лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ4-М4Т" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1370 , "ConstructionEnd":1552, 
+			"Segments":
+			[
+				{ "ID_Segments":193, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4-М4Т", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":283, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4-М4Т", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":341, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4-М4Т", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52812489601826,"YLAT":55.80528030933523, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52785882363899,"YLAT":55.80529023731945, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.527806388013666,"YLAT":55.805317727454806, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52790800001349,"YLAT":55.80546388331321, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52790835903241,"YLAT":55.80550984708544, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52778853875277,"YLAT":55.805537097927356, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5268235480701,"YLAT":55.80576694312392, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.526569759555635,"YLAT":55.805648911646195, "ID_Point":9, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.526322986553204,"YLAT":55.805315919207196, "ID_Point":8, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М4Т" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1552 , "ConstructionEnd":1588, 
+			"Segments":
+			[
+				{ "ID_Segments":342, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М4Т", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":194, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М4Т", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":284, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М4Т", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.526322986553204,"YLAT":55.805315919207196, "ID_Point":56, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52606676903517,"YLAT":55.80504728941233, "ID_Point":55, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М4Т-ГНБ4а" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1588 , "ConstructionEnd":1606, 
+			"Segments":
+			[
+				{ "ID_Segments":195, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М4Т-ГНБ4а", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":285, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М4Т-ГНБ4а", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":343, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М4Т-ГНБ4а", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52606676903517,"YLAT":55.80504728941233, "ID_Point":55, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52587505575054,"YLAT":55.80481719617681, "ID_Point":54, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ4а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1606 , "ConstructionEnd":1737.8, 
+			"Segments":
+			[
+				{ "ID_Segments":196, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4а", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":286, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4а", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":344, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ4а", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52587505575054,"YLAT":55.80481719617681, "ID_Point":54, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52592143371554,"YLAT":55.80426966258176, "ID_Point":53, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.525850003638496,"YLAT":55.80405001790537, "ID_Point":52, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.525577673389215,"YLAT":55.803698805437726, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5252171623729,"YLAT":55.80373300040225, "ID_Point":50, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ5" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1737.8 , "ConstructionEnd":1961, 
+			"Segments":
+			[
+				{ "ID_Segments":197, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":287, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":345, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5252171623729,"YLAT":55.80373300040225, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.524428632058346,"YLAT":55.803167886301914, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.523820269024135,"YLAT":55.80200557569393, "ID_Point":48, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ5-М5" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1961 , "ConstructionEnd":2017, 
+			"Segments":
+			[
+				{ "ID_Segments":178, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5-М5", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":315, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5-М5", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":373, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5-М5", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.523820269024135,"YLAT":55.80200557569393, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52379584802307,"YLAT":55.80187665840555, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52273359964821,"YLAT":55.80209926135195, "ID_Point":46, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М5" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2017 , "ConstructionEnd":2031, 
+			"Segments":
+			[
+				{ "ID_Segments":179, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М5", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":316, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М5", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":374, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М5", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52273359964821,"YLAT":55.80209926135195, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52242884106858,"YLAT":55.802180564633915, "ID_Point":44, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М5-МТ6" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2031 , "ConstructionEnd":2405, 
+			"Segments":
+			[
+				{ "ID_Segments":180, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М5-МТ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":317, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М5-МТ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":375, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М5-МТ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.52242884106858,"YLAT":55.802180564633915, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52140139126916,"YLAT":55.80242943632413, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.521144528819306,"YLAT":55.80249165424668, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52078010713627,"YLAT":55.80247267787016, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.520617846259206,"YLAT":55.80250084817418, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52051066060595,"YLAT":55.80244504551182, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.52025941298344,"YLAT":55.80242110729098, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51967488594123,"YLAT":55.8002422732891, "ID_Point":38, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ6" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2405 , "ConstructionEnd":2434, 
+			"Segments":
+			[
+				{ "ID_Segments":181, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":318, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":376, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51967488594123,"YLAT":55.8002422732891, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.519638662993046,"YLAT":55.80003413998803, "ID_Point":36, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ5а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2434 , "ConstructionEnd":2712.7, 
+			"Segments":
+			[
+				{ "ID_Segments":182, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5а", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":272, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5а", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":330, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ5а", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.519638662993046,"YLAT":55.80003413998803, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51947735911676,"YLAT":55.79987219953421, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51934105966238,"YLAT":55.79962367397422, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51933021471604,"YLAT":55.79935434720368, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51930705434871,"YLAT":55.79914100880459, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51889528339503,"YLAT":55.797604821321315, "ID_Point":32, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М7" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2712.7 , "ConstructionEnd":2740, 
+			"Segments":
+			[
+				{ "ID_Segments":183, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М7", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":263, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М7", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":321, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М7", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51889528339503,"YLAT":55.797604821321315, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51879623383659,"YLAT":55.79729402029413, "ID_Point":31, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"М7-ГНБ6" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2740 , "ConstructionEnd":2768, 
+			"Segments":
+			[
+				{ "ID_Segments":184, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"М7-ГНБ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":320, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"М7-ГНБ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":378, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"М7-ГНБ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51879623383659,"YLAT":55.79729402029413, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51869541017054,"YLAT":55.7972028447618, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51875878522816,"YLAT":55.797130159098565, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.518739839160496,"YLAT":55.79707568168764, "ID_Point":28, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ6" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2768 , "ConstructionEnd":2879.2, 
+			"Segments":
+			[
+				{ "ID_Segments":143, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":319, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":377, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.518739839160496,"YLAT":55.79707568168764, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.518478749694324,"YLAT":55.796085126239205, "ID_Point":27, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ6а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2879.2 , "ConstructionEnd":2970.1, 
+			"Segments":
+			[
+				{ "ID_Segments":199, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6а", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":277, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6а", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":335, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6а", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.518478749694324,"YLAT":55.796085126239205, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51843851115897,"YLAT":55.79594426861273, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.518305375211455,"YLAT":55.79569813112036, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51786884623849,"YLAT":55.79532842878361, "ID_Point":24, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ6а-МТ8" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2970.1 , "ConstructionEnd":3153, 
+			"Segments":
+			[
+				{ "ID_Segments":144, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6а-МТ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":278, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6а-МТ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":336, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ6а-МТ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51786884623849,"YLAT":55.79532842878361, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51745247786502,"YLAT":55.79543596244631, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5173550863653,"YLAT":55.79549301363393, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51593382129383,"YLAT":55.79585137809168, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51568815352518,"YLAT":55.79578143273267, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515538868950024,"YLAT":55.7955843844176, "ID_Point":19, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ8" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 3153 , "ConstructionEnd":3183, 
+			"Segments":
+			[
+				{ "ID_Segments":145, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":276, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":334, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.515538868950024,"YLAT":55.7955843844176, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51528245343351,"YLAT":55.795652679064844, "ID_Point":18, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ8-ГНБ7" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 3183 , "ConstructionEnd":3298, 
+			"Segments":
+			[
+				{ "ID_Segments":146, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ8-ГНБ7", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":275, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ8-ГНБ7", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":333, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ8-ГНБ7", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51528245343351,"YLAT":55.795652679064844, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515114530946526,"YLAT":55.795690923892835, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.514809495531665,"YLAT":55.795765561435786, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51473626136975,"YLAT":55.79579995568728, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51457777533456,"YLAT":55.795837133380935, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.514463410587275,"YLAT":55.795846218325536, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51421954077129,"YLAT":55.79598352916049, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51398172930956,"YLAT":55.795979777478344, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51378225351006,"YLAT":55.79603007424434, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51362747535998,"YLAT":55.79609904658852, "ID_Point":9, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ7" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3298 , "ConstructionEnd":3360.9, 
+			"Segments":
+			[
+				{ "ID_Segments":147, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ7", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":274, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ7", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":332, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ7", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51362747535998,"YLAT":55.79609904658852, "ID_Point":9, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51271350325405,"YLAT":55.79644864608155, "ID_Point":8, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ8" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3360.9 , "ConstructionEnd":3438.8, 
+			"Segments":
+			[
+				{ "ID_Segments":148, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":279, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":337, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ8", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51271350325405,"YLAT":55.79644864608155, "ID_Point":8, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51231381562361,"YLAT":55.79603142564612, "ID_Point":7, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5119539579751,"YLAT":55.79576982020566, "ID_Point":6, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ9" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3438.8 , "ConstructionEnd":3581.9, 
+			"Segments":
+			[
+				{ "ID_Segments":149, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ9", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":297, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ9", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":355, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ9", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5119539579751,"YLAT":55.79576982020566, "ID_Point":6, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51097882685782,"YLAT":55.794556630416544, "ID_Point":4, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_2лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ10" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3581.9 , "ConstructionEnd":3712.7, 
+			"Segments":
+			[
+				{ "ID_Segments":150, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ10", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":298, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ10", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":356, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ10", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51097882685782,"YLAT":55.794556630416544, "ID_Point":4, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51050212929648,"YLAT":55.793965772442895, "ID_Point":5, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51032294127376,"YLAT":55.79343879680468, "ID_Point":3, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ9" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 3712.7 , "ConstructionEnd":3764, 
+			"Segments":
+			[
+				{ "ID_Segments":152, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ9", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":271, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ9", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":329, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ9", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51032294127376,"YLAT":55.79343879680468, "ID_Point":74, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510401392773396,"YLAT":55.7931938825853, "ID_Point":73, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ9-ГНБ11" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 3764 , "ConstructionEnd":3821, 
+			"Segments":
+			[
+				{ "ID_Segments":153, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ9-ГНБ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":299, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ9-ГНБ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":357, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ9-ГНБ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.510401392773396,"YLAT":55.7931938825853, "ID_Point":73, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510485574747335,"YLAT":55.79315052125167, "ID_Point":72, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51056532790372,"YLAT":55.79297948175052, "ID_Point":71, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51054907031778,"YLAT":55.79291890203764, "ID_Point":70, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5108287074441,"YLAT":55.79247499698766, "ID_Point":69, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ11" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3821 , "ConstructionEnd":3926.6, 
+			"Segments":
+			[
+				{ "ID_Segments":154, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":302, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":360, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5108287074441,"YLAT":55.79247499698766, "ID_Point":69, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51048037473907,"YLAT":55.79154475849084, "ID_Point":68, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ12" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 3926.6 , "ConstructionEnd":4158.8, 
+			"Segments":
+			[
+				{ "ID_Segments":155, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":303, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":361, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51048037473907,"YLAT":55.79154475849084, "ID_Point":68, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51165026066582,"YLAT":55.789502904795995, "ID_Point":67, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ13" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4158.8 , "ConstructionEnd":4322.8, 
+			"Segments":
+			[
+				{ "ID_Segments":156, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":304, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":362, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51165026066582,"YLAT":55.789502904795995, "ID_Point":67, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.512500853643125,"YLAT":55.78805864507551, "ID_Point":66, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ10" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 4322.8 , "ConstructionEnd":4342, 
+			"Segments":
+			[
+				{ "ID_Segments":157, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ10", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":306, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ10", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":364, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ10", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.512500853643125,"YLAT":55.78805864507551, "ID_Point":66, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51257272328995,"YLAT":55.787933059244374, "ID_Point":65, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ13а" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4342 , "ConstructionEnd":4452.4, 
+			"Segments":
+			[
+				{ "ID_Segments":158, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ13а", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":307, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ13а", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":365, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ13а", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51257272328995,"YLAT":55.787933059244374, "ID_Point":65, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5130232469792,"YLAT":55.786941474289065, "ID_Point":63, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ14" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4452.4 , "ConstructionEnd":4744.6, 
+			"Segments":
+			[
+				{ "ID_Segments":159, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":308, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":366, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5130232469792,"YLAT":55.786941474289065, "ID_Point":63, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51390993596616,"YLAT":55.7854841959704, "ID_Point":64, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51448061850135,"YLAT":55.784399441370425, "ID_Point":62, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ15" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 4744.6 , "ConstructionEnd":4891.5, 
+			"Segments":
+			[
+				{ "ID_Segments":160, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ15", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":309, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ15", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":367, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ15", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51448061850135,"YLAT":55.784399441370425, "ID_Point":62, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51507467124133,"YLAT":55.78309176173017, "ID_Point":61, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ11" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 4891.5 , "ConstructionEnd":4920, 
+			"Segments":
+			[
+				{ "ID_Segments":161, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":310, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":368, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ11", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51507467124133,"YLAT":55.78309176173017, "ID_Point":61, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51514249751596,"YLAT":55.78295752327309, "ID_Point":60, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515178383282695,"YLAT":55.78287958165223, "ID_Point":59, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ11-МТ12" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 4920 , "ConstructionEnd":5077, 
+			"Segments":
+			[
+				{ "ID_Segments":162, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ11-МТ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":288, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ11-МТ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":346, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ11-МТ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.515178383282695,"YLAT":55.78287958165223, "ID_Point":59, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515162202785824,"YLAT":55.782842807047665, "ID_Point":58, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51524597829011,"YLAT":55.7826739278702, "ID_Point":57, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51520155726076,"YLAT":55.782596061790784, "ID_Point":56, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515389135911676,"YLAT":55.7822431358452, "ID_Point":55, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51549342261703,"YLAT":55.78220841202923, "ID_Point":54, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515688982890865,"YLAT":55.78184032982421, "ID_Point":53, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51566076338268,"YLAT":55.78180573065162, "ID_Point":52, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51582837746413,"YLAT":55.78148744920349, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51589654713554,"YLAT":55.78145925168344, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51610809167953,"YLAT":55.78106734926182, "ID_Point":50, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ12" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 5077 , "ConstructionEnd":5128, 
+			"Segments":
+			[
+				{ "ID_Segments":163, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":300, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":358, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ12", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51610809167953,"YLAT":55.78106734926182, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51618001038303,"YLAT":55.78095691213597, "ID_Point":49, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ12-ГНБ16" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5128 , "ConstructionEnd":5161, 
+			"Segments":
+			[
+				{ "ID_Segments":164, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ12-ГНБ16", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":301, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ12-ГНБ16", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":359, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ12-ГНБ16", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51618001038303,"YLAT":55.78095691213597, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51618795696547,"YLAT":55.78093093537276, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5160633202453,"YLAT":55.780881278144605, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51610700542443,"YLAT":55.78073191364466, "ID_Point":45, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ16" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 5161 , "ConstructionEnd":5346.4, 
+			"Segments":
+			[
+				{ "ID_Segments":165, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ16", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":311, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ16", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":369, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ16", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51610700542443,"YLAT":55.78073191364466, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51660180998108,"YLAT":55.77977491275365, "ID_Point":79, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51662952490626,"YLAT":55.77965369667182, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51663278337155,"YLAT":55.77941997001312, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.516560037712544,"YLAT":55.779275043249775, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51645099280907,"YLAT":55.779080376162696, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51649093596419,"YLAT":55.7790154153693, "ID_Point":40, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ16-МТ13" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5346.4 , "ConstructionEnd":5529, 
+			"Segments":
+			[
+				{ "ID_Segments":166, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ16-МТ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":312, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ16-МТ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":370, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ16-МТ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51649093596419,"YLAT":55.7790154153693, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51641427307875,"YLAT":55.77890078979361, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5159964885205,"YLAT":55.778842751888696, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51617612058897,"YLAT":55.77851580270632, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5160796893608,"YLAT":55.77849641644925, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.516015317778184,"YLAT":55.7784575230688, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515970980846,"YLAT":55.778405626198456, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515657665203626,"YLAT":55.77836913109722, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51553714894472,"YLAT":55.77835193160334, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51545290389791,"YLAT":55.77837581603016, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.515296214540285,"YLAT":55.77834783002615, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51521191342869,"YLAT":55.77835440164693, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.514946739815386,"YLAT":55.7783048766163, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51489484875422,"YLAT":55.7784001461515, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51491505860709,"YLAT":55.778441245180495, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51476316949618,"YLAT":55.77865563468406, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51446585914824,"YLAT":55.778601811668494, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51443756255098,"YLAT":55.778543407387595, "ID_Point":23, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ13" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 5529 , "ConstructionEnd":5558, 
+			"Segments":
+			[
+				{ "ID_Segments":167, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":270, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":328, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ13", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51443756255098,"YLAT":55.778543407387595, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.514216613740295,"YLAT":55.77851115361522, "ID_Point":22, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ13-ГНБ17" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5558 , "ConstructionEnd":5618, 
+			"Segments":
+			[
+				{ "ID_Segments":168, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ13-ГНБ17", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":313, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ13-ГНБ17", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":371, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ13-ГНБ17", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.514216613740295,"YLAT":55.77851115361522, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51405217402696,"YLAT":55.77856973919558, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51313616496052,"YLAT":55.77841262101283, "ID_Point":20, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ17" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 5618 , "ConstructionEnd":5809.8, 
+			"Segments":
+			[
+				{ "ID_Segments":169, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ17", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":264, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ17", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":322, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ17", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51313616496052,"YLAT":55.77841262101283, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.512613757308245,"YLAT":55.77828543008761, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.512296209075046,"YLAT":55.778181851640014, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51204679547277,"YLAT":55.7780392551686, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.511825307038585,"YLAT":55.77784036563803, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.511288764953875,"YLAT":55.777068284018775, "ID_Point":15, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ17-МТ14" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5809.8 , "ConstructionEnd":5835, 
+			"Segments":
+			[
+				{ "ID_Segments":170, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ17-МТ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":265, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ17-МТ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":323, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ17-МТ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.511288764953875,"YLAT":55.777068284018775, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51127244429505,"YLAT":55.7769882273991, "ID_Point":78, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5113726946363,"YLAT":55.776947015057935, "ID_Point":14, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ14" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 5835 , "ConstructionEnd":5859, 
+			"Segments":
+			[
+				{ "ID_Segments":171, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":266, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":324, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ14", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5113726946363,"YLAT":55.776947015057935, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51154513699686,"YLAT":55.77687976552041, "ID_Point":13, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"МТ14-ГНБ18" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 5859 , "ConstructionEnd":5915, 
+			"Segments":
+			[
+				{ "ID_Segments":200, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ14-ГНБ18", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":267, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ14-ГНБ18", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":325, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"МТ14-ГНБ18", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51154513699686,"YLAT":55.77687976552041, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.511597224284756,"YLAT":55.77684509080638, "ID_Point":77, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51160895493978,"YLAT":55.77674769494115, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51145614076002,"YLAT":55.77667642314495, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51071237390615,"YLAT":55.77659690653144, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510667313798315,"YLAT":55.77656968116512, "ID_Point":9, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51071762255109,"YLAT":55.776481771083326, "ID_Point":8, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ18" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 5915 , "ConstructionEnd":6023.2, 
+			"Segments":
+			[
+				{ "ID_Segments":201, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ18", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":268, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ18", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":326, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ18", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.51071762255109,"YLAT":55.776481771083326, "ID_Point":8, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.511259903427565,"YLAT":55.775554157393145, "ID_Point":7, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Гражданская-Ваганьковская_1лист.sMap", "Name":"Гражданская №1" ,"NameSegment":"ГНБ18-ПС Ваг." , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 6023.2 , "ConstructionEnd":6144, 
+			"Segments":
+			[
+				{ "ID_Segments":202, "ID_Phase":16, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ18-ПС Ваг.", "NameLine":"Гражданская №1", "NamePhase":"Фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":269, "ID_Phase":17, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ18-ПС Ваг.", "NameLine":"Гражданская №1", "NamePhase":"Фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":327, "ID_Phase":18, "ID_Line":6, "ID_Config":2, "NameSegment":"ГНБ18-ПС Ваг.", "NameLine":"Гражданская №1", "NamePhase":"Фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.511259903427565,"YLAT":55.775554157393145, "ID_Point":7, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51097863341455,"YLAT":55.77549382696703, "ID_Point":6, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51089424259931,"YLAT":55.775472698098135, "ID_Point":5, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.510837870860676,"YLAT":55.77542427512021, "ID_Point":4, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51061849594866,"YLAT":55.775382064973535, "ID_Point":3, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51071346254448,"YLAT":55.77519716087467, "ID_Point":2, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51088925972064,"YLAT":55.77519490463173, "ID_Point":1, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.51112833596125,"YLAT":55.77524517558025, "ID_Point":0, "ProcentLength": 0, "Length": 0}
+			]
+		}
+	]
+}

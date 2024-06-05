@@ -1,0 +1,131 @@
+{
+    "Configuration": {"Mes":"Ом", "TYPE":"Dispatching", "Version":1001, "Port":4007, "W":1285, "H":290},
+	"Title": {"FullName":"ПС Марфино Система мониторинга сети постоянного тока", "MinName":"ПС Марфино Мониторинг сети DC"},
+	"Info": {"ID":"DISP855DC", "Subst":"855", "TYPE":"Dispatching", "Location":"ПС862/Шкаф№14/МВКС2[KSA2883128]/МТ", "NameMin":"ПС862 СКТ КРУЭ Дисп", "NameMax":"Модуль Дисп. ПС 862 СКТ КРУЭ"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP855DC"},
+		{"ID_Program" : "GS855/DC"}
+	],
+"Coord":"PS855",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4003"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Марфино(855)/АСУТП",
+        "ASDU":13, "TOPIC_ID":2,  "IpList":["10.131.2.11:2404", "10.131.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":2, "SysId":"DC", "DATA": [
+
+{"ID":1,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1113,  "NAME":"МикроСРЗ Шкаф 2 ДП-1 ЕС1 Сопротивление изоляции присоед."},
+{"ID":2,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1114,  "NAME":"МикроСРЗ Шкаф 2 ДП-2 ЕС2 Сопротивление изоляции присоед."},
+{"ID":3,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1115,  "NAME":"МикроСРЗ Шкаф 2 ДП-3 ЕС3 Сопротивление изоляции присоед."},
+{"ID":4,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1116,  "NAME":"МикроСРЗ Шкаф 2 ДП-4 ЕС4 Сопротивление изоляции присоед."},
+{"ID":5,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1117,  "NAME":"МикроСРЗ Шкаф 2 ДП-5 ЕY1 Сопротивление изоляции присоед."},
+{"ID":6,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1118,  "NAME":"МикроСРЗ Шкаф 2 ДП-6 ЕY2 Сопротивление изоляции присоед."},
+{"ID":7,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1119,  "NAME":"МикроСРЗ Шкаф 2 Сопротивление изоляции главных шин и аккумуляторной батареи"},
+{"ID":8,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1120,  "NAME":"МикроСРЗ Шкаф 2 напряжение на шинах питания"},
+{"ID":9,  "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1121,  "NAME":"МикроСРЗ Шкаф 2 Емкость сети"},
+{"ID":56, "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1168,  "NAME":"МикроСРЗ Шкаф 2 Rизол. Отрицательного полюса"},
+{"ID":57, "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1169,  "NAME":"МикроСРЗ Шкаф 2 Rизол. положительного полюса"},
+{"ID":59, "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1171,  "NAME":"МикроСРЗ Шкаф 2 Напряжение на главных шинах"},
+{"ID":60, "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1172,  "NAME":"МикроСРЗ Шкаф 2 Напряжение отрицательного полюса сети"},
+{"ID":61, "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1173,  "NAME":"МикроСРЗ Шкаф 2 Напряжение положительного полюса сети"},
+{"ID":63, "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1175,  "NAME":"МикроСРЗ Шкаф 2 Пульсация напряжения на главных шинах"},
+{"ID":64, "Mes":"Ом", "TypeTele":"TM", "VER":"General",	"IOA":1176,  "NAME":"МикроСРЗ Шкаф 2 Ток аккумуляторной батареи"},
+{"ID":695, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4105,   "NAME":"МикроСРЗ Шкаф 2 Предварительный уровень снижения изоляции"},
+{"ID":696, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4106,   "NAME":"МикроСРЗ Шкаф 2 ПРЕДУПРЕДИТЕЛЬНЫЙ урвоень снижения изоляции"},
+{"ID":697, "TypeTele":"TS",  "TypeAlarm":"Alarm","VER":"General",	"IOA":4107,   "NAME":"МикроСРЗ Шкаф 2 АВАРИЙНЫЙ урвоень снижения изоляции"},
+{"ID":698, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4108,   "NAME":"МикроСРЗ Шкаф 2 Напряжение на галвных шинах выше ниже нормы"},
+{"ID":699, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4109,   "NAME":"МикроСРЗ Шкаф 2 Напряжение на шинах выше ниже нормы"},
+{"ID":700, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4110,   "NAME":"МикроСРЗ Шкаф 2 Пульсация выше нормы"},
+{"ID":701, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4111,   "NAME":"МикроСРЗ Шкаф 2 Расчет сопротивлений остановлен (низкое U)"},
+{"ID":702, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4112,   "NAME":"МикроСРЗ Шкаф 2 Ошибка связи с интеллектуальными датчиками"},
+{"ID":703, "TypeTele":"TS",  "TypeAlarm":"Warning",  "InvertTS":true, "VER":"General",	"IOA":4113,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Не обеспечен рабочий режим"},
+{"ID":704, "TypeTele":"TS",  "TypeAlarm":"Warning",  "InvertTS":true, "VER":"General",	"IOA":4114,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Отсутсвтует U на присоед."},
+{"ID":705, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4115,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Вкл. функция измерения R изол."},
+{"ID":706, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4116,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Вкл функция контроля U"},
+{"ID":707, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4117,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 СД:Отсутсвтует U на присоед."},
+{"ID":708, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4118,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 СД:Изм. R изол.невозмозможно(c в.в.)"},
+{"ID":709, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4119,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Изм. R изол.невозмозможно(без в.в.)"},
+{"ID":710, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4120,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Высокий уровень помех"},
+{"ID":711, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4121,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Датчик на верхнем уровне"},
+{"ID":712, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4122,   "NAME":"МикроСРЗ Шкаф 2 ДП1 ЕС1 Ошибка связи с датчиком"},
+{"ID":713, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4123,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Не обеспечен рабочий режим"},
+{"ID":714, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4124,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Отсутсвтует U на присоед."},
+{"ID":715, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4125,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Вкл. функция измерения R изол."},
+{"ID":716, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4126,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Вкл функция контроля U"},
+{"ID":717, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4127,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 СД:Отсутсвтует U на присоед."},
+{"ID":718, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4128,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 СД:Изм. R изол.невозмозможно(c в.в.)"},
+{"ID":719, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4129,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Изм. R изол.невозмозможно(без в.в.)"},
+{"ID":720, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4130,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Высокий уровень помех"},
+{"ID":721, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4131,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Датчик на верхнем уровне"},
+{"ID":722, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4132,   "NAME":"МикроСРЗ Шкаф 2 ДП2 ЕС2 Ошибка связи с датчиком"},
+{"ID":723, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4133,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Не обеспечен рабочий режим"},
+{"ID":724, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4134,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Отсутсвтует U на присоед."},
+{"ID":725, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4135,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Вкл. функция измерения R изол."},
+{"ID":726, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4136,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Вкл функция контроля U"},
+{"ID":727, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4137,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 СД:Отсутсвтует U на присоед."},
+{"ID":728, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4138,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 СД:Изм. R изол.невозмозможно(c в.в.)"},
+{"ID":729, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4139,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Изм. R изол.невозмозможно(без в.в.)"},
+{"ID":730, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4140,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Высокий уровень помех"},
+{"ID":731, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4141,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Датчик на верхнем уровне"},
+{"ID":732, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4142,   "NAME":"МикроСРЗ Шкаф 2 ДП3 ЕС3 Ошибка связи с датчиком"},
+{"ID":733, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4143,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Не обеспечен рабочий режим"},
+{"ID":734, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4144,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Отсутсвтует U на присоед."},
+{"ID":735, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4145,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Вкл. функция измерения R изол."},
+{"ID":736, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4146,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Вкл функция контроля U"},
+{"ID":737, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4147,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 СД:Отсутсвтует U на присоед."},
+{"ID":738, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4148,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 СД:Изм. R изол.невозмозможно(c в.в.)"},
+{"ID":739, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4149,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Изм. R изол.невозмозможно(без в.в.)"},
+{"ID":740, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4150,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Высокий уровень помех"},
+{"ID":741, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4151,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Датчик на верхнем уровне"},
+{"ID":742, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4152,   "NAME":"МикроСРЗ Шкаф 2 ДП4 ЕС4 Ошибка связи с датчиком"},
+{"ID":743, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4153,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Не обеспечен рабочий режим"},
+{"ID":744, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4154,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Отсутсвтует U на присоед."},
+{"ID":745, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4155,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Вкл. функция измерения R изол."},
+{"ID":746, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4156,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Вкл функция контроля U"},
+{"ID":747, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4157,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 СД:Отсутсвтует U на присоед."},
+{"ID":748, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4158,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 СД:Изм. R изол.невозмозможно(c в.в.)"},
+{"ID":749, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4159,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Изм. R изол.невозмозможно(без в.в.)"},
+{"ID":750, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4160,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Высокий уровень помех"},
+{"ID":751, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4161,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Датчик на верхнем уровне"},
+{"ID":752, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4162,   "NAME":"МикроСРЗ Шкаф 2 ДП5 ЕY1 Ошибка связи с датчиком"},
+{"ID":753, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4163,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Не обеспечен рабочий режим"},
+{"ID":754, "TypeTele":"TS",  "TypeAlarm":"Warning", "InvertTS":true, "VER":"General",	"IOA":4164,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Отсутсвтует U на присоед."},
+{"ID":755, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4165,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Вкл. функция измерения R изол."},
+{"ID":756, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4166,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Вкл функция контроля U"},
+{"ID":757, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4167,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 СД:Отсутсвтует U на присоед."},
+{"ID":758, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4168,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 СД:Изм. R изол.невозмозможно(c в.в.)"},
+{"ID":759, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4169,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Изм. R изол.невозмозможно(без в.в.)"},
+{"ID":760, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4170,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Высокий уровень помех"},
+{"ID":761, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4171,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Датчик на верхнем уровне"},
+{"ID":762, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4172,   "NAME":"МикроСРЗ Шкаф 2 ДП6 ЕY2 Ошибка связи с датчиком"},
+{"ID":763, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4173,   "NAME":"МикроСРЗ ДТ АБ Разряд батареи АБ"},
+{"ID":764, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4174,   "NAME":"МикроСРЗ ДТ АБ Ошибка связи с датчиком тока АБ"},
+{"ID":765, "TypeTele":"TS",  "TypeAlarm":"Warning", "VER":"General",	"IOA":4175,   "NAME":"МикроСРЗ ДТ АБ Включена функция сигнал. разряд батареи АБ"}
+	]}
+
+	],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8555",	"NAME":"Система мониторинга сети постоянного тока}"}
+		]}
+}

@@ -1,0 +1,36 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4904, "W":1405, "H":420},
+	"Title": {"FullName":"ПС 851 Грач КЛ 110/20 кВ", "MinName":"ПС Грач"},
+	"Info": {"ID":"PS851", "Type":"Dispatching", "Location":"ПС851/Шкаф№23/БОД[******]/МТ", "NameMin":"ПС851 МТ Дисп", "NameMax":"Модуль Дисп ПС 851"},
+	"AceptFrom":["DISP851WT","DISP851VN6","DISP851DC", "DISP851TPZ", "DISP851VN3", "DISP851MT", "DISP851ASU"],
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISPALL"}
+	],
+"Coord":"PS851",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.159", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.159", "Port" : "4004"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.159", "Port" : "4004"},
+		 {"TypeLink" : "dbTables", "Port" : "3900"},
+		 {"TypeLink" : "Gallery",  "Port" : "4977"}
+	],
+	"TELE":
+	[
+
+		{"ID":20, "VER":"Label",   	"X":0, 	"Y":0, 	"H":155,    "W":465, "NAME":"КВЛ 110кв Пахра - Грач, Грач - Сырово"},
+		{"ID":1, "VER":"GSV1000",	"ID_Program":"GS851",   "LINK_TELE_ID":"DISP851MT", 	"X":5, 	 "Y":50,    "W":455, "NAME":"Система мониторинга температуры (ПТС-1000)", "Link":"4901"},
+		
+		{"ID":21, "VER":"Label",   	"X":475, 	"Y":0, 	"H":155,    "W":465, "NAME":"КЛ 110кв Грач – Бутово 1, Грач – Бутово 2"},
+		{"ID":2, "VER":"GSV1000",	"ID_Program":"GS851",   "LINK_TELE_ID":"DISP851TPZ", 	"X":480, "Y":50,    "W":455, "NAME":"Система мониторинга температуры (TOPAZ)", "Link":"4902"},
+		
+		
+		{"ID":12, "VER":"GSV1000",	"ID_Program":"GS851", 	"LINK_TELE_ID":"DISP851ASU", 	"X":925, "Y":215, 	"W":455, "NAME":"Система АСУ ТП и ТМ ПС Грач", "Link":"4905"},
+		{"ID":13, "VER":"GSV1000",	"ID_Program":"GS851", 	"LINK_TELE_ID":"DISP851VN3", 	"X":5, 	 "Y":215, 	"W":455, "NAME":"Система контроля ёмкости и тангенса δ ВВ вводов (TM3)", "Link":"4906"},
+		{"ID":14, "VER":"GSV1000",	"ID_Program":"GS851", 	"LINK_TELE_ID":"DISP851DC", 	"X":5, 	 "Y":320, 	"W":455, "NAME":"Система мониторинга сети постоянного тока", "Link":"4907"},
+		{"ID":15, "VER":"GSV1000",	"ID_Program":"GS851", 	"LINK_TELE_ID":"DISP851WT", 	"X":465, "Y":215, 	"W":455, "NAME":"Система мониторинга темп. обмоток ТСН1, ТСН2, ТСН3", "Link":"4908"},
+		{"ID":16, "VER":"GSV1000",	"ID_Program":"GS851", 	"LINK_TELE_ID":"DISP851VN6",   "X":465, "Y":320, 	"W":455, "NAME":"Система контроля ёмкости и тангенса δ ВВ вводов (TM6)", "Link":"4909"}
+	]
+}

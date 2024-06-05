@@ -1,0 +1,121 @@
+{
+	"Configuration": {"Type":"Dispatching", "Version":1001, "Port":4820, "W":825, "H":290},
+	"Title": {"FullName":"ПС Ваганьковская", "MinName":"ПС Ваганьковская БКТ-03", "SysName":"Блок контроля температуры - 03"},
+	"Info": {"ID":"DISP848BKT", "Subst":"848", "Type":"Dispatching", "Location":"ПС848/Сервер ТМ ПС Ваганьковская", "NameMin":"ПС848 ТП Дисп", "NameMax":"Модуль Дисп. ПС848 ТМ ПС Ваганьковская"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP848BKT"},
+		{"ID_Program" : "GS848/BKT"}
+	],
+	"Coord":"PS848",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4803"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Ваганьковская(848)/БКТ-3",
+        "ASDU":1, "TOPIC_ID":2,  "IpList":["10.22.36.23:2804"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":2, "SysId":"BKT", "DATA": [
+
+{"ID":"1","Mes":"°С", "TypeTele":"TM",   "VER":"General", "IOA":"1025", "NAME":"ТСН1 Текущая температура в канале A", "Links":{ "Arch":"4838"}},
+{"ID":"2","Mes":"°С", "TypeTele":"TM",   "VER":"General", "IOA":"1026", "NAME":"ТСН1 Текущая температура в канале B", "Links":{ "Arch":"4838"}},
+{"ID":"3","Mes":"°С", "TypeTele":"TM",   "VER":"General", "IOA":"1027", "NAME":"ТСН1 Текущая температура в канале C", "Links":{ "Arch":"4838"}},
+{"ID":"4","Mes":"°С", "TypeTele":"TM",   "VER":"General", "IOA":"3107", "NAME":"ТСН1 Текущая температура в канале P", "Links":{ "Arch":"4838"}},
+{"ID":"5","Mes":"°С", "TypeTele":"TM",   "VER":"General", "IOA":"3108", "NAME":"ТСН1 Температура в корпусе блока", "Links":{ "Arch":"4838"}},
+{"ID":"6","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",     "VER":"General", "IOA":"4030", "NAME":"ТСН1 Выдан сигнал Перегрев", "Links":{ "Arch":"4838"}},
+{"ID":"7","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",     "VER":"General", "IOA":"3110", "NAME":"ТСН1 Выдан сигнал Предупреждение", "Links":{ "Arch":"4838"}},
+{"ID":"8","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",     "VER":"General", "IOA":"4029", "NAME":"ТСН1 Выдан сигнал Охлаждение", "Links":{ "Arch":"4838"}},
+{"ID":"9","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",     "VER":"General", "IOA":"3112", "NAME":"ТСН1 Включен внутренний подогрев", "Links":{ "Arch":"4838"}},
+{"ID":"10","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"4032", "NAME":"ТСН1 Выдан сигнал Неисправность БКТ", "Links":{ "Arch":"4838"}},
+{"ID":"11","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3114", "NAME":"ТСН1 Отказ схемы опроса датчиков", "Links":{ "Arch":"4838"}},
+{"ID":"12","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3115", "NAME":"ТСН1 Отказ датчика", "Links":{ "Arch":"4838"}},
+{"ID":"13","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3116", "NAME":"ТСН1 Перегрев по каналу P", "Links":{ "Arch":"4838"}},
+{"ID":"14","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3117", "NAME":"ТСН1 Перегрев по каналу C", "Links":{ "Arch":"4838"}},
+{"ID":"15","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3118", "NAME":"ТСН1 Перегрев по каналу B", "Links":{ "Arch":"4838"}},
+{"ID":"16","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3119", "NAME":"ТСН1 Перегрев по каналу A", "Links":{ "Arch":"4838"}},
+{"ID":"17","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3120", "NAME":"ТСН1 Отказ встроенного АЦП", "Links":{ "Arch":"4838"}},
+{"ID":"18","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3121", "NAME":"ТСН1 Замыкание датчика канала P", "Links":{ "Arch":"4838"}},
+{"ID":"19","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3122", "NAME":"ТСН1 Обрыв датчика канала P", "Links":{ "Arch":"4838"}},
+{"ID":"20","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3123", "NAME":"ТСН1 Замыкание датчика канала C", "Links":{ "Arch":"4838"}},
+{"ID":"21","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3124", "NAME":"ТСН1 Обрыв датчика канала C", "Links":{ "Arch":"4838"}},
+{"ID":"22","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3125", "NAME":"ТСН1 Замыкание датчика канала B", "Links":{ "Arch":"4838"}},
+{"ID":"23","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3126", "NAME":"ТСН1 Обрыв датчика канала B", "Links":{ "Arch":"4838"}},
+{"ID":"24","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3127", "NAME":"ТСН1 Замыкание датчика канала A", "Links":{ "Arch":"4838"}},
+{"ID":"25","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3128", "NAME":"ТСН1 Обрыв датчика канала A", "Links":{ "Arch":"4838"}},
+{"ID":"26","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"1028", "NAME":"ТСН2 Текущая температура в канале A", "Links":{ "Arch":"4838"}},
+{"ID":"27","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"1029", "NAME":"ТСН2 Текущая температура в канале B", "Links":{ "Arch":"4838"}},
+{"ID":"28","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"1030", "NAME":"ТСН2 Текущая температура в канале C", "Links":{ "Arch":"4838"}},
+{"ID":"29","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"3207", "NAME":"ТСН2 Текущая температура в канале P", "Links":{ "Arch":"4838"}},
+{"ID":"30","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"3208", "NAME":"ТСН2 Температура в корпусе блока", "Links":{ "Arch":"4838"}},
+{"ID":"31","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"4035", "NAME":"ТСН2 Выдан сигнал Перегрев", "Links":{ "Arch":"4838"}},
+{"ID":"32","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3210", "NAME":"ТСН2 Выдан сигнал Предупреждение", "Links":{ "Arch":"4838"}},
+{"ID":"33","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"4034", "NAME":"ТСН2 Выдан сигнал Охлаждение", "Links":{ "Arch":"4838"}},
+{"ID":"34","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3212", "NAME":"ТСН2 Включен внутренний подогрев", "Links":{ "Arch":"4838"}},
+{"ID":"35","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"4037", "NAME":"ТСН2 Выдан сигнал Неисправность БКТ", "Links":{ "Arch":"4838"}},
+{"ID":"36","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3214", "NAME":"ТСН2 Отказ схемы опроса датчиков", "Links":{ "Arch":"4838"}},
+{"ID":"37","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3215", "NAME":"ТСН2 Отказ датчика", "Links":{ "Arch":"4838"}},
+{"ID":"38","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3216", "NAME":"ТСН2 Перегрев по каналу P", "Links":{ "Arch":"4838"}},
+{"ID":"39","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3217", "NAME":"ТСН2 Перегрев по каналу C", "Links":{ "Arch":"4838"}},
+{"ID":"40","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3218", "NAME":"ТСН2 Перегрев по каналу B", "Links":{ "Arch":"4838"}},
+{"ID":"41","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3219", "NAME":"ТСН2 Перегрев по каналу A", "Links":{ "Arch":"4838"}},
+{"ID":"42","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3220", "NAME":"ТСН2 Отказ встроенного АЦП", "Links":{ "Arch":"4838"}},
+{"ID":"43","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3221", "NAME":"ТСН2 Замыкание датчика канала P", "Links":{ "Arch":"4838"}},
+{"ID":"44","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3222", "NAME":"ТСН2 Обрыв датчика канала P", "Links":{ "Arch":"4838"}},
+{"ID":"45","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3223", "NAME":"ТСН2 Замыкание датчика канала C", "Links":{ "Arch":"4838"}},
+{"ID":"46","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3224", "NAME":"ТСН2 Обрыв датчика канала C", "Links":{ "Arch":"4838"}},
+{"ID":"47","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3225", "NAME":"ТСН2 Замыкание датчика канала B", "Links":{ "Arch":"4838"}},
+{"ID":"48","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3226", "NAME":"ТСН2 Обрыв датчика канала B", "Links":{ "Arch":"4838"}},
+{"ID":"49","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3227", "NAME":"ТСН2 Замыкание датчика канала A", "Links":{ "Arch":"4838"}},
+{"ID":"50","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3228", "NAME":"ТСН2 Обрыв датчика канала A", "Links":{ "Arch":"4838"}},
+{"ID":"51","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"1031", "NAME":"ТСН3 Текущая температура в канале A", "Links":{ "Arch":"4838"}},
+{"ID":"52","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"1032", "NAME":"ТСН3 Текущая температура в канале B", "Links":{ "Arch":"4838"}},
+{"ID":"53","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"1033", "NAME":"ТСН3 Текущая температура в канале C", "Links":{ "Arch":"4838"}},
+{"ID":"54","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"3307", "NAME":"ТСН3 Текущая температура в канале P", "Links":{ "Arch":"4838"}},
+{"ID":"55","Mes":"°С", "TypeTele":"TM",  "VER":"General", "IOA":"3308", "NAME":"ТСН3 Температура в корпусе блока", "Links":{ "Arch":"4838"}},
+{"ID":"56","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"4040", "NAME":"ТСН3 Выдан сигнал Перегрев", "Links":{ "Arch":"4838"}},
+{"ID":"57","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3310", "NAME":"ТСН3 Выдан сигнал Предупреждение", "Links":{ "Arch":"4838"}},
+{"ID":"58","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"4039", "NAME":"ТСН3 Выдан сигнал Охлаждение", "Links":{ "Arch":"4838"}},
+{"ID":"59","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3312", "NAME":"ТСН3 Включен внутренний подогрев", "Links":{ "Arch":"4838"}},
+{"ID":"60","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"4042", "NAME":"ТСН3 Выдан сигнал Неисправность БКТ", "Links":{ "Arch":"4838"}},
+{"ID":"61","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3314", "NAME":"ТСН3 Отказ схемы опроса датчиков", "Links":{ "Arch":"4838"}},
+{"ID":"62","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3315", "NAME":"ТСН3 Отказ датчика", "Links":{ "Arch":"4838"}},
+{"ID":"63","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3316", "NAME":"ТСН3 Перегрев по каналу P", "Links":{ "Arch":"4838"}},
+{"ID":"64","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3317", "NAME":"ТСН3 Перегрев по каналу C", "Links":{ "Arch":"4838"}},
+{"ID":"65","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3318", "NAME":"ТСН3 Перегрев по каналу B", "Links":{ "Arch":"4838"}},
+{"ID":"66","Mes":"", "TypeTele":"TS", "TypeAlarm":"Warning",    "VER":"General", "IOA":"3319", "NAME":"ТСН3 Перегрев по каналу A", "Links":{ "Arch":"4838"}},
+{"ID":"67","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3320", "NAME":"ТСН3 Отказ встроенного АЦП", "Links":{ "Arch":"4838"}},
+{"ID":"68","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3321", "NAME":"ТСН3 Замыкание датчика канала P", "Links":{ "Arch":"4838"}},
+{"ID":"69","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3322", "NAME":"ТСН3 Обрыв датчика канала P", "Links":{ "Arch":"4838"}},
+{"ID":"70","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3323", "NAME":"ТСН3 Замыкание датчика канала C", "Links":{ "Arch":"4838"}},
+{"ID":"71","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3324", "NAME":"ТСН3 Обрыв датчика канала C", "Links":{ "Arch":"4838"}},
+{"ID":"72","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3325", "NAME":"ТСН3 Замыкание датчика канала B", "Links":{ "Arch":"4838"}},
+{"ID":"73","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3326", "NAME":"ТСН3 Обрыв датчика канала B", "Links":{ "Arch":"4838"}},
+{"ID":"74","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3327", "NAME":"ТСН3 Замыкание датчика канала A", "Links":{ "Arch":"4838"}},
+{"ID":"75","Mes":"", "TypeTele":"TS", "TypeAlarm":"Alarm",    "VER":"General", "IOA":"3328", "NAME":"ТСН3 Обрыв датчика канала A", "Links":{ "Arch":"4838"}}
+	]}	
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"84800",	"NAME":"Блок контроля температуры"}
+		]}
+		
+}
+

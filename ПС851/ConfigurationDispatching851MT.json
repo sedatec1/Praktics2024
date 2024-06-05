@@ -1,0 +1,92 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4901, "W":825, "H":290},
+	"Title": {"FullName":"Система мониторинга температуры КВЛ 110 кВ Пахра – Грач, КВЛ 110 кВ Грач – Сырово", "MinName":"ПС Грач Температура1", "SysName":"Система мониторинга температуры КВЛ 110 кВ Пахра – Грач, КВЛ 110 кВ Грач – Сырово"},
+	"Info": {"ID":"DISP851MT", "Subst":"851", "Type":"Dispatching", "Location":"ПС851/Сервер ТМ ПС Грач", "NameMin":"ПС851 ТП Дисп", "NameMax":"Модуль Дисп. ПС 851 ТМ ПС Грач"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP851MT"},
+		{"ID_Program" : "GS851/MT"}
+	],
+"Coord":"PS851",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4904"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Грач(851)/МТ(110кВ Пахра - Грач; Грач - Сырово)",
+        "ASDU":1, "TOPIC_ID":3,  "IpList":["10.22.0.21:2504"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":3, "SysId":"MT", "DATA": [
+
+{"ID":"1",  "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1001", "NAME":"Максимальная температура Tmax1 фЖ (Tmax1 фЖ) КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"2",  "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1002", "NAME":"Максимальная температура Tmax1 фЗ (Tmax1 фЗ) КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"3",  "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1003", "NAME":"Максимальная температура Tmax1 фК (Tmax1 фК) КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"4",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1004", "NAME":"Местоположение максимальной температуры Tmax1 фЖ (L до Tmax1 фЖ) КВЛ 110 кВ Пахра – Грач ", "Links":{ "Arch":"4938"}},		
+{"ID":"5",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1005", "NAME":"Местоположение максимальной температуры Tmax1 фЗ (L до Tmax1 фЗ) КВЛ 110 кВ Пахра – Грач ", "Links":{ "Arch":"4938"}},		
+{"ID":"6",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1006", "NAME":"Местоположение максимальной температуры Tmax1 фК (L до Tmax1 фК) КВЛ 110 кВ Пахра – Грач ", "Links":{ "Arch":"4938"}},
+
+{"ID":"13",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1201", "NAME":"Местоположение обрыва волокна фЖ (L до обрыва фЖ) КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"14",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1202", "NAME":"Местоположение обрыва волокна фЗ (L до обрыва фЗ) КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"15",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1203", "NAME":"Местоположение обрыва волокна фК (L до обрыва фК) КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"16",  "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1007", "NAME":"Максимальная температура Tmax1 фЖ (Tmax1 фЖ) КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"17",  "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1008", "NAME":"Максимальная температура Tmax1 фЗ (Tmax1 фЗ) КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"18",  "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1009", "NAME":"Максимальная температура Tmax1 фК (Tmax1 фК) КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"19",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1010", "NAME":"Местоположение максимальной температуры Tmax1 фЖ (L до Tmax1 фЖ) КВЛ 110 кВ Грач – Сырово ", "Links":{ "Arch":"4938"}},		
+{"ID":"20",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1011", "NAME":"Местоположение максимальной температуры Tmax1 фЗ (L до Tmax1 фЗ) КВЛ 110 кВ Грач – Сырово ", "Links":{ "Arch":"4938"}},		
+{"ID":"21",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1012", "NAME":"Местоположение максимальной температуры Tmax1 фК (L до Tmax1 фК) КВЛ 110 кВ Грач – Сырово ", "Links":{ "Arch":"4938"}},		
+
+
+{"ID":"28",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1204", "NAME":"Местоположение обрыва волокна фЖ (L до обрыва фЖ) КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"29",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1205", "NAME":"Местоположение обрыва волокна фЗ (L до обрыва фЗ) КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"30",  "Mes":"m", "TypeTele":"TM",  "VER":"General", "IOA":"1206", "NAME":"Местоположение обрыва волокна фК (L до обрыва фК) КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"31",  "Mes":"V", "TypeTele":"TM",  "VER":"General", "IOA":"2001", "NAME":"Напряжение на батареях Стойка №23 27/1", "Links":{ "Arch":"4938"}},		
+{"ID":"32",  "Mes":"%", "TypeTele":"TM",  "VER":"General", "IOA":"221", "NAME":"Степень заряда батарей Стойка №23 27/1", "Links":{ "Arch":"4938"}},		
+{"ID":"33", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"209",  "NAME":"Превышение предупредительной уставки фЖ КВЛ 110 кВ Пахра – Грач Т=60°С", "Links":{ "Arch":"4938"}},		
+{"ID":"34", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"210",  "NAME":"Превышение предупредительной уставки фЗ КВЛ 110 кВ Пахра – Грач Т=60°С", "Links":{ "Arch":"4938"}},		
+{"ID":"35", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"211",  "NAME":"Превышение предупредительной уставки фК КВЛ 110 кВ Пахра – Грач Т=60°С", "Links":{ "Arch":"4938"}},		
+{"ID":"36", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"212",  "NAME":"Превышение аварийной уставки фЖ КВЛ 110 кВ Пахра – Грач Т=70°С", "Links":{ "Arch":"4938"}},		
+{"ID":"37", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"213",  "NAME":"Превышение аварийной уставки фЗ КВЛ 110 кВ Пахра – Грач Т=70°С", "Links":{ "Arch":"4938"}},		
+{"ID":"38", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"214",  "NAME":"Превышение аварийной уставки фК КВЛ 110 кВ Пахра – Грач Т=70°С", "Links":{ "Arch":"4938"}},		
+{"ID":"39", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"201",  "NAME":"Обрыв волокна фЖ КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"40", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"202",  "NAME":"Обрыв волокна фЗ КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"41", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"203",  "NAME":"Обрыв волокна фК КВЛ 110 кВ Пахра – Грач", "Links":{ "Arch":"4938"}},		
+{"ID":"42", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"215",  "NAME":"Превышение предупредительной уставки фЖ КВЛ 110 кВ Грач – Сырово Т=60°С", "Links":{ "Arch":"4938"}},		
+{"ID":"43", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"216",  "NAME":"Превышение предупредительной уставки фЗ КВЛ 110 кВ Грач – Сырово Т=60°С", "Links":{ "Arch":"4938"}},		
+{"ID":"44", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"217",  "NAME":"Превышение предупредительной уставки фК КВЛ 110 кВ Грач – Сырово Т=60°С", "Links":{ "Arch":"4938"}},		
+{"ID":"45", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"218",  "NAME":"Превышение аварийной уставки фЖ КВЛ 110 кВ Грач – Сырово Т=70°С", "Links":{ "Arch":"4938"}},		
+{"ID":"46", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"219",  "NAME":"Превышение аварийной уставки фЗ КВЛ 110 кВ Грач – Сырово Т=70°С", "Links":{ "Arch":"4938"}},		
+{"ID":"47", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"220",  "NAME":"Превышение аварийной уставки фК КВЛ 110 кВ Грач – Сырово Т=70°С", "Links":{ "Arch":"4938"}},		
+{"ID":"48", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"204",  "NAME":"Обрыв волокна фЖ КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"49", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"205",  "NAME":"Обрыв волокна фЗ КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"50", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"206",  "NAME":"Обрыв волокна фК КВЛ 110 кВ Грач – Сырово", "Links":{ "Arch":"4938"}},		
+{"ID":"51", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"207",  "NAME":"Ошибка прибора ПТС-1500", "Links":{ "Arch":"4938"}},		
+{"ID":"52", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"208",  "NAME":"Отсутствие напряжения питания на стойке (работа от батареи) Стойка №23 27/1", "Links":{ "Arch":"4938"}},		
+{"ID":"53", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"2002",  "NAME":"Неисправность батарей Стойка №23 27/1", "Links":{ "Arch":"4938"}},		
+{"ID":"54", "TypeTele":"TS",  "TypeAlarm":"Warning",  "VER":"General", "IOA":"2000",  "NAME":"Низкий заряд батарей Стойка №23 27/1", "Links":{ "Arch":"4938"}},		
+
+{"ID":"55", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4023",  "NAME":"Открытие двери шкафа (передняя)", "Links":{ "Arch":"4938"}},		
+{"ID":"56", "TypeTele":"TS",  "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4024",  "NAME":"Открытие двери шкафа (задняя)", "Links":{ "Arch":"4938"}}	
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8511",	"NAME":"Термометрия Пахра-Грач, Грач-Сырово}"}
+		]}
+}	

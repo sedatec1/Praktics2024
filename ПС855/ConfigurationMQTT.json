@@ -1,0 +1,8 @@
+{	
+    "Configuration": {"Type":"MQTT", "Version":1004, "Port":3000},
+	"MQTT"	: 
+	[
+		{"ID":"1", "IP" : "192.168.0.56", "User" : "sedatec", "PWD" : "sedatec", "Port":"1883"},
+		{"ID":"2", "IP" : "10.22.4.21", "User" : "sedatec", "PWD" : "sedatec", "Port":"1883"}
+	]
+}

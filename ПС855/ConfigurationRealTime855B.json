@@ -1,0 +1,42 @@
+{
+   "Configuration": {"Type":"RealTime", "Version":1001, "Port":4028},
+	"Title": {"FullName":"ПС Марфино КЛ 220кВ", "MinName":"ПС Марфино"},
+	"Info": {"ID":"RT855B", "Type":"RealTime", "Location":"ПС855/Шкаф№68/БОД[******]/МТ", "NameMin":"ПС855 МТ RT", "NameMax":"Модуль RT ПС 855"},
+	"Profiles" : 
+	[
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":11},
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":12},
+		{"ID_Program" : "SEGMT855B/ProfilesConstruction", "ID":13}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4001"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+    "Channels":
+	[
+
+		{ "ID": 11,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС Марфино КЛ 220 кВ Марфино-Бутырки Фаза Ж" , "LINK_CHANNEL_ID": 11, "H":90, "COLOUR":"orange", "AxisXmin":0 , "AxisXmax":2000, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 11, "NAME": "Новый сегмент", "BEGIN":0, "END":2000, "SORT":1}
+			]
+		},
+		{ "ID": 12,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС Марфино КЛ 220 кВ Марфино-Бутырки Фаза З" , "LINK_CHANNEL_ID": 12, "H":90, "COLOUR":"green", "AxisXmin":0 , "AxisXmax":2000, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 12, "NAME": "Новый сегмент", "BEGIN":0, "END":2000, "SORT":1}
+			]
+		},
+		{ "ID": 13,"LINEID":1, "TYPE":"SEGP01", "NAME": "ПС Марфино КЛ 220 кВ Марфино-Бутырки Фаза К" , "LINK_CHANNEL_ID": 13, "H":90, "COLOUR":"red", "AxisXmin":0 , "AxisXmax":2000, 
+			"Segments":
+			[
+				{"COLOUR":"rgba(94, 60, 0, 0.2)", "SEGMENT_ID": 13, "NAME": "Новый сегмент", "BEGIN":0, "END":2000, "SORT":1}
+			]
+		}
+
+
+	
+	]
+}

@@ -1,0 +1,810 @@
+{
+	"Configuration": {"Type":"MAP", "Version":1001, "Port":7001},
+	"Title": {"FullName":"Картография и схемография Марфино", "MinName":"ПС 855 MAP"},
+	"Info": {"ID":"MAP855", "Type":"Map", "Location":"ПС855/Шкаф/БОД[*.*.*.*]/МТ", "NameMin":"ПС855 МТ Картография", "NameMax":"Модуль картографии ПС 855 Термоконтроль"},
+	"Map" : {"CenterXLON":37.5848482, "CenterYLAT": 55.8422166, "Scale": 15, "CountPointAlarm":30},
+	"ProfilesConstruction" : 
+	[
+		{"ID_Program" : "SEGMT855B", "ID":227},
+		{"ID_Program" : "SEGMT855B", "ID":228},
+		{"ID_Program" : "SEGMT855B", "ID":229},
+		{"ID_Program" : "SEGMT855B", "ID":230},
+		{"ID_Program" : "SEGMT855B", "ID":231},
+		{"ID_Program" : "SEGMT855B", "ID":232}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "localhost", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "localhost", "Port" : "4002"},
+		 {"TypeLink" : "Home", "IP" : "localhost", "Port" : "4004"}
+	],
+	"Zones":
+	[
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"КМ-ПС" , "R": "128", "G": "128", "B": "0", "ConstructionBegin": 0 , "ConstructionEnd":22, 
+			"Segments":
+			[
+				{ "ID_Segments":3068, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"КМ-ПС", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3094, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"КМ-ПС", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3120, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"КМ-ПС", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.576016854139816,"YLAT":55.833182471106916, "ID_Point":0, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57614618290742,"YLAT":55.833339365135146, "ID_Point":91, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ПС-ГНБ1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 22 , "ConstructionEnd":200, 
+			"Segments":
+			[
+				{ "ID_Segments":3069, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ПС-ГНБ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3095, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ПС-ГНБ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3121, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ПС-ГНБ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57614618290742,"YLAT":55.833339365135146, "ID_Point":91, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57628992185173,"YLAT":55.83348919025927, "ID_Point":1, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57652660194931,"YLAT":55.83335598732445, "ID_Point":2, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57673014683322,"YLAT":55.83322278438963, "ID_Point":3, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57713013619812,"YLAT":55.83292840590368, "ID_Point":4, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57753959276693,"YLAT":55.83287912081779, "ID_Point":5, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.578126559408915,"YLAT":55.832704624973175, "ID_Point":6, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57823306545282,"YLAT":55.83286313646561, "ID_Point":7, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ1" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 200 , "ConstructionEnd":305, 
+			"Segments":
+			[
+				{ "ID_Segments":3070, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3096, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3122, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57823306545282,"YLAT":55.83286313646561, "ID_Point":7, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57897624095921,"YLAT":55.83375559612892, "ID_Point":8, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ1-ТТ1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 305 , "ConstructionEnd":332, 
+			"Segments":
+			[
+				{ "ID_Segments":3081, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ1-ТТ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3097, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ1-ТТ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3123, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ1-ТТ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57897624095921,"YLAT":55.83375559612892, "ID_Point":8, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57896715149374,"YLAT":55.833896064079546, "ID_Point":92, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ТТ1" , "R": "0", "G": "255", "B": "255", "ConstructionBegin": 332 , "ConstructionEnd":356, 
+			"Segments":
+			[
+				{ "ID_Segments":3082, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ТТ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3098, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ТТ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3124, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ТТ1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57896715149374,"YLAT":55.833896064079546, "ID_Point":92, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.578957957239,"YLAT":55.834009416857164, "ID_Point":93, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ТТ1-М1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 356 , "ConstructionEnd":469, 
+			"Segments":
+			[
+				{ "ID_Segments":3071, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ТТ1-М1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3099, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ТТ1-М1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3125, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ТТ1-М1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.578957957239,"YLAT":55.834009416857164, "ID_Point":93, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.578940738944574,"YLAT":55.83424844698775, "ID_Point":9, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5791135154158,"YLAT":55.83469600884875, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57915848463434,"YLAT":55.83483054381292, "ID_Point":11, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М1" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 469 , "ConstructionEnd":478, 
+			"Segments":
+			[
+				{ "ID_Segments":3072, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3100, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3126, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М1", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57915848463434,"YLAT":55.83483054381292, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.579191619848004,"YLAT":55.83493710616077, "ID_Point":12, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М1-М2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 478 , "ConstructionEnd":914, 
+			"Segments":
+			[
+				{ "ID_Segments":3073, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М1-М2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3101, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М1-М2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3127, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М1-М2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.579191619848004,"YLAT":55.83493710616077, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57919872025093,"YLAT":55.83498106312926, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57932416070264,"YLAT":55.83504366850863, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57947326916411,"YLAT":55.83508629344777, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58010993862659,"YLAT":55.83525945726304, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580169108650985,"YLAT":55.83531007437827, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580180942655865,"YLAT":55.83536868366959, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58015490784513,"YLAT":55.835449937459835, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58015964144708,"YLAT":55.835553835748996, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5801288730344,"YLAT":55.836860556539584, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580003432582686,"YLAT":55.837116306174444, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58010283822367,"YLAT":55.83734674725168, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58012650623342,"YLAT":55.8376651022659, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58013360663635,"YLAT":55.8377783247605, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58028508189879,"YLAT":55.837806297376815, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58028271509782,"YLAT":55.83821123429867, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58029928270465,"YLAT":55.83855622989986, "ID_Point":28, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М2" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 914 , "ConstructionEnd":923, 
+			"Segments":
+			[
+				{ "ID_Segments":3074, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3102, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3128, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58029928270465,"YLAT":55.83855622989986, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58031348351051,"YLAT":55.83863881571944, "ID_Point":29, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М2-М3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 923 , "ConstructionEnd":1403, 
+			"Segments":
+			[
+				{ "ID_Segments":3075, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М2-М3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3103, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М2-М3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3129, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М2-М3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58031348351051,"YLAT":55.83863881571944, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580370286733924,"YLAT":55.83877068662492, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58052649559832,"YLAT":55.838957170733664, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58064956924906,"YLAT":55.83907172525761, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5807726428998,"YLAT":55.83920093210439, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58078921050663,"YLAT":55.83929284212941, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580881515744686,"YLAT":55.83940739665336, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58099985579347,"YLAT":55.83948199029686, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58119156667251,"YLAT":55.83974440007846, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.581158431458846,"YLAT":55.83980434139912, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58106849302177,"YLAT":55.839864282719795, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.581144230652995,"YLAT":55.83993887636329, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58146138198374,"YLAT":55.84021993455577, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58201994701402,"YLAT":55.84058224653848, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58240810237404,"YLAT":55.84080336341028, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58315837828336,"YLAT":55.84119098395061, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.583889719784864,"YLAT":55.84156395216811, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58451218844148,"YLAT":55.84191427588669, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58484827418004,"YLAT":55.84221664654873, "ID_Point":47, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М3" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1403 , "ConstructionEnd":1412, 
+			"Segments":
+			[
+				{ "ID_Segments":3076, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3104, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3130, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58484827418004,"YLAT":55.84221664654873, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.584942946219066,"YLAT":55.84228058395745, "ID_Point":48, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М3-ГНБ2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1412 , "ConstructionEnd":1492, 
+			"Segments":
+			[
+				{ "ID_Segments":3077, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М3-ГНБ2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3105, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М3-ГНБ2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3131, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М3-ГНБ2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.584942946219066,"YLAT":55.84228058395745, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58510862228737,"YLAT":55.84246973212489, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.585333468380064,"YLAT":55.842419115009655, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58539973880739,"YLAT":55.84243110327379, "ID_Point":51, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ2" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1492 , "ConstructionEnd":1606, 
+			"Segments":
+			[
+				{ "ID_Segments":3078, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3106, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3132, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ2", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58539973880739,"YLAT":55.84243110327379, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.586180783129386,"YLAT":55.84335819570014, "ID_Point":52, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ2-ГНБ3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1606 , "ConstructionEnd":1723, 
+			"Segments":
+			[
+				{ "ID_Segments":3079, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ2-ГНБ3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3107, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ2-ГНБ3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3133, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ2-ГНБ3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.586180783129386,"YLAT":55.84335819570014, "ID_Point":52, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.586370127207445,"YLAT":55.84349273066431, "ID_Point":53, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.586296756377195,"YLAT":55.843604621129565, "ID_Point":54, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58642219682891,"YLAT":55.84372050768285, "ID_Point":55, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.586883723019184,"YLAT":55.843844386412236, "ID_Point":56, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58700679666992,"YLAT":55.843906991791606, "ID_Point":57, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58701626387382,"YLAT":55.84400689399272, "ID_Point":58, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58694525984455,"YLAT":55.844105464164485, "ID_Point":59, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ3" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1723 , "ConstructionEnd":1856, 
+			"Segments":
+			[
+				{ "ID_Segments":3080, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3108, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3134, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ3", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58694525984455,"YLAT":55.844105464164485, "ID_Point":59, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58785174461826,"YLAT":55.8450645252952, "ID_Point":60, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ3-М4" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1856 , "ConstructionEnd":1880.6, 
+			"Segments":
+			[
+				{ "ID_Segments":3083, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ3-М4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3109, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ3-М4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3135, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ3-М4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58785174461826,"YLAT":55.8450645252952, "ID_Point":60, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.588088424715835,"YLAT":55.845075181529985, "ID_Point":61, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58827066839097,"YLAT":55.84512846270391, "ID_Point":62, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М4" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1880.6 , "ConstructionEnd":1889.4, 
+			"Segments":
+			[
+				{ "ID_Segments":3084, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3110, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3136, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58827066839097,"YLAT":55.84512846270391, "ID_Point":62, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.588386641638785,"YLAT":55.8451750837311, "ID_Point":63, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М4-М5" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1889.4 , "ConstructionEnd":2313, 
+			"Segments":
+			[
+				{ "ID_Segments":3085, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М4-М5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3111, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М4-М5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3137, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М4-М5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.588386641638785,"YLAT":55.8451750837311, "ID_Point":63, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58856651851294,"YLAT":55.84527631796156, "ID_Point":64, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58896887467881,"YLAT":55.8451697556137, "ID_Point":65, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58930496041737,"YLAT":55.84537222407463, "ID_Point":66, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.589941629879846,"YLAT":55.84573720011604, "ID_Point":67, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59013334075888,"YLAT":55.84579048128997, "ID_Point":68, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59034161924475,"YLAT":55.84578648520193, "ID_Point":69, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.590481260502315,"YLAT":55.84576250867366, "ID_Point":70, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59071557379892,"YLAT":55.8458437624639, "ID_Point":71, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.590895450673074,"YLAT":55.84590636784326, "ID_Point":72, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.591172366387234,"YLAT":55.845963645105236, "ID_Point":73, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.591356976863345,"YLAT":55.8460675433944, "ID_Point":74, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.591657560587265,"YLAT":55.8460648793357, "ID_Point":75, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.593262251648824,"YLAT":55.846313968823814, "ID_Point":76, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59409773239326,"YLAT":55.84646582016951, "ID_Point":77, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М5" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2313 , "ConstructionEnd":2322, 
+			"Segments":
+			[
+				{ "ID_Segments":3086, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3112, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3138, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59409773239326,"YLAT":55.84646582016951, "ID_Point":77, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59436518090352,"YLAT":55.84649778887387, "ID_Point":78, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М5-ГНБ4" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2322 , "ConstructionEnd":2635, 
+			"Segments":
+			[
+				{ "ID_Segments":3087, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М5-ГНБ4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3113, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М5-ГНБ4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3139, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М5-ГНБ4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59436518090352,"YLAT":55.84649778887387, "ID_Point":78, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59518172724015,"YLAT":55.846572382517365, "ID_Point":79, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.596128447630456,"YLAT":55.846569718458674, "ID_Point":80, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59720534207442,"YLAT":55.846524429460835, "ID_Point":81, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59812602765398,"YLAT":55.84650311699126, "ID_Point":82, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5993210483754,"YLAT":55.84649970406342, "ID_Point":83, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ4" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2635 , "ConstructionEnd":2687, 
+			"Segments":
+			[
+				{ "ID_Segments":3088, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3114, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3140, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ4", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5993210483754,"YLAT":55.84649970406342, "ID_Point":83, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59978278833701,"YLAT":55.8465870348402, "ID_Point":84, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ4-ГНБ5" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2687 , "ConstructionEnd":2701, 
+			"Segments":
+			[
+				{ "ID_Segments":3089, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ4-ГНБ5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3115, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ4-ГНБ5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3141, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ4-ГНБ5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59978278833701,"YLAT":55.8465870348402, "ID_Point":84, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59989876158482,"YLAT":55.84662965977934, "ID_Point":85, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59994609760433,"YLAT":55.84668693704131, "ID_Point":86, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5998419583614,"YLAT":55.84678683924243, "ID_Point":87, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ5" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2701 , "ConstructionEnd":2859, 
+			"Segments":
+			[
+				{ "ID_Segments":3090, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3116, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3142, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ5", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5998419583614,"YLAT":55.84678683924243, "ID_Point":87, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.600426558202415,"YLAT":55.848305352699384, "ID_Point":88, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"ГНБ5-М6" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2859 , "ConstructionEnd":2889, 
+			"Segments":
+			[
+				{ "ID_Segments":3091, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ5-М6", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3117, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ5-М6", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3143, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"ГНБ5-М6", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.600426558202415,"YLAT":55.848305352699384, "ID_Point":88, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.60033425296436,"YLAT":55.84837328619614, "ID_Point":89, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино-Владыкино" ,"NameSegment":"М6" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2889 , "ConstructionEnd":2916, 
+			"Segments":
+			[
+				{ "ID_Segments":3092, "ID_Phase":227, "ID_Line":112, "ID_Config":67, "NameSegment":"М6", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3118, "ID_Phase":228, "ID_Line":112, "ID_Config":67, "NameSegment":"М6", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3144, "ID_Phase":229, "ID_Line":112, "ID_Config":67, "NameSegment":"М6", "NameLine":"Марфино-Владыкино", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.60033425296436,"YLAT":55.84837328619614, "ID_Point":89, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.60023721412435,"YLAT":55.84842257128203, "ID_Point":90, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"КМ-ПС" , "R": "128", "G": "128", "B": "0", "ConstructionBegin": 0 , "ConstructionEnd":22, 
+			"Segments":
+			[
+				{ "ID_Segments":3155, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"КМ-ПС", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3171, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"КМ-ПС", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3197, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"КМ-ПС", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.576082955509925,"YLAT":55.833164679000625, "ID_Point":0, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57620078838708,"YLAT":55.83332319049306, "ID_Point":91, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ПС-ГНБ1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 22 , "ConstructionEnd":200, 
+			"Segments":
+			[
+				{ "ID_Segments":3156, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ПС-ГНБ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3173, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ПС-ГНБ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3199, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ПС-ГНБ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57620078838708,"YLAT":55.83332319049306, "ID_Point":91, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57630712537377,"YLAT":55.83343156059503, "ID_Point":1, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57648636633272,"YLAT":55.83333467485488, "ID_Point":2, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57667807721176,"YLAT":55.833204135978754, "ID_Point":3, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57709226738251,"YLAT":55.832897769228666, "ID_Point":4, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57752065835912,"YLAT":55.83284315602539, "ID_Point":5, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57816206142355,"YLAT":55.832658003945994, "ID_Point":10, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57828513507429,"YLAT":55.83284582008409, "ID_Point":11, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ1" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 200 , "ConstructionEnd":305, 
+			"Segments":
+			[
+				{ "ID_Segments":3157, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3174, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3200, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57828513507429,"YLAT":55.83284582008409, "ID_Point":11, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.579030781850335,"YLAT":55.833739261041536, "ID_Point":12, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ1-ТТ1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 305 , "ConstructionEnd":332, 
+			"Segments":
+			[
+				{ "ID_Segments":3158, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ1-ТТ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3184, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ1-ТТ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3210, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ1-ТТ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.579030781850335,"YLAT":55.833739261041536, "ID_Point":12, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57901946898445,"YLAT":55.833890559075336, "ID_Point":92, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ТТ1" , "R": "0", "G": "255", "B": "255", "ConstructionBegin": 332 , "ConstructionEnd":356, 
+			"Segments":
+			[
+				{ "ID_Segments":3159, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ТТ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3185, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ТТ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3211, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ТТ1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57901946898445,"YLAT":55.833890559075336, "ID_Point":92, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57901155775624,"YLAT":55.8339963636774, "ID_Point":93, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ТТ1-М1" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 356 , "ConstructionEnd":469, 
+			"Segments":
+			[
+				{ "ID_Segments":3160, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ТТ1-М1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3186, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ТТ1-М1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3212, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ТТ1-М1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.57901155775624,"YLAT":55.8339963636774, "ID_Point":93, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.578992808566035,"YLAT":55.8342471149584, "ID_Point":13, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.579154020676675,"YLAT":55.83465408516192, "ID_Point":14, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М1" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 469 , "ConstructionEnd":478, 
+			"Segments":
+			[
+				{ "ID_Segments":3161, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3187, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3213, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М1", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.579154020676675,"YLAT":55.83465408516192, "ID_Point":14, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.579191382320644,"YLAT":55.83477539497756, "ID_Point":15, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М1-М2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 478 , "ConstructionEnd":914, 
+			"Segments":
+			[
+				{ "ID_Segments":3162, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М1-М2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3188, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М1-М2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3214, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М1-М2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.579191382320644,"YLAT":55.83477539497756, "ID_Point":15, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57925315667337,"YLAT":55.83496374674774, "ID_Point":6, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57935576183047,"YLAT":55.83500909486556, "ID_Point":19, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.57948884886995,"YLAT":55.835047416325274, "ID_Point":16, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580148093972504,"YLAT":55.83523031420116, "ID_Point":7, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58022547015825,"YLAT":55.83529128015979, "ID_Point":17, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580240945395396,"YLAT":55.83536792307921, "ID_Point":8, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58021407786953,"YLAT":55.83545260151853, "ID_Point":18, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58022354507343,"YLAT":55.835553835748996, "ID_Point":20, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58018330945684,"YLAT":55.83687121277437, "ID_Point":9, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58006260260708,"YLAT":55.837118970233135, "ID_Point":21, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580157379114794,"YLAT":55.83733451071615, "ID_Point":22, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58018804305879,"YLAT":55.83765977414851, "ID_Point":23, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580191424636524,"YLAT":55.83775256300389, "ID_Point":24, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58033689186573,"YLAT":55.837782175040935, "ID_Point":25, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580344251923194,"YLAT":55.83820990226932, "ID_Point":26, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58036081953002,"YLAT":55.83855489787051, "ID_Point":27, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М2" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 914 , "ConstructionEnd":923, 
+			"Segments":
+			[
+				{ "ID_Segments":3163, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3189, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3215, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58036081953002,"YLAT":55.83855489787051, "ID_Point":27, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58036791993295,"YLAT":55.838636151660744, "ID_Point":28, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М2-М3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 923 , "ConstructionEnd":1403, 
+			"Segments":
+			[
+				{ "ID_Segments":3164, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М2-М3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3190, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М2-М3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3216, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М2-М3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58036791993295,"YLAT":55.838636151660744, "ID_Point":28, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58042472315636,"YLAT":55.838760030390134, "ID_Point":34, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58057619841881,"YLAT":55.83894118638149, "ID_Point":29, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58070400567151,"YLAT":55.83905574090543, "ID_Point":35, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58083519450192,"YLAT":55.83918787585848, "ID_Point":32, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.580856859833936,"YLAT":55.83928367950776, "ID_Point":36, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58093114097225,"YLAT":55.839382966926095, "ID_Point":30, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58104565772715,"YLAT":55.83945612607645, "ID_Point":33, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58125310349788,"YLAT":55.83974440007846, "ID_Point":31, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58120340067739,"YLAT":55.83982698589804, "ID_Point":37, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.581132319055186,"YLAT":55.83986546894153, "ID_Point":38, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.581196300274456,"YLAT":55.83992688809916, "ID_Point":39, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.581496883998376,"YLAT":55.84019462599815, "ID_Point":40, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58205544902866,"YLAT":55.840555605951515, "ID_Point":41, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5824412375877,"YLAT":55.840776722823314, "ID_Point":42, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.583198613899945,"YLAT":55.84116700742234, "ID_Point":43, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58393643202661,"YLAT":55.84154116186158, "ID_Point":44, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58456189126197,"YLAT":55.841892963417116, "ID_Point":45, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.584893243398575,"YLAT":55.842197998137856, "ID_Point":46, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М3" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1403 , "ConstructionEnd":1412, 
+			"Segments":
+			[
+				{ "ID_Segments":3165, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3191, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3217, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.584893243398575,"YLAT":55.842197998137856, "ID_Point":46, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58499501584053,"YLAT":55.842263267575916, "ID_Point":47, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М3-ГНБ2" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1412 , "ConstructionEnd":1492, 
+			"Segments":
+			[
+				{ "ID_Segments":3166, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М3-ГНБ2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3192, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М3-ГНБ2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3218, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М3-ГНБ2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58499501584053,"YLAT":55.842263267575916, "ID_Point":47, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.585129923496154,"YLAT":55.84242710718575, "ID_Point":48, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5853570587969,"YLAT":55.8423790083216, "ID_Point":49, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.585437607623,"YLAT":55.842397802540084, "ID_Point":50, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ2" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1492 , "ConstructionEnd":1606, 
+			"Segments":
+			[
+				{ "ID_Segments":3167, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3193, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3219, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ2", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.585437607623,"YLAT":55.842397802540084, "ID_Point":50, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58622057702982,"YLAT":55.843335302929816, "ID_Point":51, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ2-ГНБ3" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1606 , "ConstructionEnd":1723, 
+			"Segments":
+			[
+				{ "ID_Segments":3168, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ2-ГНБ3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3194, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ2-ГНБ3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3220, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ2-ГНБ3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58622057702982,"YLAT":55.843335302929816, "ID_Point":51, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.586429979095925,"YLAT":55.843482442404664, "ID_Point":52, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58635592640159,"YLAT":55.843604621129565, "ID_Point":53, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58645059844062,"YLAT":55.843692535066545, "ID_Point":54, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58690475937166,"YLAT":55.84381305208889, "ID_Point":55, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58707306709724,"YLAT":55.843891007439424, "ID_Point":56, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.587082534301146,"YLAT":55.844016218198156, "ID_Point":57, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58701626387382,"YLAT":55.84410812822318, "ID_Point":58, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ3" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 1723 , "ConstructionEnd":1856, 
+			"Segments":
+			[
+				{ "ID_Segments":3169, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3195, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3221, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ3", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58701626387382,"YLAT":55.84410812822318, "ID_Point":58, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58789198023485,"YLAT":55.84503255659084, "ID_Point":59, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ3-М4" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1856 , "ConstructionEnd":1880.6, 
+			"Segments":
+			[
+				{ "ID_Segments":3170, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ3-М4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3183, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ3-М4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3209, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ3-М4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58789198023485,"YLAT":55.84503255659084, "ID_Point":59, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.588103780745975,"YLAT":55.84504491283011, "ID_Point":60, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58829288814394,"YLAT":55.845099259627524, "ID_Point":61, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М4" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 1880.6 , "ConstructionEnd":1889.4, 
+			"Segments":
+			[
+				{ "ID_Segments":3146, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3177, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3203, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.58829288814394,"YLAT":55.845099259627524, "ID_Point":61, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5884339776583,"YLAT":55.84514844314413, "ID_Point":62, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М4-М5" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 1889.4 , "ConstructionEnd":2313, 
+			"Segments":
+			[
+				{ "ID_Segments":3147, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М4-М5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3178, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М4-М5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3204, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М4-М5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.5884339776583,"YLAT":55.84514844314413, "ID_Point":62, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.588575985716844,"YLAT":55.84524035316916, "ID_Point":63, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.588978341882715,"YLAT":55.84513645488, "ID_Point":64, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58933336202908,"YLAT":55.84535091160506, "ID_Point":65, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.58997239829253,"YLAT":55.84570922749973, "ID_Point":66, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.590142807962785,"YLAT":55.84575318446822, "ID_Point":67, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59032505163792,"YLAT":55.84575318446822, "ID_Point":68, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59049072770622,"YLAT":55.845726543881256, "ID_Point":69, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59074160860965,"YLAT":55.84581845390628, "ID_Point":70, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.590916751881856,"YLAT":55.845878395226954, "ID_Point":71, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59120076799895,"YLAT":55.84593300843023, "ID_Point":72, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.5913711776692,"YLAT":55.84603557469004, "ID_Point":73, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59166229418922,"YLAT":55.84603557469004, "ID_Point":74, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.593274085653704,"YLAT":55.84628200011946, "ID_Point":75, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59410956639814,"YLAT":55.84643251943581, "ID_Point":76, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М5" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2313 , "ConstructionEnd":2322, 
+			"Segments":
+			[
+				{ "ID_Segments":3148, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3179, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3205, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59410956639814,"YLAT":55.84643251943581, "ID_Point":76, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59438174851035,"YLAT":55.84646715219886, "ID_Point":77, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М5-ГНБ4" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2322 , "ConstructionEnd":2635, 
+			"Segments":
+			[
+				{ "ID_Segments":3149, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М5-ГНБ4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3180, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М5-ГНБ4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3206, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М5-ГНБ4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59438174851035,"YLAT":55.84646715219886, "ID_Point":77, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59519356124503,"YLAT":55.84654440990106, "ID_Point":78, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.596128447630456,"YLAT":55.84654041381301, "ID_Point":79, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59720297527344,"YLAT":55.84649512481517, "ID_Point":80, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.598123660853005,"YLAT":55.84646981625755, "ID_Point":81, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59933893087166,"YLAT":55.84646951139819, "ID_Point":82, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ4" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2635 , "ConstructionEnd":2687, 
+			"Segments":
+			[
+				{ "ID_Segments":3150, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3181, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3207, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ4", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59933893087166,"YLAT":55.84646951139819, "ID_Point":82, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59979935594384,"YLAT":55.84655373410649, "ID_Point":84, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ4-ГНБ5" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2687 , "ConstructionEnd":2701, 
+			"Segments":
+			[
+				{ "ID_Segments":3151, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ4-ГНБ5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3182, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ4-ГНБ5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3208, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ4-ГНБ5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59979935594384,"YLAT":55.84655373410649, "ID_Point":84, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59993707558442,"YLAT":55.84660058990588, "ID_Point":85, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.60002656883751,"YLAT":55.84668560501196, "ID_Point":83, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.59991532919165,"YLAT":55.846789503301125, "ID_Point":86, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ5" , "R": "0", "G": "0", "B": "255", "ConstructionBegin": 2701 , "ConstructionEnd":2859, 
+			"Segments":
+			[
+				{ "ID_Segments":3152, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3172, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3198, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ5", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.59991532919165,"YLAT":55.846789503301125, "ID_Point":86, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.60049282862973,"YLAT":55.84829070037656, "ID_Point":87, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"ГНБ5-М6" , "R": "0", "G": "128", "B": "0", "ConstructionBegin": 2859 , "ConstructionEnd":2925, 
+			"Segments":
+			[
+				{ "ID_Segments":3153, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ5-М6", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3175, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ5-М6", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3201, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"ГНБ5-М6", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.60049282862973,"YLAT":55.84829070037656, "ID_Point":87, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.601055625725564,"YLAT":55.84811097798382, "ID_Point":88, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.60119645038362,"YLAT":55.847977375440195, "ID_Point":89, "ProcentLength": 0, "Length": 0}
+			]
+		},
+		{"NameFile":"Картография_Марфино.sMap", "Name":"Марфино - Свиблово 1" ,"NameSegment":"М6" , "R": "255", "G": "128", "B": "0", "ConstructionBegin": 2925 , "ConstructionEnd":2957, 
+			"Segments":
+			[
+				{ "ID_Segments":3154, "ID_Phase":230, "ID_Line":113, "ID_Config":67, "NameSegment":"М6", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза Ж", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3176, "ID_Phase":231, "ID_Line":113, "ID_Config":67, "NameSegment":"М6", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза З", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"},
+				{ "ID_Segments":3202, "ID_Phase":232, "ID_Line":113, "ID_Config":67, "NameSegment":"М6", "NameLine":"Марфино - Свиблово 1", "NamePhase":"фаза К", "Alarm":70, "Warning":60, "MaxTemp":0, "isDamage":false, "Location":0, "DT":"0"}
+			],
+			"GPS":
+			[
+				{ "XLON":37.60119645038362,"YLAT":55.847977375440195, "ID_Point":89, "ProcentLength": 0, "Length": 0},
+				{ "XLON":37.60139762846656,"YLAT":55.84791623529311, "ID_Point":90, "ProcentLength": 0, "Length": 0}
+			]
+		}
+	]
+}

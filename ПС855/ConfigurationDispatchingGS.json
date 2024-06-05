@@ -1,0 +1,36 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4004, "W":1385, "H":530},
+	"Title": {"FullName":"Оборудование систем диагностики и мониторинга энергообъектов 220/110 кВ АО «ОЭК»", "MinName":"ЦСКУ 220/110 АО «ОЭК»"},
+	"Info": {"ID":"DISPALLFULL", "Type":"Dispatching", "Location":"ПС862/Шкаф№14/БОД[******]/МТ", "NameMin":"ПС862 МТ Дисп", "NameMax":"Модуль Дисп ПС 862"},
+	"AceptFrom":["DISP867","DISP855","DISP653", "DISP786", "DISP848", "DISP851", "DISP857", "DISP861","DISP863","DISP864","DISP866","DISP868", "DISP862"],
+	"Coord":"#",
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISPALLFULL"}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "10.16.18.33", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "10.16.18.33", "Port" : "4004"},
+		 {"TypeLink" : "Home", "IP" : "10.16.18.33", "Port" : "4004"}
+	],
+	"TELE":
+	[
+		{"ID":14, "VER":"GSV1000",	"ID_Program":"PS862",   "LINK_TELE_ID":"PS862", 	"X":5, 	"Y":5, 	    "W":455, "NAME":"№ 862 ПС 220/20 кВ Котловка", "Link":"4103"},
+		{"ID":15, "VER":"GSV1000",	"ID_Program":"PS786", 	"LINK_TELE_ID":"PS786", 	"X":5, 	"Y":110, 	"W":455, "NAME":"№ 786 ПС 220/20 кВ «Золотаревская»", "Link":"4503"},
+		{"ID":16, "VER":"GSV1000",	"ID_Program":"PS866", 	"LINK_TELE_ID":"PS866", 	"X":5, 	"Y":215, 	"W":455, "NAME":"№ 866 ПС 220/20 кВ «Перерва»", "Link":"4703"},
+		{"ID":17, "VER":"GSV1000",	"ID_Program":"PS851", 	"LINK_TELE_ID":"PS851", 	"X":5, 	"Y":320, 	"W":455, "NAME":"№ 851 ПС 110/20 кВ «Грач»", "Link":"4904"},
+		{"ID":18, "VER":"GSV1000",	"ID_Program":"PS855", 	"LINK_TELE_ID":"PS855", 	"X":5, 	"Y":425, 	"W":455, "NAME":"№ 855 ПС 220/20 кВ «Марфино»", "Link":"4003"},
+		
+		{"ID":19, "VER":"GSV1000",	"ID_Program":"PS653",   "LINK_TELE_ID":"PS653", 	"X":465, 	"Y":5, 	    "W":455, "NAME":"№ 653 ПС 220/20 кВ «Яшино»", "Link":"4303"},
+		{"ID":20, "VER":"GSV1000",	"ID_Program":"PS857", 	"LINK_TELE_ID":"PS857", 	"X":465, 	"Y":110, 	"W":455, "NAME":"№ 857 ПС 220/20 кВ «Никулино»", "Link":"5303"},
+		{"ID":21, "VER":"GSV1000",	"ID_Program":"PS863", 	"LINK_TELE_ID":"PS863", 	"X":465, 	"Y":215, 	"W":455, "NAME":"№ 863 ПС 110/20 кВ «Шипиловская»", "Link":"5103"},
+		{"ID":22, "VER":"GSV1000",	"ID_Program":"PS861", 	"LINK_TELE_ID":"PS861", 	"X":465, 	"Y":320, 	"W":455, "NAME":"№ 861 ПС 220/20/10 кВ «Парковая»", "Link":"5003"},
+		{"ID":23, "VER":"GSV1000",	"ID_Program":"PS864", 	"LINK_TELE_ID":"PS864", 	"X":465, 	"Y":425, 	"W":455, "NAME":"№ 864 ПС 220/20 кВ «Мещанская»", "Link":"4203"},
+		
+		{"ID":24, "VER":"GSV1000",	"ID_Program":"PS867",   "LINK_TELE_ID":"PS867", 	"X":925, 	"Y":5, 	    "W":455, "NAME":"№ 867 ПС 220/20 кВ «Цимлянская»", "Link":"4403"},
+		{"ID":25, "VER":"GSV1000",	"ID_Program":"PS868", 	"LINK_TELE_ID":"PS868", 	"X":925, 	"Y":110, 	"W":455, "NAME":"№ 868 ПС 220/20 кВ «Красносельская»", "Link":"4603"},
+		{"ID":26, "VER":"GSV1000",	"ID_Program":"PS848", 	"LINK_TELE_ID":"PS848", 	"X":925, 	"Y":215, 	"W":455, "NAME":"№ 848 ПС 220/20 кВ «Ваганьковская»", "Link":"4803"}
+	]
+}

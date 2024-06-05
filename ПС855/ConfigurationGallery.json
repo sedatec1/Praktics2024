@@ -1,0 +1,11 @@
+{
+	"Configuration": {"Type":"Gallery", "Version":1001, "Port":4077},
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "Port" : "4000"},
+		 {"TypeLink" : "Back", "Port" : "4004"},
+		 {"TypeLink" : "Home", "Port" : "4004"},
+		 {"TypeLink" : "dbTables", "Port" : "3900"},
+		 {"TypeLink" : "Gallery",  "Port" : "4004"}
+	]
+}

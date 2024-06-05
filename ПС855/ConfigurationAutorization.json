@@ -1,0 +1,9 @@
+{
+    "DB": { "ID":1, "Host":"192.168.0.59", "NameDB":"basic_information", "User":"sedatec", "Password":"sedatec", "Port":5432 },
+    "Configuration": {"Type":"Autorization", "Version":1001, "Port":4000},
+	"Info": {"ID":"AUTO100", "Type":"Autorization", "Location":"ПС357/Шкаф№98/БОД[KSA7823452]/МТ", "NameMin":"ПС357 Авторизации", "NameMax":"Модуль Авторизации ПС 357"},
+	"CORS":
+	[
+
+	]
+}

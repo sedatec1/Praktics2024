@@ -1,0 +1,126 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4005, "W":1235, "H":225},
+	"Title": {"FullName":"Система АСУ ТП и ТМ ПС Марфино", "MinName":"ПС Марфино КРУЭ СКТ"},
+	"Info": {"ID":"DISP855ASU", "Subst":"855", "Type":"Dispatching", "Location":"ПС862/Шкаф№14/МВКС2[KSA2883128]/МТ", "NameMin":"ПС862 СКТ КРУЭ Дисп", "NameMax":"Модуль Дисп. ПС 862 СКТ КРУЭ"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP855ASU"},
+		{"ID_Program" : "GS855/ASU"}
+	],
+"Coord":"PS855",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4003"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Марфино(855)/АСУТП",
+        "ASDU":13, "TOPIC_ID":1,  "IpList":["10.131.2.11:2404", "10.131.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":1, "SysId":"ASU", "DATA": [
+
+{"ID":1,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1065,	"NAME":"I КВЛ 220 кВ Марфино-Свиблово №2 [Ж] ", "Links":{ "Arch":"4038"}},
+{"ID":2,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1066,	"NAME":"I КВЛ 220 кВ Марфино-Свиблово №2 [З] ", "Links":{ "Arch":"4038"}},
+{"ID":3,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1067,	"NAME":"I КВЛ 220 кВ Марфино-Свиблово №2 [К] ", "Links":{ "Arch":"4038"}},
+{"ID":4,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1071,	"NAME":"I КВЛ 220 кВ Марфино-Свиблово №1 [Ж] ", "Links":{ "Arch":"4038"}},
+{"ID":5,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1072,	"NAME":"I КВЛ 220 кВ Марфино-Свиблово №1 [З] ", "Links":{ "Arch":"4038"}},
+{"ID":6,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1073,	"NAME":"I КВЛ 220 кВ Марфино-Свиблово №1 [К] ", "Links":{ "Arch":"4038"}},
+{"ID":7,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1068, "NAME":"I КВЛ 220 кВ Бутырки-Марфино [Ж] ", "Links":{ "Arch":"4038"}},
+{"ID":8,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1069, "NAME":"I КВЛ 220 кВ Бутырки-Марфино [З] ", "Links":{ "Arch":"4038"}},
+{"ID":9,  "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1070, "NAME":"I КВЛ 220 кВ Бутырки-Марфино [К] ", "Links":{ "Arch":"4038"}},
+{"ID":10, "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1074,	"NAME":"I КЛ 220 кВ Владыкино–Марфино [Ж] ", "Links":{ "Arch":"4038"}},
+{"ID":11, "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1075,	"NAME":"I КЛ 220 кВ Владыкино–Марфино [З] ", "Links":{ "Arch":"4038"}},
+{"ID":12, "Mes":"А", "TypeTele":"TM", "VER":"General",	"IOA":1076,	"NAME":"I КЛ 220 кВ Владыкино–Марфино [К] ", "Links":{ "Arch":"4038"}},
+
+{"ID":13, "TypeTele":"TSD", "VER":"General", "IOA":3003,	"NAME":"КЛ 220 Марфино-Свиблово 1 ЭВ Положение выключателя", "Links":{ "Arch":"4038"}},
+{"ID":14, "TypeTele":"TSD", "VER":"General", "IOA":3002,	"NAME":"КЛ 220 Марфино-Свиблово 2 ЭВ Положение выключателя", "Links":{ "Arch":"4038"}},
+{"ID":15, "TypeTele":"TSD", "VER":"General", "IOA":3001,	"NAME":"КЛ 220 Бутырки-Марфино ЭВ Положение выключателя", "Links":{ "Arch":"4038"}},
+{"ID":16, "TypeTele":"TSD", "VER":"General", "IOA":3004,	"NAME":"КЛ 220 Владыкино–Марфино ЭВ Положение выключателя", "Links":{ "Arch":"4038"}},
+{"ID":17, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4051, "NAME":"КВЛ 220 кВ Марфино – Свиблово II 670 1к Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":18, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4052, "NAME":"КВЛ 220 кВ Марфино – Свиблово II 670 2к Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":19, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4053, "NAME":"КВЛ 220 кВ Марфино – Свиблово II REL511 Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":20, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4055, "NAME":"КВЛ 220 кВ Бутырки-Марфино 670 1к Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":21, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4056, "NAME":"КВЛ 220 кВ Бутырки-Марфино 670 2к Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":22, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4057, "NAME":"КВЛ 220 кВ Бутырки-Марфино REL511 Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":23, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4059, "NAME":"КВЛ 220 кВ Марфино – Свиблово I REL511 Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":24, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4060, "NAME":"КВЛ 220 кВ Марфино – Свиблово I 551 1к Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":25, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4061, "NAME":"КВЛ 220 кВ Марфино – Свиблово I 551 2к Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":26, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4063, "NAME":"КВЛ 220 кВ Влад-Марф REL511 Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":27, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4064, "NAME":"КВЛ 220 кВ Влад-Марф 551 1к Отключение от защит", "Links":{ "Arch":"4038"}},
+{"ID":28, "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":4065, "NAME":"КВЛ 220 кВ Влад-Марф 551 2к Отключение от защит", "Links":{ "Arch":"4038"}},
+
+{"ID":29,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1200,  "NAME":"ПС855 КВЛ220 Марф-Свиб2 Активная мощность P"},
+{"ID":30,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1201,  "NAME":"ПС855 КВЛ220 Марф-Свиб2 Реактивная мощность Q"},
+{"ID":31,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1202,  "NAME":"ПС855 КВЛ220 Бутыр-Марф Активная мощность P"},
+{"ID":32,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1203,  "NAME":"ПС855 КВЛ220 Бутыр-Марф Реактивная мощность Q"},
+{"ID":33,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1204,  "NAME":"ПС855 КЛ 220 Марф-Свиб1 Активная мощность P"},
+{"ID":34,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1205,  "NAME":"ПС855 КЛ 220 Марф-Свиб1 Реактивная мощность Q"},
+{"ID":35,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1206,  "NAME":"ПС855 КЛ220  Влад-Марф  Активная мощность P"},
+{"ID":36,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1207,  "NAME":"ПС855 КЛ220  Влад-Марф  Реактивная мощность Q"},
+{"ID":37,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1208,  "NAME":"ПС855 220кВ Ввод Т-1    Ток Ia"},
+{"ID":38,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1209,  "NAME":"ПС855 220кВ Ввод Т-1    Ток Ib"},
+{"ID":39,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1210,  "NAME":"ПС855 220кВ Ввод Т-1    Ток Ic"},
+{"ID":40,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1211,  "NAME":"ПС855 220кВ Ввод Т-1    Активная мощность P"},
+{"ID":41,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1212,  "NAME":"ПС855 220кВ Ввод Т-1    Реактивная мощность Q"},
+{"ID":42,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1213,  "NAME":"ПС855 220кВ ТНСШ-1      Напр. Uab"},
+{"ID":43,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1214,  "NAME":"ПС855 220кВ ТНСШ-1      Напр. Ubc"},
+{"ID":44,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1215,  "NAME":"ПС855 220кВ ТНСШ-1      Напр. Uac"},
+{"ID":45,  "Mes":"Гц",  "TypeTele":"TM", "VER":"General", "IOA":1216,  "NAME":"ПС855 220кВ ТНСШ-1      Частота f"},
+{"ID":46,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1217,  "NAME":"ПС855 220кВ ТНСШ-1      Напр. Ua"},
+{"ID":47,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1218,  "NAME":"ПС855 220кВ ТНСШ-1      Напр. Ub"},
+{"ID":48,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1219,  "NAME":"ПС855 220кВ ТНСШ-1      Напр. Uc"},
+{"ID":49,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1220,  "NAME":"ПС855 220кВ ТНСШ-2      Напр. Uab"},
+{"ID":50,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1221,  "NAME":"ПС855 220кВ ТНСШ-2      Напр. Ubc"},
+{"ID":51,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1222,  "NAME":"ПС855 220кВ ТНСШ-2      Напр. Uac"},
+{"ID":52,  "Mes":"Гц",  "TypeTele":"TM", "VER":"General", "IOA":1223,  "NAME":"ПС855 220кВ ТНСШ-2      Частота f"},
+{"ID":53,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1224,  "NAME":"ПС855 220кВ ТНСШ-2      Напр. Ua"},
+{"ID":54,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1225,  "NAME":"ПС855 220кВ ТНСШ-2      Напр. Ub"},
+{"ID":55,  "Mes":"В",  "TypeTele":"TM", "VER":"General", "IOA":1226,  "NAME":"ПС855 220кВ ТНСШ-2      Напр. Uc"},
+{"ID":56,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1227,  "NAME":"ПС855 220кВ ШСЭВ        Ток Ia"},
+{"ID":57,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1228,  "NAME":"ПС855 220кВ ШСЭВ        Ток Ib"},
+{"ID":58,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1229,  "NAME":"ПС855 220кВ ШСЭВ        Ток Ic"},
+{"ID":59,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1230,  "NAME":"ПС855 220кВ ШСЭВ        Активная мощность P"},
+{"ID":60,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1231,  "NAME":"ПС855 220кВ ШСЭВ        Реактивная мощность Q"},
+{"ID":61,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1232,  "NAME":"ПС855 220кВ Ввод Т-2    Ток Ia"},
+{"ID":62,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1233,  "NAME":"ПС855 220кВ Ввод Т-2    Ток Ib"},
+{"ID":63,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1234,  "NAME":"ПС855 220кВ Ввод Т-2    Ток Ic"},
+{"ID":64,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1235,  "NAME":"ПС855 220кВ Ввод Т-2    Активная мощность P"},
+{"ID":65,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1236,  "NAME":"ПС855 220кВ Ввод Т-2    Реактивная мощность Q"},
+{"ID":66,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1237,  "NAME":"ПС855 220кВ Ввод Т-3    Ток Ia"},
+{"ID":67,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1238,  "NAME":"ПС855 220кВ Ввод Т-3    Ток Ib"},
+{"ID":68,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1239,  "NAME":"ПС855 220кВ Ввод Т-3    Ток Ic"},
+{"ID":69,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1240,  "NAME":"ПС855 220кВ Ввод Т-3    Активная мощность P"},
+{"ID":70,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1241,  "NAME":"ПС855 220кВ Ввод Т-3    Реактивная мощность Q"},
+{"ID":71,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1242,  "NAME":"ПС855 КВЛ220 Рез1-Марф  Ток Ia"},
+{"ID":72,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1243,  "NAME":"ПС855 КВЛ220 Рез1-Марф  Ток Ib"},
+{"ID":73,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1244,  "NAME":"ПС855 КВЛ220 Рез1-Марф  Ток Ic"},
+{"ID":74,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1245,  "NAME":"ПС855 КВЛ220 Рез1-Марф  Активная мощность P"},
+{"ID":75,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1246,  "NAME":"ПС855 КВЛ220 Рез1-Марф  Реактивная мощность Q"},
+{"ID":76,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1247,  "NAME":"ПС855 КВЛ220 Рез2-Марф  Ток Ia"},
+{"ID":77,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1248,  "NAME":"ПС855 КВЛ220 Рез2-Марф  Ток Ib"},
+{"ID":78,  "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":1249,  "NAME":"ПС855 КВЛ220 Рез2-Марф  Ток Ic"},
+{"ID":79,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1250,  "NAME":"ПС855 КВЛ220 Рез2-Марф  Активная мощность P"},
+{"ID":80,  "Mes":"Вт",  "TypeTele":"TM", "VER":"General", "IOA":1251,  "NAME":"ПС855 КВЛ220 Рез2-Марф  Реактивная мощность Q"}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8553",	"NAME":"Система АСУ ТП и ТМ}"}
+		]}
+}

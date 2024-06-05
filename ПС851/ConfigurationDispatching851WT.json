@@ -1,0 +1,72 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4908, "W":825, "H":290},
+	"Title": {"FullName":"Система мониторинга температуры обмоток ТСН1, ТСН2, ТСН3", "MinName":"ПС Грач РТСН", "SysName":"Система мониторинга температуры обмоток ТСН1, ТСН2, ТСН3"},
+	"Info": {"ID":"DISP851WT", "Subst":"851", "Type":"Dispatching", "Location":"ПС851/Сервер ТМ ПС Грач", "NameMin":"ПС851 ТП Дисп", "NameMax":"Модуль Дисп. ПС851 РТСН ТМ ПС Грач"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP851WT"},
+		{"ID_Program" : "GS851/WT"}
+	],
+"Coord":"PS851",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4904"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Грач(851)/АСУТП",
+        "ASDU":3, "TOPIC_ID":7,  "IpList":["10.137.2.11:2404", "10.137.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":7, "SysId":"WT", "DATA": [
+
+{"ID":"31", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1102", "NAME":"ТСН1 QALITROL Температура обмотки ф.A", "Links":{ "Arch":"4938"}},
+{"ID":"32", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1103", "NAME":"ТСН1 QALITROL Температура обмотки ф.B", "Links":{ "Arch":"4938"}},
+{"ID":"33", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1104", "NAME":"ТСН1 QALITROL Температура обмотки ф.C", "Links":{ "Arch":"4938"}},
+{"ID":"34", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1105", "NAME":"ТСН2 QALITROL Температура обмотки ф.A", "Links":{ "Arch":"4938"}},
+{"ID":"35", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1106", "NAME":"ТСН2 QALITROL Температура обмотки ф.B", "Links":{ "Arch":"4938"}},
+{"ID":"36", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1107", "NAME":"ТСН2 QALITROL Температура обмотки ф.С", "Links":{ "Arch":"4938"}},
+{"ID":"37", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1108", "NAME":"ТСН3 QALITROL Температура обмотки ф.A", "Links":{ "Arch":"4938"}},
+{"ID":"38", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1109", "NAME":"ТСН3 QALITROL Температура обмотки ф.B", "Links":{ "Arch":"4938"}},
+{"ID":"39", "Mes":"°C", "TypeTele":"TM",  "VER":"General", "IOA":"1110", "NAME":"ТСН3 QALITROL Температура обмотки ф.С", "Links":{ "Arch":"4938"}},
+
+{"ID":"40", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4419", "NAME":"ТСН1 QALITROL Включен вентилятор", "Links":{ "Arch":"4938"}},
+{"ID":"41", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4420", "NAME":"ТСН1 QALITROL Температура больше 145 град", "Links":{ "Arch":"4938"}},
+{"ID":"42", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4421", "NAME":"ТСН1 QALITROL Требуется аварийное отключение", "Links":{ "Arch":"4938"}},
+{"ID":"43", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4422", "NAME":"ТСН1 QALITROL Неисправность приб. контроля", "Links":{ "Arch":"4938"}},
+{"ID":"44", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4423", "NAME":"ТСН1 QALITROL Ручн.вкл.вентилятора", "Links":{ "Arch":"4938"}},
+{"ID":"45", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4425", "NAME":"ТСН2 QALITROL Включен вентилятор", "Links":{ "Arch":"4938"}},
+{"ID":"46", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4426", "NAME":"ТСН2 QALITROL Температура больше 145 град", "Links":{ "Arch":"4938"}},
+{"ID":"47", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4427", "NAME":"ТСН2 QALITROL Требуется аварийное отключение", "Links":{ "Arch":"4938"}},
+{"ID":"48", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4428", "NAME":"ТСН2 QALITROL Неисправность приб. контроля", "Links":{ "Arch":"4938"}},
+{"ID":"49", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4429", "NAME":"ТСН2 QALITROL Ручн.вкл.вентилятора", "Links":{ "Arch":"4938"}},
+{"ID":"50", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4431", "NAME":"ТСН3 QALITROL Включен вентилятор", "Links":{ "Arch":"4938"}},
+{"ID":"51", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4432", "NAME":"ТСН3 QALITROL Температура больше 125 град", "Links":{ "Arch":"4938"}},
+{"ID":"52", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4433", "NAME":"ТСН3 QALITROL Требуется аварийное отключение", "Links":{ "Arch":"4938"}},
+{"ID":"53", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4434", "NAME":"ТСН3 QALITROL Неисправность приб. контроля", "Links":{ "Arch":"4938"}},
+{"ID":"54", "TypeTele":"TS", "TypeAlarm":"Warning",   "VER":"General", "IOA":"4435", "NAME":"ТСН3 QALITROL Ручн.вкл.вентилятора", "Links":{ "Arch":"4938"}},
+{"ID":"55", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4424", "NAME":"ТСН1 QALITROL Связь прибора контроля", "Links":{ "Arch":"4938"}},
+{"ID":"56", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4430", "NAME":"ТСН2 QALITROL Связь прибора контроля", "Links":{ "Arch":"4938"}},
+{"ID":"57", "TypeTele":"TS", "TypeAlarm":"Alarm",   "VER":"General", "IOA":"4436", "NAME":"ТСН3 QALITROL Связь прибора контроля", "Links":{ "Arch":"4938"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8516",	"NAME":"Система мониторинга темп. обмоток ТСН1, ТСН2, ТСН3}"}
+		]}
+}

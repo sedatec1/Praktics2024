@@ -1,0 +1,120 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4006, "W":1600, "H":905},
+	"Title": {"FullName":"Система диагностики ВН вводов трансформаторов Т1, Т2, T3", "MinName":"ПС Марфино Диагностика вводов Т1,Т2,Т3"},
+	"Info": {"ID":"DISP855WT", "Subst":"855", "Type":"Dispatching", "Location":"ПС862/Шкаф№14/МВКС2[KSA2883128]/МТ", "NameMin":"ПС855 вводы трансформаторов", "NameMax":"Модуль Дисп. ПС 855 диагностика вводов трансформаторов"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP855WT"},
+		{"ID_Program" : "GS855/WT"}
+	],
+"Coord":"PS855",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4003"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Марфино(855)/АСУТП",
+        "ASDU":13, "TOPIC_ID":7,  "IpList":["10.131.2.11:2404", "10.131.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":7, "SysId":"WT", "DATA": [
+
+{"ID":1,  "Mes":"",	"TypeTele":"TM", "VER":"General",	"IOA":1077, 	"X":5, 		"Y":5, 	 "W":400,	"NAME":"Относительный tgδ Т1 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":2,  "Mes":"",	"TypeTele":"TM", "VER":"General",	"IOA":1078, 	"X":5, 		"Y":80,  "W":400,	"NAME":"Относительная ёмкость Т1 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":3,  "Mes":"В",	"TypeTele":"TM", "VER":"General",	"IOA":1079, 	"X":5, 		"Y":155, "W":400, 	"NAME":"Уровень ЧР Т1 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":4,  "Mes":"",	"TypeTele":"TM", "VER":"General",	"IOA":1080, 	"X":5, 		"Y":230, 	 "W":400,	"NAME":"Относительный tgδ Т1 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":5,  "Mes":"",	"TypeTele":"TM", "VER":"General",	"IOA":1081, 	"X":5, 		"Y":305,  "W":400,	"NAME":"Относительная ёмкость Т1 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":6,  "Mes":"В",	"TypeTele":"TM", "VER":"General",	"IOA":1082, 	"X":5, 		"Y":380, "W":400, 	"NAME":"Уровень ЧР Т1 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":7,  "Mes":"",	"TypeTele":"TM", "VER":"General",	"IOA":1083, 	"X":5, 		"Y":450, 	 "W":400,	"NAME":"Относительный tgδ Т1 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":8,  "Mes":"",	"TypeTele":"TM", "VER":"General",	"IOA":1084, 	"X":5, 		"Y":530,  "W":400,	"NAME":"Относительная ёмкость Т1 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":9,  "Mes":"В",	"TypeTele":"TM", "VER":"General",	"IOA":1085, 	"X":5, 		"Y":605, "W":400, 	"NAME":"Уровень ЧР Т1 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":10, "Mes":"°С",	"TypeTele":"TM",  "VER":"General","IOA":1086, 	"X":5, 		"Y":680, 	 "W":400,	"NAME":"Температура окружающей среды Т1", "Links":{ "Arch":"4038"}},
+{"ID":11, "Mes":"%",	"TypeTele":"TM",  "VER":"General",	"IOA":1087, 	"X":5, 		"Y":755,  "W":400,	"NAME":"Влажность окружающей среды Т1", "Links":{ "Arch":"4038"}},
+{"ID":12, "Mes":"А",	"TypeTele":"TM",  "VER":"General",	"IOA":1088, 	"X":5, 		"Y":830, "W":400, 	"NAME":"Ток нагрузки Т1", "Links":{ "Arch":"4038"}},				
+{"ID":13, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1089, 	"X":530, 		"Y":5, 	 "W":400,	"NAME":"Относительный tgδ Т2 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":14, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1090, 	"X":530, 		"Y":80,  "W":400,	"NAME":"Относительная ёмкость Т2 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":15, "Mes":"В",	"TypeTele":"TM",  "VER":"General",	"IOA":1091, 	"X":530, 		"Y":155, "W":400, 	"NAME":"Уровень ЧР Т2 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":16, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1092, 	"X":530, 		"Y":230, 	 "W":400,	"NAME":"Относительный tgδ Т2 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":17, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1093, 	"X":530, 		"Y":305,  "W":400,	"NAME":"Относительная ёмкость Т2 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":18, "Mes":"В",	"TypeTele":"TM",  "VER":"General",	"IOA":1094, 	"X":530, 		"Y":380, "W":400, 	"NAME":"Уровень ЧР Т2 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":19, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1095, 	"X":530, 		"Y":450, 	 "W":400,	"NAME":"Относительный tgδ Т2 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":20, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1096, 	"X":530, 		"Y":530,  "W":400,	"NAME":"Относительная ёмкость Т2 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":21, "Mes":"В",	"TypeTele":"TM",  "VER":"General",	"IOA":1097, 	"X":530, 		"Y":605, "W":400, 	"NAME":"Уровень ЧР Т2 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":22, "Mes":"°С",	"TypeTele":"TM",  "VER":"General","IOA":1098, 	"X":530, 		"Y":680, 	 "W":400,	"NAME":"Температура окружающей среды Т2", "Links":{ "Arch":"4038"}},
+{"ID":23, "Mes":"%",	"TypeTele":"TM",  "VER":"General",	"IOA":1099, 	"X":530, 		"Y":755,  "W":400,	"NAME":"Влажность окружающей среды Т2", "Links":{ "Arch":"4038"}},
+{"ID":24, "Mes":"А",	"TypeTele":"TM",  "VER":"General",	"IOA":1100, 	"X":530, 		"Y":830, "W":400, 	"NAME":"Ток нагрузки Т2", "Links":{ "Arch":"4038"}},
+{"ID":25, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1101, 	"X":1055, 		"Y":5, 	 "W":400,	"NAME":"Относительный tgδ Т3 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":26, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1102, 	"X":1055, 		"Y":80,  "W":400,	"NAME":"Относительная ёмкость Т3 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":27, "Mes":"В",	"TypeTele":"TM",  "VER":"General",	"IOA":1103, 	"X":1055, 		"Y":155, "W":400, 	"NAME":"Уровень ЧР Т3 Фаза А", "Links":{ "Arch":"4038"}},
+{"ID":28, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1104, 	"X":1055, 		"Y":230, 	 "W":400,	"NAME":"Относительный tgδ Т3 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":29, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1105, 	"X":1055, 		"Y":305,  "W":400,	"NAME":"Относительная ёмкость Т3 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":30, "Mes":"В",	"TypeTele":"TM",  "VER":"General",	"IOA":1106, 	"X":1055, 		"Y":380, "W":400, 	"NAME":"Уровень ЧР Т3 Фаза B", "Links":{ "Arch":"4038"}},
+{"ID":31, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1107, 	"X":1055, 		"Y":450, 	 "W":400,	"NAME":"Относительный tgδ Т3 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":32, "Mes":"",	"TypeTele":"TM",  "VER":"General",	"IOA":1108, 	"X":1055, 		"Y":530,  "W":400,	"NAME":"Относительная ёмкость Т3 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":33, "Mes":"В",	"TypeTele":"TM",  "VER":"General",	"IOA":1109, 	"X":1055, 		"Y":605, "W":400, 	"NAME":"Уровень ЧР Т3 Фаза C", "Links":{ "Arch":"4038"}},
+{"ID":34, "Mes":"°С",	"TypeTele":"TM",  "VER":"General","IOA":1110, 	"X":1055, 		"Y":680, 	 "W":400,	"NAME":"Температура окружающей среды Т3", "Links":{ "Arch":"4038"}},
+{"ID":35, "Mes":"%",	"TypeTele":"TM",  "VER":"General",	"IOA":1111, 	"X":1055, 		"Y":755,  "W":400,	"NAME":"Влажность окружающей среды Т3", "Links":{ "Arch":"4038"}},
+{"ID":36, "Mes":"А",	"TypeTele":"TM",  "VER":"General",	"IOA":1112, 	"X":1055, 		"Y":830, "W":400, 	"NAME":"Ток нагрузки Т3", "Links":{ "Arch":"4038"}},
+
+{"ID":"590", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4066",  "NAME":"Превышен предупредительный (Н) предел для ёмкости Т1 ", "Links":{ "Arch":"4038"}},
+{"ID":"591", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4067",  "NAME":"Превышен аварийный (НН) предел для ёмкости Т1 ", "Links":{ "Arch":"4038"}},
+{"ID":"592", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4068",  "NAME":"Превышен предупредительный (Н) предел для tgδ Т1 ", "Links":{ "Arch":"4038"}},
+{"ID":"593", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4069",  "NAME":"Превышен аварийный (НН) предел для tgδ Т1 ", "Links":{ "Arch":"4038"}},
+{"ID":"594", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4070",  "NAME":"Превышен предупредительный (Н) предел для температуры окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"595", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4071",  "NAME":"Превышен аварийный (НН) предел для температуры окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"596", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4072",  "NAME":"Превышен предупредительный (Н) предел для влажности окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"597", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4073",  "NAME":"Превышен аварийный (НН) предел для для влажности окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"598", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4074",  "NAME":"Превышен предупредительный (Н) предел для тока нагрузки ", "Links":{ "Arch":"4038"}},
+{"ID":"599", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4075",  "NAME":"Превышен аварийный (НН) предел для тока нагрузки ", "Links":{ "Arch":"4038"}},
+{"ID":"600", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4076",  "NAME":"Превышен предупредительный (Н) предел ЧР ", "Links":{ "Arch":"4038"}},
+{"ID":"601", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4077",  "NAME":"Превышен аварийный (НН) предел ЧР ", "Links":{ "Arch":"4038"}},
+{"ID":"602", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4078",  "NAME":"Неисправность системы Intego TM3 Т1 ", "Links":{ "Arch":"4038"}},
+{"ID":"603", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4079",  "NAME":"Превышен предупредительный (Н) предел для ёмкости Т2 ", "Links":{ "Arch":"4038"}},
+{"ID":"604", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4080",  "NAME":"Превышен аварийный (НН) предел для ёмкости Т2 ", "Links":{ "Arch":"4038"}},
+{"ID":"605", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4081",  "NAME":"Превышен предупредительный (Н) предел для tgδ Т2 ", "Links":{ "Arch":"4038"}},
+{"ID":"606", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4082",  "NAME":"Превышен аварийный (НН) предел для tgδ Т2 ", "Links":{ "Arch":"4038"}},
+{"ID":"607", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4083",  "NAME":"Превышен предупредительный (Н) предел для температуры окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"608", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4084",  "NAME":"Превышен аварийный (НН) предел для температуры окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"609", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4085",  "NAME":"Превышен предупредительный (Н) предел для влажности окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"610", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4086",  "NAME":"Превышен аварийный (НН) предел для для влажности окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"611", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4087",  "NAME":"Превышен предупредительный (Н) предел для тока нагрузки ", "Links":{ "Arch":"4038"}},
+{"ID":"612", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4088",  "NAME":"Превышен аварийный (НН) предел для тока нагрузки ", "Links":{ "Arch":"4038"}},
+{"ID":"613", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4089",  "NAME":"Превышен предупредительный (Н) предел ЧР ", "Links":{ "Arch":"4038"}},
+{"ID":"614", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4090",  "NAME":"Превышен аварийный (НН) предел ЧР ", "Links":{ "Arch":"4038"}},
+{"ID":"615", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4091",  "NAME":"Неисправность системы  Intego TM3 Т2 ", "Links":{ "Arch":"4038"}},
+{"ID":"616", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4092",  "NAME":"Превышен предупредительный (Н) предел для ёмкости Т3 ", "Links":{ "Arch":"4038"}},
+{"ID":"617", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4093",  "NAME":"Превышен аварийный (НН) предел для ёмкости Т3 ", "Links":{ "Arch":"4038"}},
+{"ID":"618", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4094",  "NAME":"Превышен предупредительный (Н) предел для tgδ Т3 ", "Links":{ "Arch":"4038"}},
+{"ID":"619", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4095",  "NAME":"Превышен аварийный (НН) предел для tgδ Т3 ", "Links":{ "Arch":"4038"}},
+{"ID":"620", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4096",  "NAME":"Превышен предупредительный (Н) предел для температуры окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"621", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4097",  "NAME":"Превышен аварийный (НН) предел для температуры окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"622", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4098",  "NAME":"Превышен предупредительный (Н) предел для влажности окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"623", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4099",  "NAME":"Превышен аварийный (НН) предел для для влажности окр. среды ", "Links":{ "Arch":"4038"}},
+{"ID":"624", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4100",  "NAME":"Превышен предупредительный (Н) предел для тока нагрузки ", "Links":{ "Arch":"4038"}},
+{"ID":"625", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4101",  "NAME":"Превышен аварийный (НН) предел для тока нагрузки ", "Links":{ "Arch":"4038"}},
+{"ID":"626", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General",	"IOA":"4102",  "NAME":"Превышен предупредительный (Н) предел ЧР ", "Links":{ "Arch":"4038"}},
+{"ID":"627", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4103",  "NAME":"Превышен аварийный (НН) предел ЧР ", "Links":{ "Arch":"4038"}},
+{"ID":"628", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General",	"IOA":"4104",  "NAME":"Неисправность системы  Intego TM3 Т3 ", "Links":{ "Arch":"4038"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8554",	"NAME":"Система диагностики ВН вводов трансформаторов"}
+		]}
+}

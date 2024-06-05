@@ -1,0 +1,102 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4001, "W":825, "H":290},
+	"Title": {"FullName":"ПС Марфино КВЛ 220 кВ Бутырки-Марфино, Марфино-Свиблово №2", "MinName":"ПС Марфино МТ", "SysName":"Система мониторинга температуры высоковольтных кабелей"},
+	"Info": {"ID":"DISP855MT1", "Subst":"855", "Type":"Dispatching", "Location":"ПС855/Шкаф№67/МВКС2[KSA2883128]/МТ", "NameMin":"ПС855 МТ Дисп", "NameMax":"Модуль Дисп. ПС 855 МТ"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP855MT1"},
+		{"ID_Program" : "GS855/MT1"}
+	],
+"Coord":"PS855",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4003"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Марфино(855)/МТ(Марфино - Бутырки; Марфино - Свиблово 2)",
+        "ASDU":1, "TOPIC_ID":5,  "IpList":["10.22.4.22:3701"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":5, "SysId":"MT1", "DATA": [
+
+{"ID":"1", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1001", "NAME":"Максимальная температура Tmax1 фЖ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"2", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1002", "NAME":"Максимальная температура Tmax1 фЗ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"3", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1003", "NAME":"Максимальная температура Tmax1 фК Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"4", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1004", "NAME":"Местоположение максимальной температуры Tmax1 фЖ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"5", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1005", "NAME":"Местоположение максимальной температуры Tmax1 фЗ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"6", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1006", "NAME":"Местоположение максимальной температуры Tmax1 фК Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"7", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1007", "NAME":"Максимальная температура Tmax2 фЖ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"8", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1008", "NAME":"Максимальная температура Tmax2 фЗ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"9", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1009", "NAME":"Максимальная температура Tmax2 фК Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"10", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1010", "NAME":"Местоположение максимальной температуры Tmax2 фЖ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"11", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1011", "NAME":"Местоположение максимальной температуры Tmax2 фЗ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"12", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1012", "NAME":"Местоположение максимальной температуры Tmax2 фК Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"13", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1013", "NAME":"Местоположение обрыва волокна фЖ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"14", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1014", "NAME":"Местоположение обрыва волокна фЗ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"15", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1015", "NAME":"Местоположение обрыва волокна фК Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"16", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4001", "NAME":"Превышение предупредительной уставки фЖ Марфино – Свиблово II цепь Т=60°С", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"17", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4002", "NAME":"Превышение предупредительной уставки фЗ Марфино – Свиблово II цепь Т=60°С", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"18", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4003", "NAME":"Превышение предупредительной уставки фК Марфино – Свиблово II цепь Т=60°С", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"19", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4004", "NAME":"Превышение аварийной уставки фЖ Марфино – Свиблово II цепь Т=70°С", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"20", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4005", "NAME":"Превышение аварийной уставки фЗ Марфино – Свиблово II цепь Т=70°С", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"21", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4006", "NAME":"Превышение аварийной уставки фК Марфино – Свиблово II цепь Т=70°С", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"22", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4007", "NAME":"Обрыв волокна фЖ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"23", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4008", "NAME":"Обрыв волокна фЗ Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"24", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4009", "NAME":"Обрыв волокна фК Марфино – Свиблово II цепь", "Links":{"RT":"4029", "Arch1":"4038", "Arch2":"4048"}},
+
+{"ID":"25", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1016", "NAME":"Максимальная температура Tmax1 фЖ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"26", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1017", "NAME":"Максимальная температура Tmax1 фЗ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"27", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1018", "NAME":"Максимальная температура Tmax1 фК Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"28", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1019", "NAME":"Местоположение максимальной температуры Tmax1 фЖ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"29", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1020", "NAME":"Местоположение максимальной температуры Tmax1 фЗ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"30", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1021", "NAME":"Местоположение максимальной температуры Tmax1 фК Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"31", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1022", "NAME":"Максимальная температура Tmax2 фЖ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"32", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1023", "NAME":"Максимальная температура Tmax2 фЗ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"33", "TypeTele":"TM", "Mes":"°С", "VER":"General", "IOA":"1024", "NAME":"Максимальная температура Tmax2 фК Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"34", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1025", "NAME":"Местоположение максимальной температуры Tmax2 фЖ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"35", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1026", "NAME":"Местоположение максимальной температуры Tmax2 фЗ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"36", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1027", "NAME":"Местоположение максимальной температуры Tmax2 фК Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"37", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1028", "NAME":"Местоположение обрыва волокна фЖ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"38", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1029", "NAME":"Местоположение обрыва волокна фЗ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"39", "TypeTele":"TM", "Mes":"м", "VER":"General", "IOA":"1030", "NAME":"Местоположение обрыва волокна фК Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"40", "TypeTele":"TM", "Mes":"В", "VER":"General", "IOA":"1031", "NAME":"Напряжение на батареях", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"41", "TypeTele":"TM", "Mes":"%", "VER":"General", "IOA":"1032", "NAME":"Степень заряда батарей", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"42", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4010", "NAME":"Превышение предупредительной уставки фЖ Бутырки – Марфино Т=60°С", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"43", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4011", "NAME":"Превышение предупредительной уставки фЗ Бутырки – Марфино Т=60°С", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"44", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4012", "NAME":"Превышение предупредительной уставки фК Бутырки – Марфино Т=60°С", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"45", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4013", "NAME":"Превышение аварийной уставки фЖ Бутырки – Марфино Т=70°С", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"46", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4014", "NAME":"Превышение аварийной уставки фЗ Бутырки – Марфино Т=70°С", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"47", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4015", "NAME":"Превышение аварийной уставки фК Бутырки – Марфино Т=70°С", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"48", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4016", "NAME":"Обрыв волокна фЖ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"49", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4017", "NAME":"Обрыв волокна фЗ Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"50", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4018", "NAME":"Обрыв волокна фК Бутырки – Марфино", "Links":{"RT":"4028", "Arch1":"4038", "Arch2":"4048"}},
+{"ID":"51", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4019", "NAME":"Ошибка прибора ПТС-1000 №1", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"52", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4020", "NAME":"Ошибка прибора ПТС-1000 №2", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"53", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4021", "NAME":"Отсутствие напряжения питания на стойке (работа от батареи)", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"54", "TypeTele":"TS", "TypeAlarm":"Alarm", "Mes":"", "VER":"General", "IOA":"4022", "NAME":"Неисправность батарей", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"55", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4023", "NAME":"Низкий заряд батарей", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"56", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4024", "NAME":"Открытие двери шкафа (передняя)", "Links":{"Arch1":"4038", "Arch2":"4048"}},
+{"ID":"57", "TypeTele":"TS", "TypeAlarm":"Warning", "Mes":"", "VER":"General", "IOA":"4025", "NAME":"Открытие двери шкафа (задняя)", "Links":{"Arch1":"4038", "Arch2":"4048"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8551",	"NAME":"Система мониторинга температуры (ПТС-1000) шк67"}
+		]}
+}

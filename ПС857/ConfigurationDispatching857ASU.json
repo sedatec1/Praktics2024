@@ -1,0 +1,100 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":5305, "W":825, "H":290},
+	"Title": {"FullName":"Система АСУ ТП и ТМ ПС Никулино", "MinName":"ПС Никулино АСУ", "SysName":"Система АСУ ТП и ТМ ПС Никулино"},
+	"Info": {"ID":"DISP857ASU", "Subst":"857", "Type":"Dispatching", "Location":"ПС857/Сервер ТМ ПС Никулино", "NameMin":"ПС857 АСУ ТП Дисп", "NameMax":"Модуль Дисп. ПС 857 АСУ ТМ ПС Никулино"},
+	"Coord":"PS857",
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP857ASU"},
+		{"ID_Program" : "GS857/ASU"}
+	],
+
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "5303"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Никулино(857)/АСУТП",
+        "ASDU":244, "TOPIC_ID":1,  "IpList":["192.168.7.91:2404", "192.168.7.92:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":1, "SysId":"ASU", "DATA": [
+
+{"ID":1, "Mes":"А", "TypeTele":"TM",      "VER":"General", "IOA":"1001", "NAME":"КЛ Очак-Ник1  ТМ Ток фазы А", "Links":{ "Arch":"5338"}},
+{"ID":2, "Mes":"А", "TypeTele":"TM",      "VER":"General", "IOA":"1002", "NAME":"КЛ Очак-Ник1  ТМ Ток фазы В", "Links":{ "Arch":"5338"}},
+{"ID":3, "Mes":"А", "TypeTele":"TM",      "VER":"General", "IOA":"1003", "NAME":"КЛ Очак-Ник1  ТМ Ток фазы С", "Links":{ "Arch":"5338"}},
+{"ID":4, "Mes":"А", "TypeTele":"TM",      "VER":"General", "IOA":"1004", "NAME":"КЛ Очак-Ник2  ТМ Ток фазы А", "Links":{ "Arch":"5338"}},
+{"ID":5, "Mes":"А", "TypeTele":"TM",      "VER":"General", "IOA":"1005", "NAME":"КЛ Очак-Ник2  ТМ Ток фазы В", "Links":{ "Arch":"5338"}},
+{"ID":6, "Mes":"А", "TypeTele":"TM",      "VER":"General", "IOA":"1006", "NAME":"КЛ Очак-Ник2  ТМ Ток фазы С", "Links":{ "Arch":"5338"}},
+{"ID":7, "TypeTele":"TSD",      "VER":"General", "IOA":"3001", "NAME":"КЛ Очак-Ник2  ЭВ Положение выключателя", "Links":{ "Arch":"5338"}},
+{"ID":8, "TypeTele":"TSD",      "VER":"General", "IOA":"3002", "NAME":"КЛ Очак-Ник1  ЭВ Положение выключателя", "Links":{ "Arch":"5338"}},
+{"ID":9, "TypeTele":"TS",  "TypeAlarm":"Alarm",      "VER":"General", "IOA":"4003", "NAME":"КЛ Очак-Ник1  RED670 1K ДЗЛ:Отключение", "Links":{ "Arch":"5338"}},
+{"ID":10, "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4004", "NAME":"КЛ Очак-Ник1  RED670 2K ДЗЛ:Отключение", "Links":{ "Arch":"5338"}},
+{"ID":11, "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4001", "NAME":"КЛ Очак-Ник2  RED670 1K ДЗЛ:Отключение", "Links":{ "Arch":"5338"}},
+{"ID":12, "TypeTele":"TS",  "TypeAlarm":"Alarm",     "VER":"General", "IOA":"4002", "NAME":"КЛ Очак-Ник2  RED670 2K ДЗЛ:Отключение", "Links":{ "Arch":"5338"}},
+{"ID":13, "TypeTele":"TM", "VER":"General", "IOA":"1106",  "Mes":"Вт",  "NAME":"ПС857 КЛ Очак-Ник1 Активная мощность P"},
+{"ID":14, "TypeTele":"TM", "VER":"General", "IOA":"1107",  "Mes":"Вт",  "NAME":"ПС857 КЛ Очак-Ник1 Реактивная мощность Q"},
+{"ID":15, "TypeTele":"TM", "VER":"General", "IOA":"1108",  "Mes":"Вт",  "NAME":"ПС857 КЛ Очак-Ник2 Активная мощность P"},
+{"ID":16, "TypeTele":"TM", "VER":"General", "IOA":"1109",  "Mes":"Вт",  "NAME":"ПС857 КЛ Очак-Ник2 Реактивная мощность Q"},
+{"ID":17, "TypeTele":"TM", "VER":"General", "IOA":"1110",  "Mes":"А",  "NAME":"ПС857 220кВ ШСЭВ   Ток фазы А"},
+{"ID":18, "TypeTele":"TM", "VER":"General", "IOA":"1111",  "Mes":"А",  "NAME":"ПС857 220кВ ШСЭВ   Ток фазы В"},
+{"ID":19, "TypeTele":"TM", "VER":"General", "IOA":"1112",  "Mes":"А",  "NAME":"ПС857 220кВ ШСЭВ   Ток фазы С"},
+{"ID":20, "TypeTele":"TM", "VER":"General", "IOA":"1113",  "Mes":"Вт",  "NAME":"ПС857 220кВ ШСЭВ   Активная мощность P"},
+{"ID":21, "TypeTele":"TM", "VER":"General", "IOA":"1114",  "Mes":"Вт",  "NAME":"ПС857 220кВ ШСЭВ   Реактивная мощность Q"},
+{"ID":22, "TypeTele":"TM", "VER":"General", "IOA":"1115",  "Mes":"А",  "NAME":"ПС857 220кВ Т-1    Ток фазы А"},
+{"ID":23, "TypeTele":"TM", "VER":"General", "IOA":"1116",  "Mes":"А",  "NAME":"ПС857 220кВ Т-1    Ток фазы В"},
+{"ID":24, "TypeTele":"TM", "VER":"General", "IOA":"1117",  "Mes":"А",  "NAME":"ПС857 220кВ Т-1    Ток фазы С"},
+{"ID":25, "TypeTele":"TM", "VER":"General", "IOA":"1118",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-1    Активная мощность P"},
+{"ID":26, "TypeTele":"TM", "VER":"General", "IOA":"1119",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-1    Реактивная мощность Q"},
+{"ID":27, "TypeTele":"TM", "VER":"General", "IOA":"1120",  "Mes":"А",  "NAME":"ПС857 220кВ Т-2    Ток фазы А"},
+{"ID":28, "TypeTele":"TM", "VER":"General", "IOA":"1121",  "Mes":"А",  "NAME":"ПС857 220кВ Т-2    Ток фазы В"},
+{"ID":29, "TypeTele":"TM", "VER":"General", "IOA":"1122",  "Mes":"А",  "NAME":"ПС857 220кВ Т-2    Ток фазы С"},
+{"ID":30, "TypeTele":"TM", "VER":"General", "IOA":"1123",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-2    Активная мощность P"},
+{"ID":31, "TypeTele":"TM", "VER":"General", "IOA":"1124",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-2    Реактивная мощность Q"},
+{"ID":32, "TypeTele":"TM", "VER":"General", "IOA":"1125",  "Mes":"А",  "NAME":"ПС857 220кВ Т-3    Ток фазы А"},
+{"ID":33, "TypeTele":"TM", "VER":"General", "IOA":"1126",  "Mes":"А",  "NAME":"ПС857 220кВ Т-3    Ток фазы В"},
+{"ID":34, "TypeTele":"TM", "VER":"General", "IOA":"1127",  "Mes":"А",  "NAME":"ПС857 220кВ Т-3    Ток фазы С"},
+{"ID":35, "TypeTele":"TM", "VER":"General", "IOA":"1128",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-3    Активная мощность P"},
+{"ID":36, "TypeTele":"TM", "VER":"General", "IOA":"1129",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-3    Реактивная мощность Q"},
+{"ID":37, "TypeTele":"TM", "VER":"General", "IOA":"1130",  "Mes":"А",  "NAME":"ПС857 220кВ Т-4    Ток фазы А"},
+{"ID":38, "TypeTele":"TM", "VER":"General", "IOA":"1131",  "Mes":"А",  "NAME":"ПС857 220кВ Т-4    Ток фазы В"},
+{"ID":39, "TypeTele":"TM", "VER":"General", "IOA":"1132",  "Mes":"А",  "NAME":"ПС857 220кВ Т-4    Ток фазы С"},
+{"ID":40, "TypeTele":"TM", "VER":"General", "IOA":"1133",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-4    Активная мощность P"},
+{"ID":41, "TypeTele":"TM", "VER":"General", "IOA":"1134",  "Mes":"Вт",  "NAME":"ПС857 220кВ Т-4    Реактивная мощность Q"},
+{"ID":42, "TypeTele":"TM", "VER":"General", "IOA":"1135",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 1СШ Напряжение  Uab I СШ 220 кВ"},
+{"ID":43, "TypeTele":"TM", "VER":"General", "IOA":"1136",  "Mes":"А",  "NAME":"ПС857 220кВ ТН 1СШ Напряжение  Ubc I СШ 220 кВ"},
+{"ID":44, "TypeTele":"TM", "VER":"General", "IOA":"1137",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 1СШ Напряжение  Uca I СШ 220 кВ"},
+{"ID":45, "TypeTele":"TM", "VER":"General", "IOA":"1138",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 1СШ Частота F I СШ 220 кВ"},
+{"ID":46, "TypeTele":"TM", "VER":"General", "IOA":"1139",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 1СШ Напряжение Ua I СШ 220 кВ"},
+{"ID":47, "TypeTele":"TM", "VER":"General", "IOA":"1140",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 1СШ Напряжение  Ub I СШ 220 кВ"},
+{"ID":48, "TypeTele":"TM", "VER":"General", "IOA":"1141",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 1СШ Напряжение  Uc I СШ 220 кВ"},
+{"ID":49, "TypeTele":"TM", "VER":"General", "IOA":"1142",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 2СШ Напряжение  Uab II СШ 220 кВ"},
+{"ID":50, "TypeTele":"TM", "VER":"General", "IOA":"1143",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 2СШ Напряжение  Ubc II СШ 220 кВ"},
+{"ID":51, "TypeTele":"TM", "VER":"General", "IOA":"1144",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 2СШ Напряжение  Uca II СШ 220 кВ"},
+{"ID":52, "TypeTele":"TM", "VER":"General", "IOA":"1145",  "Mes":"Гц",  "NAME":"ПС857 220кВ ТН 2СШ Частота F II СШ 220 кВ"},
+{"ID":53, "TypeTele":"TM", "VER":"General", "IOA":"1146",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 2СШ Напряжение Ua II СШ 220 кВ"},
+{"ID":54, "TypeTele":"TM", "VER":"General", "IOA":"1147",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 2СШ Напряжение  Ub II СШ 220 кВ"},
+{"ID":55, "TypeTele":"TM", "VER":"General", "IOA":"1148",  "Mes":"В",  "NAME":"ПС857 220кВ ТН 2СШ Напряжение  Uc II СШ 220 кВ"}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8572",	"NAME":"Система АСУ ТП и ТМ}"}
+		]}
+}

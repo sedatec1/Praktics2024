@@ -1,0 +1,118 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":5005, "W":825, "H":290},
+	"Title": {"FullName":"Система АСУ ТП и ТМ ПС Парковая", "MinName":"ПС Парковая АСУ", "SysName":"Система АСУ ТП и ТМ ПС Парковая"},
+	"Info": {"ID":"DISP861ASU", "Subst":"861", "Type":"Dispatching", "Location":"ПС861/Сервер ТМ ПС Парковая", "NameMin":"ПС861 АСУ ТП Дисп", "NameMax":"Модуль Дисп. ПС 861 АСУ ТМ ПС Парковая"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP861ASU"},
+		{"ID_Program" : "GS861/ASU"}
+	],
+"Coord":"PS861",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "5003"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Парковая(861)/АСУТП",
+        "ASDU":205, "TOPIC_ID":1,  "IpList":["10.140.2.11:2404", "10.140.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":1, "SysId":"ASU", "DATA": [
+
+{"ID":"1",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1010",  "NAME":"КВЛ 220 кВ Парковая-Гольяново I Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"2",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1011",  "NAME":"КВЛ 220 кВ Парковая-Гольяново I Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"3",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1012",  "NAME":"КВЛ 220 кВ Парковая-Гольяново I Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+{"ID":"4",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1004",  "NAME":"КВЛ 220 кВ Парковая-ГольяновоII Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"5",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1005",  "NAME":"КВЛ 220 кВ Парковая-ГольяновоII Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"6",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1006",  "NAME":"КВЛ 220 кВ Парковая-ГольяновоII Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+{"ID":"7",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1001",  "NAME":"КВЛ 220 кВ Баскаково-Парковая   Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"8",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1002",  "NAME":"КВЛ 220 кВ Баскаково-Парковая   Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"9",   "Mes":"A", "TypeTele":"TM",   "VER":"General", "IOA":"1003",  "NAME":"КВЛ 220 кВ Баскаково-Парковая   Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+{"ID":"10",  "Mes":"A", "TypeTele":"TM",    "VER":"General", "IOA":"1007", "NAME":"КВЛ 220 кВ Парковая-Восточная   Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"11",  "Mes":"A", "TypeTele":"TM",    "VER":"General", "IOA":"1008", "NAME":"КВЛ 220 кВ Парковая-Восточная   Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"12",  "Mes":"A", "TypeTele":"TM",    "VER":"General", "IOA":"1009", "NAME":"КВЛ 220 кВ Парковая-Восточная   Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+
+{"ID":"13", "TypeTele":"TSD", "VER":"General", "IOA":"3004", "NAME":" КВЛ 220 кВ Парковая-Гольяново I ЭВ Положение выключателя", "Links":{ "Arch":"5038"}},
+{"ID":"14", "TypeTele":"TSD", "VER":"General", "IOA":"3002", "NAME":" КВЛ 220 кВ Парковая-ГольяновоII ЭВ Положение выключателя", "Links":{ "Arch":"5038"}},
+{"ID":"15", "TypeTele":"TSD", "VER":"General", "IOA":"3001", "NAME":" КВЛ 220 кВБаскаково-Парковая   ЭВ Положение выключателя", "Links":{ "Arch":"5038"}},
+{"ID":"16", "TypeTele":"TSD", "VER":"General", "IOA":"3003", "NAME":" КВЛ 220 кВ Парковая-Восточная   ЭВ Положение выключателя", "Links":{ "Arch":"5038"}},
+
+{"ID":"17",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4010", "NAME":" КВЛ 220 кВ Парковая-Гольяново I RED670 ДЗЛ 1К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"18",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4011", "NAME":" КВЛ 220 кВ Парковая-Гольяново I RED670 ДЗЛ 2К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"19",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4012", "NAME":" КВЛ 220 кВ Парковая-Гольяново I REL670 РЗЛ Отключение от защит", "Links":{ "Arch":"5038"}},
+{"ID":"20",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4004", "NAME":" КВЛ 220 кВ Парковая-ГольяновоII RED670 ДЗЛ 1К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"21",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4005", "NAME":" КВЛ 220 кВ Парковая-ГольяновоII RED670 ДЗЛ 2К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"22",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4006", "NAME":" КВЛ 220 кВ Парковая-ГольяновоII REL670 РЗЛ Отключение от защит", "Links":{ "Arch":"5038"}},
+{"ID":"23",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4001", "NAME":" КВЛ 220 кВБаскаково-Парковая   RED670 ДЗЛ 1К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"24",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4002", "NAME":" КВЛ 220 кВБаскаково-Парковая   RED670 ДЗЛ 2К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"25",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4003", "NAME":" КВЛ 220 кВБаскаково-Парковая   REL670 РЗЛ Отключение от защит", "Links":{ "Arch":"5038"}},
+{"ID":"26",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4007", "NAME":" КВЛ 220 кВ Парковая-Восточная   RED670 ДЗЛ 1К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"27",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4008", "NAME":" КВЛ 220 кВ Парковая-Восточная RED670 ДЗЛ 2К Срабатывание ДЗЛ", "Links":{ "Arch":"5038"}},
+{"ID":"28",	"TypeTele":"TS", "TypeAlarm":"Alarm",  "VER":"General", "IOA":"4009", "NAME":" КВЛ 220 кВ Парковая-Восточная   REL670 РЗЛ Отключение от защит", "Links":{ "Arch":"5038"}},
+{"ID":"29", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1198", "NAME":"ПС861 КВЛ220кВ Баскаково-Парковая Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"30", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1199", "NAME":"ПС861 КВЛ220кВ Баскаково-Парковая Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"31", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1200", "NAME":"ПС861 КВЛ220кВ Парковая-ГольяновоII Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"32", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1201", "NAME":"ПС861 КВЛ220кВ Парковая-ГольяновоII Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"33", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1202", "NAME":"ПС861 КВЛ220кВ Парковая-Восточная Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"34", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1203", "NAME":"ПС861 КВЛ220кВ Парковая-Восточная Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"35", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1204", "NAME":"ПС861 КВЛ220кВ Парковая-Гольяново I Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"36", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1205", "NAME":"ПС861 КВЛ220кВ Парковая-Гольяново I Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"37", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1206", "NAME":"ПС861 220кВ Т-3 Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"38", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1207", "NAME":"ПС861 220кВ Т-3 Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"39", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1208", "NAME":"ПС861 220кВ Т-3 Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+{"ID":"40", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1209", "NAME":"ПС861 220кВ Т-3 Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"41", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1210", "NAME":"ПС861 220кВ Т-3 Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"42", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1211", "NAME":"ПС861 ШСЭВ 220кВ Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"43", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1212", "NAME":"ПС861 ШСЭВ 220кВ Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"44", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1213", "NAME":"ПС861 ШСЭВ 220кВ Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+{"ID":"45", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1214", "NAME":"ПС861 ШСЭВ 220кВ Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"46", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1215", "NAME":"ПС861 ШСЭВ 220кВ Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"47", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1216", "NAME":"ПС861 220кВ Т-2 Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"48", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1217", "NAME":"ПС861 220кВ Т-2 Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"49", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1218", "NAME":"ПС861 220кВ Т-2 Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+{"ID":"50", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1219", "NAME":"ПС861 220кВ Т-2 Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"51", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1220", "NAME":"ПС861 220кВ Т-2 Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"52", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1221", "NAME":"ПС861 220кВ Т-1 Измер. Ток Ia", "Links":{ "Arch":"5038"}},
+{"ID":"53", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1222", "NAME":"ПС861 220кВ Т-1 Измер. Ток Ib", "Links":{ "Arch":"5038"}},
+{"ID":"54", "Mes":"А", "TypeTele":"TM", "VER":"General", "IOA":"1223", "NAME":"ПС861 220кВ Т-1 Измер. Ток Ic", "Links":{ "Arch":"5038"}},
+{"ID":"55", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1224", "NAME":"ПС861 220кВ Т-1 Измер. Активная мощность P", "Links":{ "Arch":"5038"}},
+{"ID":"56", "Mes":"Вт", "TypeTele":"TM", "VER":"General", "IOA":"1225", "NAME":"ПС861 220кВ Т-1 Измер. Реактивная мощность Q", "Links":{ "Arch":"5038"}},
+{"ID":"57", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1226", "NAME":"ПС861 220кВ ТН Измер. ТН I СШ Напряжение Uab", "Links":{ "Arch":"5038"}},
+{"ID":"58", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1227", "NAME":"ПС861 220кВ ТН Измер. ТН I СШ Напряжение Ubc", "Links":{ "Arch":"5038"}},
+{"ID":"59", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1228", "NAME":"ПС861 220кВ ТН Измер. ТН I СШ Напряжение Uca", "Links":{ "Arch":"5038"}},
+{"ID":"60", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1229", "NAME":"ПС861 220кВ ТН Измер. ТН I СШ Частота", "Links":{ "Arch":"5038"}},
+{"ID":"61", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1230", "NAME":"ПС861 220кВ ТН Измер. ТН I СШ Напряжение Ua", "Links":{ "Arch":"5038"}},
+{"ID":"62", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1231", "NAME":"ПС861 220кВ ТН Измер. ТН I СШ Напряжение Ub", "Links":{ "Arch":"5038"}},
+{"ID":"63", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1232", "NAME":"ПС861 220кВ ТН Измер. ТН I СШ Напряжение Uc", "Links":{ "Arch":"5038"}},
+{"ID":"64", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1233", "NAME":"ПС861 220кВ ТН Измер. ТН II СШ Напряжение Uab", "Links":{ "Arch":"5038"}},
+{"ID":"65", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1234", "NAME":"ПС861 220кВ ТН Измер. ТН II СШ Напряжение Ubc", "Links":{ "Arch":"5038"}},
+{"ID":"66", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1235", "NAME":"ПС861 220кВ ТН Измер. ТН II СШ Напряжение Uca", "Links":{ "Arch":"5038"}},
+{"ID":"67", "Mes":"Гц", "TypeTele":"TM", "VER":"General", "IOA":"1236", "NAME":"ПС861 220кВ ТН Измер. ТН II СШ Частота", "Links":{ "Arch":"5038"}},
+{"ID":"68", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1237", "NAME":"ПС861 220кВ ТН Измер. ТН II СШ Напряжение Ua", "Links":{ "Arch":"5038"}},
+{"ID":"69", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1238", "NAME":"ПС861 220кВ ТН Измер. ТН II СШ Напряжение Ub", "Links":{ "Arch":"5038"}},
+{"ID":"70", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1239", "NAME":"ПС861 220кВ ТН Измер. ТН II СШ Напряжение Uc", "Links":{ "Arch":"5038"}}
+	]}
+
+],
+    "ReqDataFromDB":{"Port":8081, "ReqData":[
+        {"ID":"8613",	"NAME":"Система АСУ ТП и ТМ}"}
+        ]}
+}
+
+        

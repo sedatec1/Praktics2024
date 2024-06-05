@@ -1,0 +1,85 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":5008, "W":825, "H":290},
+	"Title": {"FullName":"Система телемеханики ПС Парковая", "MinName":"ПС Парковая ТМ", "SysName":"Система телемахники ПС Парковая"},
+	"Info": {"ID":"DISP861TM", "Subst":"861", "Type":"Dispatching", "Location":"ПС861/Сервер ТМ ПС Парковая", "NameMin":" ПС861 АСУ ТП Дисп", "NameMax":"Модуль Дисп. ПС 861 АСУ ТМ ПС Парковая"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP861TM"},
+		{"ID_Program" : "GS861/TM"}
+	],
+"Coord":"PS861",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "5003"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Парковая(861)/АСУТП",
+        "ASDU":205, "TOPIC_ID":4,  "IpList":["10.140.2.11:2404", "10.140.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":4, "SysId":"TM", "DATA": [
+
+{"ID":"31", "TypeTele":"TSD", "VER":"General", "IOA":"3005", "NAME":"Баскаково-Парковая   ЛР ПП N208 Положение разъединителя", "Links":{ "Arch":"5038"}},
+{"ID":"32", "TypeTele":"TSD", "VER":"General", "IOA":"3006", "NAME":"Баскаково-Парковая ЗН ЛР КЛ ПП N208 Положение заземляющего ножа", "Links":{ "Arch":"5038"}},
+{"ID":"33", "TypeTele":"TSD", "VER":"General", "IOA":"3007", "NAME":"Баскаково-Парковая ЗН ЛР ВЛ ПП N208 Положение заземляющего ножа", "Links":{ "Arch":"5038"}},
+{"ID":"34", "TypeTele":"TSD", "VER":"General", "IOA":"3008", "NAME":"Парковая-Восточная   ЛР ПП N208 Положение разъединителя", "Links":{ "Arch":"5038"}},
+{"ID":"35", "TypeTele":"TSD", "VER":"General", "IOA":"3010", "NAME":"Парковая-Восточная ЗН ЛР ВЛ ПП N208 Положение заземляющего ножа", "Links":{ "Arch":"5038"}},
+{"ID":"36", "TypeTele":"TSD", "VER":"General", "IOA":"3009", "NAME":"Парковая-Восточная ЗН ЛР КЛ ПП N208 Положение заземляющего ножа", "Links":{ "Arch":"5038"}},
+
+{"ID":"37", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1013", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N1. Датчик 1", "Links":{ "Arch":"5038"}},
+{"ID":"38", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1014", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N1. Датчик 2", "Links":{ "Arch":"5038"}},
+{"ID":"39", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1015", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N2. Датчик 1", "Links":{ "Arch":"5038"}},
+{"ID":"40", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1016", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N2. Датчик 2", "Links":{ "Arch":"5038"}},
+{"ID":"41", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1017", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N3. Датчик 1", "Links":{ "Arch":"5038"}},
+{"ID":"42", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1018", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N3. Датчик 2", "Links":{ "Arch":"5038"}},
+{"ID":"43", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1019", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N4. Датчик 1", "Links":{ "Arch":"5038"}},
+{"ID":"44", "Mes":"°C", "TypeTele":"TM", "VER":"General", "IOA":"1020", "NAME":"Кабельный тоннель   Измер. Температура воздуха в отсеке N4. Датчик 2", "Links":{ "Arch":"5038"}},
+
+{"ID":"45", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1021", "NAME":"Кабельный тоннель   Измер. Ua ввод N1 сети 0,4кВ", "Links":{ "Arch":"5038"}},
+{"ID":"46", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1022", "NAME":"Кабельный тоннель   Измер. Ub ввод N1 сети 0,4кВ", "Links":{ "Arch":"5038"}},
+{"ID":"47", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1023", "NAME":"Кабельный тоннель   Измер. Uc ввод N1 сети 0,4кВ", "Links":{ "Arch":"5038"}},
+{"ID":"48", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1024", "NAME":"Кабельный тоннель   Измер. Ua ввод N2 сети 0,4кВ", "Links":{ "Arch":"5038"}},
+{"ID":"49", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1025", "NAME":"Кабельный тоннель   Измер. Ub ввод N2 сети 0,4кВ", "Links":{ "Arch":"5038"}},
+{"ID":"50", "Mes":"В", "TypeTele":"TM", "VER":"General", "IOA":"1026", "NAME":"Кабельный тоннель   Измер. Uc ввод N2 сети 0,4кВ", "Links":{ "Arch":"5038"}},
+
+{"ID":"51", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4013", "NAME":"Кабельный тоннель   Телемеханика Неисправность водоудаления коллектора", "Links":{ "Arch":"5038"}},
+{"ID":"52", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4014", "NAME":"Кабельный тоннель   Телемеханика Затопление камеры КЗ", "Links":{ "Arch":"5038"}},
+{"ID":"53", "TypeTele":"TS", "TypeAlarm":"Warning","VER":"General", "IOA":"4015", "NAME":"Кабельный тоннель   Телемеханика Отсутствует питание ИБП системы загазованности", "Links":{ "Arch":"5038"}},
+{"ID":"54", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4016", "NAME":"Кабельный тоннель   Телемеханика Отсутствует питание ПУИ", "Links":{ "Arch":"5038"}},
+{"ID":"55", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4017", "NAME":"Кабельный тоннель   Телемеханика Отсутсвует питание ИБП шкафа ТМ", "Links":{ "Arch":"5038"}},
+{"ID":"56", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4018", "NAME":"Кабельный тоннель   Телемеханика Неисправность КП", "Links":{ "Arch":"5038"}},
+{"ID":"57", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4019", "NAME":"Кабельный тоннель   Телемеханика Загазованность в отсеке N1", "Links":{ "Arch":"5038"}},
+{"ID":"58", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4020", "NAME":"Кабельный тоннель   Телемеханика Загазованность в отсеке N2", "Links":{ "Arch":"5038"}},
+{"ID":"59", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4021", "NAME":"Кабельный тоннель   Телемеханика Загазованность в отсеке N3", "Links":{ "Arch":"5038"}},
+{"ID":"60", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4022", "NAME":"Кабельный тоннель   Телемеханика Загазованность в отсеке N4", "Links":{ "Arch":"5038"}},
+{"ID":"61", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4023", "NAME":"Кабельный тоннель   Телемеханика Неисправность ОПС", "Links":{ "Arch":"5038"}},
+{"ID":"62", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4024", "NAME":"Кабельный тоннель   Телемеханика Охрана. Камера N1", "Links":{ "Arch":"5038"}},
+{"ID":"63", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4025", "NAME":"Кабельный тоннель   Телемеханика Охрана. Камера N2", "Links":{ "Arch":"5038"}},
+{"ID":"64", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4026", "NAME":"Кабельный тоннель   Телемеханика Охрана. Камера N4", "Links":{ "Arch":"5038"}},
+{"ID":"65", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4027", "NAME":"Кабельный тоннель   Телемеханика Охрана. Камера N5", "Links":{ "Arch":"5038"}},
+{"ID":"66", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4028", "NAME":"Кабельный тоннель   Телемеханика Охрана. Камера N6", "Links":{ "Arch":"5038"}},
+{"ID":"67", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4029", "NAME":"Кабельный тоннель   Телемеханика Пожар", "Links":{ "Arch":"5038"}},
+{"ID":"68", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4030", "NAME":"Кабельный тоннель   Телемеханика Освещение включено в камере К1, К2, отсеке N1", "Links":{ "Arch":"5038"}} 
+    ]}
+
+],
+    "ReqDataFromDB":{"Port":8081, "ReqData":[
+        {"ID":"8617",	"NAME":"Система телемеханики}"}
+        ]}
+}

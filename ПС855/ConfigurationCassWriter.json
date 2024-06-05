@@ -1,0 +1,22 @@
+{
+	"Configuration": {"Type":"DBWrite", "Version":1001, "contactPoints":"172.19.43.155", "localDataCenter":"datacenter1",
+		"Port":5432, "HTTPPort": 8081},
+	"Info": {"ID":"DB711", "Type":"DBWrite", "Location":"ПС711/БОД/МТ",
+		"NameMin":"ПС711 Запись в БД", "NameMax":"Модуль записи информации в БД ПС 711"},
+	"DB":
+	[
+		{ "ID":1, "keyspace":"archive_sedatec_data" },
+		{ "ID":2, "keyspace":"archive_sedatec_data2" }
+	],
+	"WriteDB":
+	[
+		{"ID_Program":"LOG", "Table":"log", "isFullWrite":true, "DB":1},
+
+		{"ID_Program":"PC711B/ProfilesFiberOptics/Temperature", "Table":"profile", "isFullWrite":true, "DB":1},
+		{"ID_Program":"PC711B/ProfilesFiberOptics/Reflectogram", "Table":"profile", "isFullWrite":true, "DB":1},
+		{"ID_Program":"SEGMT711",   "Table":"profile", "isFullWrite":true, "DB":1},
+		{"ID_Program":"GS711/GSV/GS711/ChannelBreaks",   "Table":"tele", "isFullWrite":true, "DB":1},
+		{"ID_Program":"TELEMT711", "Table":"tele", "isFullWrite":true, "DB":1},
+		{"ID_Program":"GS711/Data", "Table":"tele", "isFullWrite":true, "DB":1}
+	]
+}

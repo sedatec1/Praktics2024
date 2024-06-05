@@ -1,0 +1,142 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4009, "W":980, "H":460},
+	"Title": {"FullName":"Система телемеханики ПС Марфино КЛ 220 кВ КЛ:Марфино-Бутырки, КЛ:Марфино-Свиблово 2", "MinName":"Система телемеханики"},
+	"Info": {"ID":"DISP855TM", "Subst":"855", "Type":"Dispatching", "Location":"ПС855/Шкаф№67/МВКС2[KSA2883128]/МТ", "NameMin":"ПС855 МТ Дисп", "NameMax":"Модуль Дисп. ПС 855 МТ"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP855TM"},
+		{"ID_Program" : "GS855/TM"}
+	],
+"Coord":"PS855",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4003"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Марфино(855)/АСУТП",
+        "ASDU":13, "TOPIC_ID":3,  "IpList":["10.131.2.11:2404", "10.131.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":3, "SysId":"TM", "DATA": [
+
+{"ID":11, "TypeTele":"TSD",  "VER":"General",  "IOA":3005, 	"NAME":"ПП Марф-Свиб2 ЛР Положение разьединителя" , "Links":{ "Arch":"4038"}},
+{"ID":21, "TypeTele":"TSD",  "VER":"General",	"IOA":3006, 	"NAME":"ПП Марф-Свиб2 1ЗН ЛР Положение ЗН в сторону КВЛ" , "Links":{ "Arch":"4038"}},
+{"ID":31, "TypeTele":"TSD",  "VER":"General",	"IOA":3007, 	"NAME":"ПП Марф-Свиб2 2ЗН ЛР Положение ЗН в сторону ЭВ" , "Links":{ "Arch":"4038"}},
+{"ID":41, "TypeTele":"TSD",  "VER":"General",	"IOA":3008,	"NAME":"ПП Бутыр-Марф ЛР Положение разьединителя" , "Links":{ "Arch":"4038"}},
+{"ID":51, "TypeTele":"TSD",  "VER":"General",	"IOA":3009, 	"NAME":"ПП Бутыр-Марф 1ЗН ЛР Положение ЗН в сторону КВЛ" , "Links":{ "Arch":"4038"}},
+{"ID":61, "TypeTele":"TSD",  "VER":"General",	"IOA":3010, 	"NAME":"ПП Бутыр-Марф 2ЗН ЛР Положение ЗН в сторону ЭВ" , "Links":{ "Arch":"4038"}}, 
+{"ID":4342, "TypeTele":"TSD", "VER":"General", "IOA":4342, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4343, "TypeTele":"TSD", "VER":"General", "IOA":4343, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4344, "TypeTele":"TSD", "VER":"General", "IOA":4344, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4345, "TypeTele":"TSD", "VER":"General", "IOA":4345, "NAME":"Срабатывание МТЗ (I>>)",  "Links":{ "Arch":"4038"}},
+{"ID":4346, "TypeTele":"TSD", "VER":"General", "IOA":4346, "NAME":"Срабатывание МТЗ (I>>)",  "Links":{ "Arch":"4038"}},
+{"ID":4347, "TypeTele":"TSD", "VER":"General", "IOA":4347, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4348, "TypeTele":"TSD", "VER":"General", "IOA":4348, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4349, "TypeTele":"TSD", "VER":"General", "IOA":4349, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4350, "TypeTele":"TSD", "VER":"General", "IOA":4350, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4351, "TypeTele":"TSD", "VER":"General", "IOA":4351, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4352, "TypeTele":"TSD", "VER":"General", "IOA":4352, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4353, "TypeTele":"TSD", "VER":"General", "IOA":4353, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4354, "TypeTele":"TSD", "VER":"General", "IOA":4354, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4355, "TypeTele":"TSD", "VER":"General", "IOA":4355, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4356, "TypeTele":"TSD", "VER":"General", "IOA":4356, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4357, "TypeTele":"TSD", "VER":"General", "IOA":4357, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4358, "TypeTele":"TSD", "VER":"General", "IOA":4358, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4359, "TypeTele":"TSD", "VER":"General", "IOA":4359, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4360, "TypeTele":"TSD", "VER":"General", "IOA":4360, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4361, "TypeTele":"TSD", "VER":"General", "IOA":4361, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4362, "TypeTele":"TSD", "VER":"General", "IOA":4362, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4363, "TypeTele":"TSD", "VER":"General", "IOA":4363, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4364, "TypeTele":"TSD", "VER":"General", "IOA":4364, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4365, "TypeTele":"TSD", "VER":"General", "IOA":4365, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4366, "TypeTele":"TSD", "VER":"General", "IOA":4366, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4367, "TypeTele":"TSD", "VER":"General", "IOA":4367, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4368, "TypeTele":"TSD", "VER":"General", "IOA":4368, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4369, "TypeTele":"TSD", "VER":"General", "IOA":4369, "NAME":"Срабатывание ДЗО (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4370, "TypeTele":"TSD", "VER":"General", "IOA":4370, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4371, "TypeTele":"TSD", "VER":"General", "IOA":4371, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4372, "TypeTele":"TSD", "VER":"General", "IOA":4372, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4373, "TypeTele":"TSD", "VER":"General", "IOA":4373, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4374, "TypeTele":"TSD", "VER":"General", "IOA":4374, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4375, "TypeTele":"TSD", "VER":"General", "IOA":4375, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4376, "TypeTele":"TSD", "VER":"General", "IOA":4376, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4377, "TypeTele":"TSD", "VER":"General", "IOA":4377, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4378, "TypeTele":"TSD", "VER":"General", "IOA":4378, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4379, "TypeTele":"TSD", "VER":"General", "IOA":4379, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4380, "TypeTele":"TSD", "VER":"General", "IOA":4380, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4381, "TypeTele":"TSD", "VER":"General", "IOA":4381, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4382, "TypeTele":"TSD", "VER":"General", "IOA":4382, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4383, "TypeTele":"TSD", "VER":"General", "IOA":4383, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4384, "TypeTele":"TSD", "VER":"General", "IOA":4384, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4385, "TypeTele":"TSD", "VER":"General", "IOA":4385, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4386, "TypeTele":"TSD", "VER":"General", "IOA":4386, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4387, "TypeTele":"TSD", "VER":"General", "IOA":4387, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4388, "TypeTele":"TSD", "VER":"General", "IOA":4388, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4389, "TypeTele":"TSD", "VER":"General", "IOA":4389, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4390, "TypeTele":"TSD", "VER":"General", "IOA":4390, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4391, "TypeTele":"TSD", "VER":"General", "IOA":4391, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4392, "TypeTele":"TSD", "VER":"General", "IOA":4392, "NAME":"Срабатывание ДЗО (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4393, "TypeTele":"TSD", "VER":"General", "IOA":4393, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4394, "TypeTele":"TSD", "VER":"General", "IOA":4394, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4395, "TypeTele":"TSD", "VER":"General", "IOA":4395, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4396, "TypeTele":"TSD", "VER":"General", "IOA":4396, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4397, "TypeTele":"TSD", "VER":"General", "IOA":4397, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4398, "TypeTele":"TSD", "VER":"General", "IOA":4398, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4399, "TypeTele":"TSD", "VER":"General", "IOA":4399, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4400, "TypeTele":"TSD", "VER":"General", "IOA":4400, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4401, "TypeTele":"TSD", "VER":"General", "IOA":4401, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4402, "TypeTele":"TSD", "VER":"General", "IOA":4402, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4403, "TypeTele":"TSD", "VER":"General", "IOA":4403, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4404, "TypeTele":"TSD", "VER":"General", "IOA":4404, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4405, "TypeTele":"TSD", "VER":"General", "IOA":4405, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4406, "TypeTele":"TSD", "VER":"General", "IOA":4406, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4407, "TypeTele":"TSD", "VER":"General", "IOA":4407, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4408, "TypeTele":"TSD", "VER":"General", "IOA":4408, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4409, "TypeTele":"TSD", "VER":"General", "IOA":4409, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4410, "TypeTele":"TSD", "VER":"General", "IOA":4410, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4411, "TypeTele":"TSD", "VER":"General", "IOA":4411, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4412, "TypeTele":"TSD", "VER":"General", "IOA":4412, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4413, "TypeTele":"TSD", "VER":"General", "IOA":4413, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4414, "TypeTele":"TSD", "VER":"General", "IOA":4414, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4415, "TypeTele":"TSD", "VER":"General", "IOA":4415, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4416, "TypeTele":"TSD", "VER":"General", "IOA":4416, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4417, "TypeTele":"TSD", "VER":"General", "IOA":4417, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4418, "TypeTele":"TSD", "VER":"General", "IOA":4418, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4419, "TypeTele":"TSD", "VER":"General", "IOA":4419, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4420, "TypeTele":"TSD", "VER":"General", "IOA":4420, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4421, "TypeTele":"TSD", "VER":"General", "IOA":4421, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4422, "TypeTele":"TSD", "VER":"General", "IOA":4422, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4423, "TypeTele":"TSD", "VER":"General", "IOA":4423, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4424, "TypeTele":"TSD", "VER":"General", "IOA":4424, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4425, "TypeTele":"TSD", "VER":"General", "IOA":4425, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4426, "TypeTele":"TSD", "VER":"General", "IOA":4426, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4427, "TypeTele":"TSD", "VER":"General", "IOA":4427, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4428, "TypeTele":"TSD", "VER":"General", "IOA":4428, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4429, "TypeTele":"TSD", "VER":"General", "IOA":4429, "NAME":"Срабатывание ДЗО (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4430, "TypeTele":"TSD", "VER":"General", "IOA":4430, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4431, "TypeTele":"TSD", "VER":"General", "IOA":4431, "NAME":"Срабатывание ТЗНП (Io>>)", "Links":{ "Arch":"4038"}},
+{"ID":4432, "TypeTele":"TSD", "VER":"General", "IOA":4432, "NAME":"Срабатывание ДЗО (I>>)", "Links":{ "Arch":"4038"}},
+{"ID":4433, "TypeTele":"TSD", "VER":"General", "IOA":4433, "NAME":"Срабатывание МТЗ (I>>)", "Links":{ "Arch":"4038"}}
+	]}
+
+],
+	"ReqDataFromDB":{"Port":8081, "ReqData":[
+		{"ID":"8557",	"NAME":"Система телемеханики}"}
+		]}
+}

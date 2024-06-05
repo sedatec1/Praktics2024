@@ -1,0 +1,87 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4909, "W":825, "H":290},
+	"Title": {"FullName":"Система диагностики ВН вводов КВЛ 110 кВ Пахра – Грач, КВЛ 110 кВ Грач – Сырово, ПП №45 (Intego TM6)", "MinName":"ПС Грач ВН 6", "SysName":"Система диагностики ВН вводов КВЛ 110 кВ Пахра – Грач, КВЛ 110 кВ Грач – Сырово, ПП №45 (Intego TM6)"},
+	"Info": {"ID":"DISP851VN6", "Subst":"851", "Type":"Dispatching", "Location":"ПС851/Сервер ТМ ПС Грач", "NameMin":"ПС851 ТП Дисп", "NameMax":"Модуль Дисп. ПС851 ТМ ПС Грач"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP851VN6"},
+		{"ID_Program" : "GS851/VN6"}
+	],
+"Coord":"PS851",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "0.0.0.0", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "0.0.0.0", "Port" : "4904"},
+		 {"TypeLink" : "Home", "IP" : "0.0.0.0", "Port" : "4004"}
+	],
+
+
+
+    "Subscribe":[
+    
+        {"Topic":"IEC60870-5-104 to MQTT Gateway/Грач(851)/АСУТП",
+        "ASDU":3, "TOPIC_ID":6,  "IpList":["10.137.2.11:2404", "10.137.2.12:2404"]}
+
+    ],
+
+
+
+
+
+
+    "TELE":
+    [
+
+{"L_TOPIC_ID":6, "SysId":"VN6", "DATA": [
+
+{"ID":"344", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1037", "NAME":"ПП Грач-Сырово  Intego Отн. емкость ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"345", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1038", "NAME":"ПП Грач-Сырово  Intego Отн. емкость ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"346", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1039", "NAME":"ПП Грач-Сырово  Intego Отн. емкость ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"347", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1040", "NAME":"ПП Грач-Сырово  Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"348", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1041", "NAME":"ПП Грач-Сырово  Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"349", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1042", "NAME":"ПП Грач-Сырово  Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"350", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1043", "NAME":"ПП Грач-Сырово  Intego Уровень ЧР ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"351", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1044", "NAME":"ПП Грач-Сырово  Intego Уровень ЧР ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"352", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1045", "NAME":"ПП Грач-Сырово  Intego Уровень ЧР ф.С1", "Links":{ "Arch":"4938"}},
+{"ID":"353", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1046", "NAME":"ПП Пахра-Грач   Intego Отн. емкость ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"354", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1047", "NAME":"ПП Пахра-Грач   Intego Отн. емкость ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"355", "Mes":"Ф", "TypeTele":"TM",    "VER":"General", "IOA":"1048", "NAME":"ПП Пахра-Грач   Intego Отн. емкость ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"356", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1049", "NAME":"ПП Пахра-Грач   Intego Отн. тангенс дельта ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"357", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1050", "NAME":"ПП Пахра-Грач   Intego Отн. тангенс дельта ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"358", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1051", "NAME":"ПП Пахра-Грач   Intego Отн. тангенс дельта ф.C1", "Links":{ "Arch":"4938"}},
+{"ID":"359", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1052", "NAME":"ПП Пахра-Грач   Intego Уровень ЧР ф.A1", "Links":{ "Arch":"4938"}},
+{"ID":"360", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1053", "NAME":"ПП Пахра-Грач   Intego Уровень ЧР ф.B1", "Links":{ "Arch":"4938"}},
+{"ID":"361", "Mes":"-", "TypeTele":"TM",    "VER":"General", "IOA":"1054", "NAME":"ПП Пахра-Грач   Intego Уровень ЧР ф.С1", "Links":{ "Arch":"4938"}},
+
+{"ID":"362", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4039", "NAME":"ПП Грач-Сырово  Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"363", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4040", "NAME":"ПП Грач-Сырово  Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"364", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4041", "NAME":"ПП Грач-Сырово  Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"365", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4042", "NAME":"ПП Грач-Сырово  Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"366", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4043", "NAME":"ПП Грач         Intego Превыш.пред.пред.темп.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"367", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4044", "NAME":"ПП Грач         Intego Превыш.авар.пред.темп.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"368", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4045", "NAME":"ПП Грач         Intego Превыш.пред.пред.влажн.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"369", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4046", "NAME":"ПП Грач         Intego Превыш.авар.пред.влажн.окр.ср.", "Links":{ "Arch":"4938"}},
+{"ID":"370", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4049", "NAME":"ПП Грач-Сырово  Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"4938"}},
+{"ID":"371", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4050", "NAME":"ПП Грач-Сырово  Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"4938"}},
+{"ID":"372", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4051", "NAME":"ПП Грач         Intego Неисправность", "Links":{ "Arch":"4938"}},
+{"ID":"373", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4052", "NAME":"ПП Пахра-Грач   Intego Превыш.предупр.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"374", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4053", "NAME":"ПП Пахра-Грач   Intego Превыш.аварийн.предел емкости", "Links":{ "Arch":"4938"}},
+{"ID":"375", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4054", "NAME":"ПП Пахра-Грач   Intego Превыш.предупр.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"376", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4055", "NAME":"ПП Пахра-Грач   Intego Превыш.аварийн.предел tg d", "Links":{ "Arch":"4938"}},
+{"ID":"377", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4056", "NAME":"ПП Пахра-Грач   Intego Превыш.пред.пред.ЧР", "Links":{ "Arch":"4938"}},
+{"ID":"378", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4057", "NAME":"ПП Пахра-Грач   Intego Превыш.авар.пред.ЧР", "Links":{ "Arch":"4938"}},
+
+{"ID":"379", "Mes":"A", "TypeTele":"TM",    "VER":"General", "IOA":"1055", "NAME":"ПП Грач         Intego Ток нагрузки", "Links":{ "Arch":"4938"}},
+{"ID":"380", "Mes":"°C", "TypeTele":"TM",    "VER":"General", "IOA":"1056", "NAME":"ПП Грач         Intego Температура окружающей среды", "Links":{ "Arch":"4938"}},
+{"ID":"381", "Mes":"%", "TypeTele":"TM",    "VER":"General", "IOA":"1057", "NAME":"ПП Грач         Intego Влажность окружающей среды", "Links":{ "Arch":"4938"}},
+
+{"ID":"382", "TypeTele":"TS", "TypeAlarm":"Warning", "VER":"General", "IOA":"4047", "NAME":"ПП Грач         Intego Превыш.пред.пред.тока нагр.", "Links":{ "Arch":"4938"}},
+{"ID":"383", "TypeTele":"TS", "TypeAlarm":"Alarm", "VER":"General", "IOA":"4048", "NAME":"ПП Грач         Intego Превыш.авар.пред.тока нагр.", "Links":{ "Arch":"4938"}}
+    ]}
+
+],
+    "ReqDataFromDB":{"Port":8081, "ReqData":[
+        {"ID":"8517",	"NAME":"Система диагностики ВН вводов (Intego TM6)}"}
+        ]}
+}

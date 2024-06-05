@@ -1,0 +1,28 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4001, "W":825, "H":290},
+	"Title": {"FullName":"ПС Марфино КЛ 220 кВ Марфино-Бутырки, Марфино-Свиблово №2", "MinName":"ПС Марфино МТ", "SysName":"Система мониторинга температуры высоковольтных кабелей"},
+	"Info": {"ID":"DISP855MT1", "Type":"Dispatching", "Location":"ПС855/Шкаф№67/МВКС2[KSA2883128]/МТ", "NameMin":"ПС855 МТ Дисп", "NameMax":"Модуль Дисп. ПС 855 МТ"},
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP855MT1"},
+		{"ID_Program" : "GS855/MT1"}
+	],
+"Coord":"PS855",
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4003"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"}
+	],
+	"TELE":
+	[
+		{"ID":11,  "TYPE":"MT1000",  "ID_Program":"TELEMT855", 		"LINK_TELE_ID":2559, 	"ALim":"70°C", "WLim":"60°C",  "NAME":"КЛ Свиблово №2 [Ж]", "Links":[{"RT":"4029"}, {"Arch":"4038"}]},
+		{"ID":21,  "TYPE":"MT1000",	"ID_Program":"TELEMT855", 		"LINK_TELE_ID":2561, 	"ALim":"70°C", "WLim":"60°C",  "NAME":"КЛ Свиблово №2 [З]", "Links":[{"RT":"4029"}, {"Arch":"4038"}]},
+		{"ID":31,  "TYPE":"MT1000",	"ID_Program":"TELEMT855", 		"LINK_TELE_ID":2563, 	"ALim":"70°C", "WLim":"60°C",  "NAME":"КЛ Свиблово №2 [К]", "Links":[{"RT":"4029"}, {"Arch":"4038"}]},
+
+		{"ID":41,  "TYPE":"MT1000",	"ID_Program":"TELEMT855", 		"LINK_TELE_ID":11,	"ALim":"70°C", "WLim":"60°C",  "NAME":"КЛ Бутырки [Ж]", "Links":[{"RT":"4028"}, {"Arch":"4038"}]},
+		{"ID":51,  "TYPE":"MT1000",	"ID_Program":"TELEMT855", 		"LINK_TELE_ID":12, 	"ALim":"70°C", "WLim":"60°C",  "NAME":"КЛ Бутырки [З]", "Links":[{"RT":"4028"}, {"Arch":"4038"}]},
+		{"ID":61,  "TYPE":"MT1000",	"ID_Program":"TELEMT855", 		"LINK_TELE_ID":13, 	"ALim":"70°C", "WLim":"60°C",  "NAME":"КЛ Бутырки [К]", "Links":[{"RT":"4028"}, {"Arch":"4038"}]}
+	]
+}

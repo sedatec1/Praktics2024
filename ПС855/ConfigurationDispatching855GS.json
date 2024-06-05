@@ -1,0 +1,34 @@
+{
+    "Configuration": {"Type":"Dispatching", "Version":1001, "Port":4003, "W":1405, "H":420},
+	"Title": {"FullName":"ПС 855 Марфино", "MinName":"ПС Марфино"},
+	"Info": {"ID":"PS855", "Type":"Dispatching", "Location":"ПС855/Шкаф№67/БОД[******]/МТ", "NameMin":"ПС855 МТ Дисп", "NameMax":"Модуль Дисп ПС 855"},
+	"AceptFrom":["DISP855ASU","DISP855DC","DISP855WT","DISP855Obm","DISP855MT2","DISP855MT1", "DISP855TM"],
+	"Coord":"PS855",
+	"LOG":
+	[
+		{"ID_Program" : "AUTO100"},
+		{"ID_Program" : "DISP855"}
+	],
+	"LINKS":
+	[
+		 {"TypeLink" : "Autorization", "IP" : "192.168.0.65", "Port" : "4000"},
+		 {"TypeLink" : "Back", "IP" : "192.168.0.65", "Port" : "4004"},
+		 {"TypeLink" : "Home", "IP" : "192.168.0.65", "Port" : "4004"},
+		 {"TypeLink" : "dbTables", "Port" : "3900"},
+		 {"TypeLink" : "Gallery",  "Port" : "4077"}
+	],
+	"TELE":
+	[
+		{"ID":20, "VER":"Label",   	"X":0, 	"Y":0, 	"H":155,    "W":465, "NAME":"КЛ 220кв Марфино-Бутырки, Марфино-Свиблово 2"},
+		{"ID":1, "VER":"GSV1000",	"ID_Program":"GS855",   "LINK_TELE_ID":"DISP855MT1", 	"X":5, 	"Y":50, 	    "W":455, "NAME":"Система мониторинга температуры (ПТС-1000)", "Link":"4001"},
+		
+		{"ID":21, "VER":"Label",   	"X":475, 	"Y":0, 	"H":155,    "W":465, "NAME":"КЛ 220кв Марфино-Владыкино, Свиблово – Марфино 1"},
+		{"ID":2, "VER":"GSV1000",	"ID_Program":"GS855",   "LINK_TELE_ID":"DISP855MT2", 	"X":480, 	"Y":50, 	    "W":455, "NAME":"Система мониторинга температуры (ПТС-1000)", "Link":"4002"},
+		
+		{"ID":12, "VER":"GSV1000",	"ID_Program":"GS855", 	"LINK_TELE_ID":"DISP855ASU", 	"X":925, 	"Y":215, 	"W":455, "NAME":"Система АСУ ТП и ТМ ПС Марфино", "Link":"4005"},
+		{"ID":13, "VER":"GSV1000",	"ID_Program":"GS855", 	"LINK_TELE_ID":"DISP855WT", 	"X":5, 	"Y":215, 	"W":455, "NAME":"Система контроля ёмкости и тангенса δ ВВ вводов Т1, Т2", "Link":"4006"},
+		{"ID":14, "VER":"GSV1000",	"ID_Program":"GS855", 	"LINK_TELE_ID":"DISP855DC", 	"X":5, 	"Y":320, 	"W":455, "NAME":"Система мониторинга сети постоянного тока", "Link":"4007"},
+		{"ID":15, "VER":"GSV1000",	"ID_Program":"GS855", 	"LINK_TELE_ID":"DISP855Obm", 	"X":465, 	"Y":215, 	"W":455, "NAME":"Система мониторинга темп. обмоток ТСН1, ТСН2, РТСН", "Link":"4008"},
+		{"ID":16, "VER":"GSV1000",	"ID_Program":"GS855", 	"LINK_TELE_ID":"DISP855TM", 	"X":465, 	"Y":320, 	"W":455, "NAME":"Система телемеханики", "Link":"4009"}
+	]
+}

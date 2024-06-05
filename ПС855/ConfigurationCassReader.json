@@ -1,0 +1,18 @@
+{
+	"Configuration": {"Type":"DBWrite", "Version":1001, "contactPoints":"10.16.18.35", "localDataCenter":"datacenter1",
+		"Port":5432, "HTTPPort": 8081},
+	"Info": {"ID":"DB711", "Type":"DBWrite", "Location":"ПС711/БОД/МТ",
+		"NameMin":"ПС711 Запись в БД", "NameMax":"Модуль записи информации в БД ПС 711"},
+	"DB":
+	[
+		{ "ID":1, "keyspace":"archive_sedatec_data", "User":"", "Password":"" },
+		{ "ID":2, "keyspace":"archive_sedatec_data2", "User":"", "Password":"" }
+	],
+	"WriteDB":
+	[
+		{"ID_Program":"LOG", "Table":"log", "isFullWrite":true, "DB":1},
+
+        {"ID_Program":"SEGMT855B",   "Table":"profile", "isFullWrite":true, "DB":1},
+		{"ID_Program":"GS855/Data", "Table":"tele", "isFullWrite":true, "DB":1}
+	]
+}
